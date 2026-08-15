@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#2B2620">
+<meta name="description" content="六级 · 口语 · 雅思 每日打卡工作台">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="英语工作台">
+<title>英语学习工作台</title>
+<style>
+:root{
+  --bg:#F6F3EC; --card:#FFFFFF; --ink:#25221B; --muted:#8C8574;
+  --accent:#D9552C; --accent-soft:#F7E3DB; --sage:#6E7F61; --sage-soft:#E8ECDF;
+  --gold:#C09B2D; --line:#E9E2D4; --shadow:0 2px 10px rgba(60,45,20,.07);
+  --radius:16px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-tap-highlight-color:transparent}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:"PingFang SC","Microsoft YaHei","Segoe UI",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:calc(60px + env(safe-area-inset-bottom));
+}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+
+/* ---------- Hero ---------- */
+.hero{
+  margin:26px 0 20px; padding:30px 32px; border-radius:22px;
+  background:linear-gradient(120deg,#2B2620 0%,#4A3423 55%,#8A4A22 100%);
+  color:#F5EFE4; position:relative; overflow:hidden;
+}
+.hero::after{
+  content:""; position:absolute; right:-70px; top:-70px; width:260px; height:260px;
+  border-radius:50%; background:radial-gradient(circle,rgba(217,85,44,.5),transparent 70%);
+}
+.hero h1{font-size:28px;letter-spacing:2px;font-weight:700}
+.hero .sub{margin-top:6px;font-size:13px;opacity:.75;letter-spacing:1px}
+.counts{display:flex;gap:14px;margin-top:20px;flex-wrap:wrap}
+.chip{
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);
+  border-radius:14px;padding:10px 18px;backdrop-filter:blur(4px);
+}
+.chip .num{font-family:Georgia,"Times New Roman",serif;font-size:30px;font-weight:700;color:#FFC9A8}
+.chip .lbl{font-size:12px;opacity:.75;margin-top:2px}
+.chip.streak .num{color:#B7D3A0}
+
+/* ---------- Tabs ---------- */
+.tabs{display:flex;gap:8px;margin:18px 0;flex-wrap:wrap}
+.tab{
+  border:1px solid var(--line);background:var(--card);color:var(--muted);
+  padding:9px 20px;border-radius:999px;cursor:pointer;font-size:14px;
+  transition:all .2s;letter-spacing:1px;
+}
+.tab:hover{border-color:var(--accent);color:var(--accent)}
+.tab.active{background:var(--ink);color:#F6F3EC;border-color:var(--ink)}
+.panel{display:none}
+.panel.active{display:block;animation:fade .25s ease}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1}}
+
+/* ---------- Cards ---------- */
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);margin-bottom:18px}
+.card h2{font-size:17px;letter-spacing:1px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.card h2::before{content:"";width:4px;height:16px;border-radius:2px;background:var(--accent)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}}
+
+/* ---------- Today ---------- */
+.phase-banner{
+  background:var(--sage-soft);border:1px solid #D5DDC8;border-radius:12px;
+  padding:12px 16px;font-size:13px;color:#4C5A41;margin-bottom:16px;line-height:1.7;
+}
+.phase-banner b{color:var(--sage)}
+.task{
+  display:flex;align-items:center;gap:14px;padding:14px 6px;
+  border-bottom:1px dashed var(--line);cursor:pointer;transition:background .15s;
+}
+.task:last-child{border-bottom:none}
+.task:hover{background:#FBF8F2}
+.task input{width:20px;height:20px;accent-color:var(--accent);cursor:pointer;flex-shrink:0}
+.task .t-label{flex:1;font-size:15px;line-height:1.5}
+.task .t-label small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+.task .tag{font-size:11px;padding:3px 9px;border-radius:999px;flex-shrink:0}
+.tag.core{background:var(--accent-soft);color:var(--accent)}
+.tag.flex{background:#EFECE4;color:var(--muted)}
+.task.done .t-label{color:var(--muted);text-decoration:line-through}
+.progress-row{display:flex;align-items:center;gap:16px;margin-top:6px}
+.bar{flex:1;height:10px;background:#EFEAE0;border-radius:99px;overflow:hidden}
+.bar>i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#F09B54);border-radius:99px;transition:width .4s}
+.pct{font-family:Georgia,serif;font-size:22px;font-weight:700;color:var(--accent);min-width:56px;text-align:right}
+.baseline-ok{margin-top:10px;font-size:13px;color:var(--sage);background:var(--sage-soft);padding:8px 12px;border-radius:10px}
+.baseline-no{margin-top:10px;font-size:13px;color:var(--muted);background:#F3EFE7;padding:8px 12px;border-radius:10px}
+textarea{
+  width:100%;border:1px solid var(--line);border-radius:12px;padding:12px;
+  font-family:inherit;font-size:14px;resize:vertical;min-height:74px;background:#FCFAF5;color:var(--ink);
+}
+textarea:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+
+/* ---------- Week plan ---------- */
+table.week{width:100%;border-collapse:collapse;font-size:14px}
+table.week th,table.week td{padding:11px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.6}
+table.week th{color:var(--muted);font-weight:600;font-size:12px;letter-spacing:1px}
+table.week tr.today td{background:var(--accent-soft);font-weight:600}
+table.week tr.today td:first-child{border-radius:10px 0 0 10px;color:var(--accent)}
+table.week tr.today td:last-child{border-radius:0 10px 10px 0}
+
+/* ---------- Data ---------- */
+.btn{
+  background:var(--ink);color:#F6F3EC;border:none;border-radius:10px;
+  padding:9px 18px;font-size:13px;cursor:pointer;letter-spacing:1px;transition:opacity .2s;
+}
+.btn:hover{opacity:.85}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
+.btn.small{padding:6px 12px;font-size:12px}
+input[type=date],input[type=number],input[type=text],input[type=password],select{
+  border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:14px;
+  font-family:inherit;background:#FCFAF5;color:var(--ink);
+}
+input:focus,select:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+.form-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+.form-row label{font-size:13px;color:var(--muted)}
+.stat-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:16px}
+.stat{background:#FCFAF5;border:1px solid var(--line);border-radius:12px;padding:14px;text-align:center}
+.stat .v{font-family:Georgia,serif;font-size:26px;font-weight:700;color:var(--ink)}
+.stat .k{font-size:12px;color:var(--muted);margin-top:4px}
+svg.chart{width:100%;height:auto;display:block}
+.legend{display:flex;gap:16px;font-size:12px;color:var(--muted);margin-top:8px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px}
+/* heatmap */
+.heat-wrap{overflow-x:auto;padding-bottom:6px}
+.heat{display:grid;grid-auto-flow:column;gap:3px}
+.heat-col{display:grid;grid-template-rows:repeat(7,13px);gap:3px}
+.heat-cell{width:13px;height:13px;border-radius:3px;background:#EFEAE0}
+.heat-dow{display:grid;grid-template-rows:repeat(7,13px);gap:3px;font-size:9px;color:var(--muted);margin-right:4px;line-height:13px}
+.heat-flex{display:flex}
+.records{max-height:180px;overflow-y:auto;font-size:13px;margin-top:10px}
+.records div{padding:7px 4px;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;gap:8px}
+.records span{color:var(--muted)}
+.records a{color:var(--accent);cursor:pointer;text-decoration:none}
+.empty{color:var(--muted);font-size:13px;padding:18px 0;text-align:center}
+
+/* ---------- AI buddy ---------- */
+.prompt-card{border:1px solid var(--line);border-radius:14px;padding:16px;background:#FCFAF5;margin-bottom:12px}
+.prompt-card h3{font-size:14px;margin-bottom:4px}
+.prompt-card p{font-size:12px;color:var(--muted);margin-bottom:10px;line-height:1.6}
+.chat-box{border:1px solid var(--line);border-radius:14px;background:#FCFAF5;display:flex;flex-direction:column;height:420px}
+.chat-msgs{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px}
+.msg{max-width:82%;padding:10px 14px;border-radius:14px;font-size:14px;line-height:1.7;white-space:pre-wrap;word-break:break-word}
+.msg.user{align-self:flex-end;background:var(--ink);color:#F6F3EC;border-bottom-right-radius:4px}
+.msg.ai{align-self:flex-start;background:#fff;border:1px solid var(--line);border-bottom-left-radius:4px}
+.msg.sys{align-self:center;background:var(--sage-soft);color:var(--sage);font-size:12px;max-width:92%}
+.chat-input{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line)}
+.chat-input input{flex:1}
+
+/* ---------- Settings ---------- */
+.set-row{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px dashed var(--line);flex-wrap:wrap}
+.set-row label{width:150px;font-size:14px;flex-shrink:0}
+.set-row .hint{font-size:12px;color:var(--muted);flex-basis:100%}
+.footer{text-align:center;color:var(--muted);font-size:12px;margin-top:30px;letter-spacing:1px}
+.toast{
+  position:fixed;bottom:26px;left:50%;transform:translateX(-50%) translateY(20px);
+  background:var(--ink);color:#F6F3EC;padding:10px 22px;border-radius:99px;font-size:13px;
+  opacity:0;transition:all .3s;pointer-events:none;z-index:99;
+}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* ---------- Mobile ---------- */
+input[type=date],input[type=number],input[type=text],input[type=password],select,textarea{-webkit-appearance:none;appearance:none}
+@media(max-width:640px){
+  .wrap{padding:0 14px}
+  .hero{margin:14px 0 16px;padding:22px 20px;border-radius:18px}
+  .hero h1{font-size:21px}
+  .hero .sub{font-size:12px}
+  .chip{padding:8px 12px;border-radius:12px}
+  .chip .num{font-size:24px}
+  .card{padding:18px;border-radius:14px}
+  .tab{padding:9px 15px;font-size:13px}
+  .task .t-label{font-size:14px}
+  .task input{width:22px;height:22px}
+  .chat-box{height:56vh;min-height:340px}
+  input[type=date],input[type=number],input[type=text],input[type=password],select,textarea{font-size:16px}
+  .form-row input[type=text],.form-row input[type=password],.form-row select{max-width:100%;width:100%!important}
+  .set-row{flex-direction:column;align-items:flex-start;gap:6px}
+  .set-row label{width:auto}
+  .set-row input[type=text],.set-row input[type=password],.set-row input[type=date]{max-width:100%;width:100%!important}
+  table.week{font-size:13px}
+  table.week th,table.week td{padding:9px 8px}
+  .btn{padding:10px 18px}
+  .btn.small{padding:8px 12px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>英语学习工作台</h1>
+    <div class="sub">六级为主线 · 口语为日常 · 雅思为延伸 · AI 为放大器</div>
+    <div class="counts">
+      <div class="chip"><div class="num" id="cd-cet6">--</div><div class="lbl">天后 · 六级笔试</div></div>
+      <div class="chip"><div class="num" id="cd-ielts">--</div><div class="lbl">天后 · 雅思（预计）</div></div>
+      <div class="chip streak"><div class="num" id="cd-streak">0</div><div class="lbl">天 · 连续底线打卡 🔥</div></div>
+      <div class="chip"><div class="num" id="cd-plan">0%</div><div class="lbl">六级计划总进度</div></div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab active" data-tab="today">📌 今日</button>
+    <button class="tab" data-tab="week">🗓 周计划</button>
+    <button class="tab" data-tab="data">📊 数据</button>
+    <button class="tab" data-tab="ai">🤖 AI 搭子</button>
+    <button class="tab" data-tab="set">⚙️ 设置</button>
+  </div>
+
+  <!-- ===== 今日 ===== -->
+  <div class="panel active" id="p-today">
+    <div class="card">
+      <h2 id="today-title">今日任务</h2>
+      <div class="phase-banner" id="phase-banner"></div>
+      <div id="task-list"></div>
+      <div class="progress-row">
+        <div class="bar"><i id="today-bar" style="width:0%"></i></div>
+        <div class="pct" id="today-pct">0%</div>
+      </div>
+      <div id="baseline-msg"></div>
+    </div>
+    <div class="card">
+      <h2>今日一句复盘</h2>
+      <textarea id="day-note" placeholder="今天学得怎么样？一句话就够，写下来才算数。"></textarea>
+    </div>
+  </div>
+
+  <!-- ===== 周计划 ===== -->
+  <div class="panel" id="p-week">
+    <div class="card">
+      <h2>每周节奏（来自 01-总体规划/每周节奏表.md）</h2>
+      <table class="week" id="week-table">
+        <tr><th>星期</th><th>专项 40min</th><th>输出 25min</th></tr>
+      </table>
+      <p style="font-size:13px;color:var(--muted);margin-top:14px;line-height:1.8">
+        💡 最低完成线（再忙也要做）：<b>词汇复习 15min + 口语 15min</b>。状态好优先加「精听」和「AI 陪练」。大作业周切底线模式，不要有心理负担。
+      </p>
+    </div>
+  </div>
+
+  <!-- ===== 数据 ===== -->
+  <div class="panel" id="p-data">
+    <div class="card">
+      <h2>打卡总览</h2>
+      <div class="stat-cards">
+        <div class="stat"><div class="v" id="st-days">0</div><div class="k">累计打卡天数</div></div>
+        <div class="stat"><div class="v" id="st-avg">0%</div><div class="k">平均完成率</div></div>
+        <div class="stat"><div class="v" id="st-streak">0</div><div class="k">当前连胜（天）</div></div>
+        <div class="stat"><div class="v" id="st-oral">0</div><div class="k">口语打卡次数</div></div>
+      </div>
+      <div class="heat-wrap"><div class="heat-flex">
+        <div class="heat-dow"><span>一</span><span></span><span>三</span><span></span><span>五</span><span></span><span>日</span></div>
+        <div class="heat" id="heatmap"></div>
+      </div></div>
+      <p style="font-size:12px;color:var(--muted);margin-top:8px">从 2026-08-15 起跑周开始的 18 周 · 颜色越深完成率越高</p>
+    </div>
+
+    <div class="grid2">
+      <div class="card">
+        <h2>六级模考分数</h2>
+        <div class="form-row">
+          <input type="date" id="ex-date">
+          <input type="number" id="ex-l" placeholder="听力" min="0" max="248.5" step="0.5" style="width:76px">
+          <input type="number" id="ex-r" placeholder="阅读" min="0" max="248.5" step="0.5" style="width:76px">
+          <input type="number" id="ex-w" placeholder="写译" min="0" max="213" step="0.5" style="width:76px">
+          <button class="btn small" id="ex-add">记录</button>
+        </div>
+        <div id="exam-chart"></div>
+        <div class="legend">
+          <span><i style="background:#D9552C"></i>总分</span>
+          <span><i style="background:#6E7F61"></i>听力率</span>
+          <span><i style="background:#C09B2D"></i>阅读率</span>
+          <span><i style="background:#8C8574"></i>写译率</span>
+        </div>
+        <div class="records" id="exam-records"><div class="empty">还没有记录，起跑周自测后填第一条</div></div>
+      </div>
+      <div class="card">
+        <h2>词汇量增长</h2>
+        <div class="form-row">
+          <input type="date" id="vc-date">
+          <input type="number" id="vc-n" placeholder="词汇量" min="0" step="50" style="width:110px">
+          <button class="btn small" id="vc-add">记录</button>
+        </div>
+        <div id="vocab-chart"></div>
+        <div class="records" id="vocab-records"><div class="empty">用 App 测一次词汇量，记下基线</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== AI 搭子 ===== -->
+  <div class="panel" id="p-ai">
+    <div class="card">
+      <h2>直接对话</h2>
+      <div class="chat-box">
+        <div class="chat-msgs" id="chat-msgs"></div>
+        <div class="chat-input">
+          <input type="text" id="chat-in" placeholder="和 AI 学习搭子聊聊…（先在「设置」里填 API Key）">
+          <button class="btn" id="chat-send">发送</button>
+        </div>
+      </div>
+      <p style="font-size:12px;color:var(--muted);margin-top:8px">
+        🔑 API 配置在「设置」页，Key 只保存在你浏览器的本地存储里，不会写入任何文件。支持 DeepSeek 等 OpenAI 兼容接口。
+      </p>
+    </div>
+    <div class="card">
+      <h2>提示词库（点击复制，来自 05-口语/AI陪练提示词.md）</h2>
+      <div id="prompt-list"></div>
+    </div>
+  </div>
+
+  <!-- ===== 设置 ===== -->
+  <div class="panel" id="p-set">
+    <div class="card">
+      <h2>目标日期</h2>
+      <div class="set-row"><label>六级笔试日期</label><input type="date" id="set-cet6"><span class="hint">通常 12 月中旬周六，以官方通知为准</span></div>
+      <div class="set-row"><label>雅思预计日期</label><input type="date" id="set-ielts"><span class="hint">占位即可，报名后改准确日期</span></div>
+    </div>
+    <div class="card">
+      <h2>AI 接口配置（OpenAI 兼容）</h2>
+      <div class="set-row"><label>API 地址</label><input type="text" id="set-base" style="width:300px"><span class="hint">DeepSeek 填 https://api.deepseek.com/v1</span></div>
+      <div class="set-row"><label>API Key</label><input type="password" id="set-key" style="width:300px" placeholder="sk-..."><span class="hint">只存浏览器 localStorage，不上传、不写文件</span></div>
+      <div class="set-row"><label>模型</label><input type="text" id="set-model" style="width:300px"><span class="hint">如 deepseek-chat；不确定的话先点下方「测试连接」看可用模型列表</span></div>
+      <div class="set-row">
+        <button class="btn ghost" id="set-test">🔌 测试连接</button>
+        <span id="test-result" style="font-size:13px;color:var(--muted)"></span>
+      </div>
+      <div style="margin-top:14px"><button class="btn" id="set-save">保存设置</button></div>
+    </div>
+    <div class="card">
+      <h2>数据管理</h2>
+      <div class="set-row">
+        <button class="btn ghost" id="export-btn">⬇ 导出全部数据 (JSON)</button>
+        <button class="btn ghost" id="import-btn">⬆ 导入数据</button>
+        <input type="file" id="import-file" accept=".json" style="display:none">
+        <button class="btn ghost" id="reset-btn" style="color:#B03A2E">🗑 清空全部数据</button>
+      </div>
+      <p style="font-size:12px;color:var(--muted);margin-top:8px">数据保存在浏览器本地。换电脑/浏览器前记得导出备份。</p>
+    </div>
+  </div>
+
+  <div class="footer">英语学习工作台 · 环境艺术设计 × AI × English · 起始于 2026-08-15</div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ================= 数据层 ================= */
+const PLAN_START = '2026-08-15', CET6_END = '2026-12-20', HEAT_WEEKS = 18;
+const DEFAULTS = {
+  cet6Date:'2026-12-12', ieltsDate:'2027-04-24',
+  apiBase:'https://api.deepseek.com/v1', apiKey:'', model:'deepseek-chat'
+};
+let S = load();
+function load(){
+  try{
+    const raw = localStorage.getItem('en-workbench-v1');
+    if(raw){ const d = JSON.parse(raw); d.settings = Object.assign({},DEFAULTS,d.settings||{}); return d; }
+  }catch(e){}
+  return { checks:{}, exams:[], vocab:[], chat:[], settings:{...DEFAULTS} };
+}
+function save(){ localStorage.setItem('en-workbench-v1', JSON.stringify(S)); }
+
+function dkey(d){ return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); }
+function today(){ return dkey(new Date()); }
+function parseD(s){ const [y,m,dd]=s.split('-').map(Number); return new Date(y,m-1,dd); }
+function addDays(s,n){ const d=parseD(s); d.setDate(d.getDate()+n); return dkey(d); }
+function daysBetween(a,b){ return Math.round((parseD(b)-parseD(a))/864e5); }
+const CN_DOW=['日','一','二','三','四','五','六'];
+
+function toast(msg){ const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),1800); }
+
+/* ================= 计划数据 ================= */
+const WEEK_PLAN = {
+  1:{special:'阅读：六级仔细阅读 2 篇，逐题分析', output:'口语 15min · Shadowing 跟读'},
+  2:{special:'听力：精听 1 篇六级真题（五步法）', output:'口语 15min · 跟读+复述'},
+  3:{special:'写作：1 篇作文或翻译 + AI 批改',   output:'重写批改后的作文'},
+  4:{special:'听力：精听 1 篇 + 复习周二错题',   output:'口语 25min · AI 话题陪练'},
+  5:{special:'阅读：长篇阅读/匹配题 + 词汇整理', output:'口语 15min · 话题自述（录音）'},
+  6:{special:'口语专项日：话题训练 40min',       output:'雅思 Part 2 卡片练习 25min'},
+  0:{special:'模考/复盘日：单科小测或整套模考',   output:'复盘 + 更新进度追踪表'}
+};
+const PHASES = [
+  {name:'阶段0 · 起跑周', start:'2026-08-15', end:'2026-08-23', tip:'任务：限时自测一套六级真题 → 填基线；AI 口语定级；装好工具；留意9月六级报名'},
+  {name:'阶段1 · 地基期', start:'2026-08-24', end:'2026-10-04', tip:'核心词一轮 + 每天精听 + Shadowing。检查点：核心词≥90%'},
+  {name:'阶段2 · 强化期', start:'2026-10-05', end:'2026-11-15', tip:'真题分项循环 + 写作AI批改 + 雅思渗透。检查点：模考比基线+60'},
+  {name:'阶段3 · 冲刺期', start:'2026-11-16', end:'2026-12-20', tip:'每周整套限时模考 + 固化作文模板。12月中旬考试，加油！'},
+  {name:'阶段4 · 雅思转换期', start:'2026-12-21', end:'2027-04-30', tip:'休整1周 → 雅思全真模考 → 8-10周全力期 → 报名考试'}
+];
+const PROMPTS = [
+  {t:'① 口语定级测试', d:'起跑周用一次，让 AI 测出你的 CEFR 等级和雅思分数', text:`你是一位英语口语评级教练，熟悉 CEFR（欧标）和雅思口语评分。
+我是中国环境艺术设计专业大四学生，请通过对话测试我的口语水平。
+规则：
+1. 你一次只问一个问题，从简单话题开始（自我介绍、家乡、专业），逐渐加深
+2. 等我完整回答后再问下一个问题
+3. 一共进行 8-10 轮对话
+4. 对话结束后，给出：CEFR 等级（A1-C2）、相当于雅思口语几分、我的三个主要弱点、以及针对接下来 3 个月的具体练习建议
+现在开始第一个问题。`},
+  {t:'② 日常口语陪练', d:'每天 15 分钟，自由对话 + 每段给 1-2 个修改', text:`你是我的英语口语陪练。我的水平大约是雅思 5.5，目标 6.5。
+规则：
+1. 用日常但地道的英语和我对话，话题是：【今天的话题】
+2. 我每说完一段，你先自然回应内容，然后在末尾用 "🔧 Better:" 给出我上一句中最重要的 1-2 个修改，并简要说明
+3. 每次只改 1-2 处，不要列长清单
+4. 适当追问，把对话往深里带（像朋友聊天，不要像考试）
+5. 我说 "wrap up" 时，总结今天的 3 个最佳表达和 3 个需要记住的修改
+请用第一个问题开始。`},
+  {t:'③ 雅思口语模拟考官', d:'每周六，完整走 Part 1-2-3 并四项评分', text:`你是雅思口语考官，请为我进行一场完整的模拟口语考试（Part 1-2-3）。
+我的目标分数：6.5。请严格按真实考试流程：
+1. Part 1：自我介绍 + 2 个日常话题，每个话题 3-4 个问题
+2. Part 2：给我一张 cue card，我 1 分钟准备（我说 "ready" 后开始），然后我说 1-2 分钟
+3. Part 3：基于 Part 2 深入讨论 4-5 个问题，逐步增加抽象度
+规则：全程扮演考官不中途给反馈；我全部说完后按四项标准评分（流利度/词汇/语法/发音，发音根据用词推测并注明），每项给分并说明理由，最后给总分、三条关键改进建议和一个 Part 2 的 7 分示范回答。
+现在开始 Part 1。`},
+  {t:'④ 作文精批', d:'六级/雅思通用，逐句批改 + 升级版全文', text:`你是资深英语写作批改老师。请批改下面这篇【六级作文 / 六级翻译 / 雅思Task1 / 雅思Task2】。
+要求：
+1. 先给总体评价和估分（六级按710分制写译部分估，雅思按9分制四项分别打分）
+2. 逐句标注：语法错误、用词不当、中式英语，给出修改
+3. 挑出 3 个可以升级的表达，给更地道的写法（说明为什么更好）
+4. 保持我的观点和结构不变，给一版修改后的全文
+5. 最后告诉我：这篇作文暴露出的最需要优先解决的一个问题
+题目：【粘贴题目】
+我的作文：【粘贴作文】`},
+  {t:'⑤ 单词/翻译抽查官', d:'碎片时间用，三种模式考你', text:`你是我的单词考官。我正在背六级核心词汇，请用以下方式考我：
+模式A（英译中）：给我 10 个六级高频词，我逐个说中文意思
+模式B（中译英）：给我 10 个六级翻译高频中文词块（如"可持续发展"），我说英文
+模式C（造句）：给我 5 个词，我各造一个和环境艺术设计相关的句子
+规则：一次只出一题，我答完立即判断对错并给正确答案；答错的词最后汇总并给记忆技巧。
+今天用模式【A/B/C】开始。`},
+  {t:'⑥ 专业英语面试官', d:'彩蛋：设计+AI 复合背景的英文面试演练', text:`你是一家国际设计事务所的面试官，正在面试一位环境艺术设计专业的应届生。
+请用英语面试我，问题涵盖：自我介绍和教育背景 / 我的设计项目和理念（追问细节）/ 我如何在设计中使用 AI 工具 / 对可持续设计或城市更新的看法。
+一次问一个问题，基于我的回答追问。面试结束后：评价我的英语表达与回答内容，并给我一版 60 秒英文自我介绍示范，突出"设计 + AI"复合背景。`}
+];
+
+/* ================= 通用渲染 ================= */
+const $ = id => document.getElementById(id);
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); $('p-'+b.dataset.tab).classList.add('active');
+  if(b.dataset.tab==='data') renderData();
+});
+
+function currentPhase(){
+  const t = today();
+  for(const p of PHASES) if(t>=p.start && t<=p.end) return p;
+  return t < PHASES[0].start ? PHASES[0] : PHASES[PHASES.length-1];
+}
+
+/* ================= Hero ================= */
+function renderHero(){
+  const t = today();
+  $('cd-cet6').textContent = Math.max(0, daysBetween(t, S.settings.cet6Date));
+  $('cd-ielts').textContent = Math.max(0, daysBetween(t, S.settings.ieltsDate));
+  $('cd-streak').textContent = streak();
+  const total = daysBetween(PLAN_START, CET6_END), done = daysBetween(PLAN_START, t);
+  $('cd-plan').textContent = Math.min(100, Math.max(0, Math.round(done/total*100))) + '%';
+}
+
+/* ================= 今日 ================= */
+function todayTasks(){
+  const dow = new Date().getDay(), plan = WEEK_PLAN[dow];
+  return [
+    {id:'vocab', label:'词汇：新学 + 复习 25min', sub:'雷打不动，每天第一件事', core:true},
+    {id:'special', label:'专项：'+plan.special, sub:'按每周节奏表轮换', core:false},
+    {id:'output', label:'输出：'+plan.output, sub:'口语是底线项目', core:true},
+    {id:'frag', label:'碎片泛听 20min+', sub:'通勤/排队/睡前，听个响也行', core:false},
+    {id:'log', label:'写学习日志 5min', sub:'下方填写今日一句复盘', core:false}
+  ];
+}
+function renderToday(){
+  const t = today(), dow = new Date().getDay();
+  $('today-title').textContent = `今日任务 · ${t} 星期${CN_DOW[dow]}`;
+  const p = currentPhase();
+  $('phase-banner').innerHTML = `当前阶段：<b>${p.name}</b>（${p.start} ~ ${p.end}）<br>${p.tip}`;
+  const rec = S.checks[t] || (S.checks[t] = {tasks:{}, note:''});
+  const list = $('task-list'); list.innerHTML='';
+  const tasks = todayTasks();
+  tasks.forEach(task=>{
+    const row = document.createElement('label');
+    row.className = 'task' + (rec.tasks[task.id] ? ' done' : '');
+    row.innerHTML = `<input type="checkbox" ${rec.tasks[task.id]?'checked':''}>
+      <span class="t-label">${task.label}<small>${task.sub}</small></span>
+      <span class="tag ${task.core?'core':'flex'}">${task.core?'核心':'弹性'}</span>`;
+    row.querySelector('input').onchange = e=>{
+      rec.tasks[task.id] = e.target.checked; save();
+      row.classList.toggle('done', e.target.checked);
+      renderTodayProgress(); renderHero();
+    };
+    list.appendChild(row);
+  });
+  $('day-note').value = rec.note || '';
+  renderTodayProgress();
+}
+function renderTodayProgress(){
+  const rec = S.checks[today()] || {tasks:{}};
+  const tasks = todayTasks();
+  const done = tasks.filter(x=>rec.tasks[x.id]).length;
+  const pct = Math.round(done/tasks.length*100);
+  $('today-bar').style.width = pct+'%';
+  $('today-pct').textContent = pct+'%';
+  const ok = rec.tasks.vocab && rec.tasks.output;
+  $('baseline-msg').className = ok ? 'baseline-ok' : 'baseline-no';
+  $('baseline-msg').textContent = ok ? '✅ 底线已达成（词汇 + 口语），今天不会断档！' : '⚠️ 底线未达成：再忙也完成「词汇 + 口语」两项核心任务';
+}
+$('day-note').addEventListener('input', e=>{
+  const rec = S.checks[today()] || (S.checks[today()]={tasks:{},note:''});
+  rec.note = e.target.value; save();
+});
+$('day-note').addEventListener('change', ()=>toast('复盘已保存 ✓'));
+
+/* ================= 周计划 ================= */
+function renderWeek(){
+  const tbl = $('week-table'), dow = new Date().getDay();
+  [1,2,3,4,5,6,0].forEach(d=>{
+    const tr = document.createElement('tr');
+    if(d===dow) tr.className='today';
+    tr.innerHTML = `<td>星期${CN_DOW[d]}</td><td>${WEEK_PLAN[d].special}</td><td>${WEEK_PLAN[d].output}</td>`;
+    tbl.appendChild(tr);
+  });
+}
+
+/* ================= 连胜 & 统计 ================= */
+function streak(){
+  let n=0, d = today();
+  if(!isBaseline(S.checks[d])) d = addDays(d,-1); // 今天还没完成不打断
+  while(isBaseline(S.checks[d])){ n++; d = addDays(d,-1); }
+  return n;
+}
+function isBaseline(rec){ return rec && rec.tasks && rec.tasks.vocab && rec.tasks.output; }
+function dayRatio(d){
+  const rec = S.checks[d]; if(!rec) return 0;
+  const tasks = 5, done = Object.values(rec.tasks).filter(Boolean).length;
+  return done/tasks;
+}
+
+/* ================= 数据中心 ================= */
+function renderData(){
+  // stats
+  const keys = Object.keys(S.checks).filter(k=>Object.values(S.checks[k].tasks||{}).some(Boolean));
+  $('st-days').textContent = keys.length;
+  const avg = keys.length ? Math.round(keys.reduce((s,k)=>s+dayRatio(k),0)/keys.length*100) : 0;
+  $('st-avg').textContent = avg+'%';
+  $('st-streak').textContent = streak();
+  $('st-oral').textContent = Object.values(S.checks).filter(r=>r.tasks&&r.tasks.output).length;
+  renderHeat(); renderExamChart(); renderVocabChart(); renderRecords();
+}
+function renderHeat(){
+  const heat = $('heatmap'); heat.innerHTML='';
+  // 从 PLAN_START 所在周的周一开始
+  let start = parseD(PLAN_START);
+  const shift = (start.getDay()+6)%7; // 周一=0
+  start.setDate(start.getDate()-shift);
+  const t = today();
+  for(let w=0; w<HEAT_WEEKS; w++){
+    const col = document.createElement('div'); col.className='heat-col';
+    for(let d=0; d<7; d++){
+      const key = dkey(start);
+      const cell = document.createElement('div'); cell.className='heat-cell';
+      if(key <= t){
+        const r = dayRatio(key);
+        if(r>0) cell.style.background = `rgba(217,85,44,${0.25+0.75*r})`;
+        cell.title = `${key} 完成 ${Math.round(r*100)}%`;
+      } else { cell.style.opacity=.35; cell.title = key; }
+      col.appendChild(cell);
+      start.setDate(start.getDate()+1);
+    }
+    heat.appendChild(col);
+  }
+}
+
+/* ---- SVG 折线图 ---- */
+function lineChart(el, series, opts){
+  // series: [{name,color,points:[{x:label,y}]}] 共用 x 轴标签序列由调用方保证一致
+  const W=440,H=200,P={l:38,r:10,t:12,b:26};
+  const all = series.flatMap(s=>s.points.map(p=>p.y));
+  if(!all.length){ el.innerHTML='<div class="empty">'+(opts.empty||'暂无数据')+'</div>'; return; }
+  const n = series[0].points.length;
+  const yMin = opts.yMin!=null?opts.yMin:Math.min(...all)*0.92;
+  const yMax = opts.yMax!=null?opts.yMax:Math.max(...all)*1.05;
+  const X = i=> n===1 ? P.l+(W-P.l-P.r)/2 : P.l+(W-P.l-P.r)*i/(n-1);
+  const Y = v=> P.t+(H-P.t-P.b)*(1-(v-yMin)/(yMax-yMin||1));
+  let g='';
+  for(let i=0;i<=4;i++){
+    const v=yMin+(yMax-yMin)*i/4, y=Y(v);
+    g+=`<line x1="${P.l}" y1="${y}" x2="${W-P.r}" y2="${y}" stroke="#E9E2D4" stroke-width="1"/>
+        <text x="${P.l-6}" y="${y+4}" font-size="9" fill="#8C8574" text-anchor="end">${Math.round(v)}</text>`;
+  }
+  series.forEach(s=>{
+    const pts = s.points.map((p,i)=>`${X(i)},${Y(p.y)}`).join(' ');
+    if(s.points.length>1) g+=`<polyline points="${pts}" fill="none" stroke="${s.color}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`;
+    s.points.forEach((p,i)=>{
+      g+=`<circle cx="${X(i)}" cy="${Y(p.y)}" r="3.5" fill="${s.color}"><title>${p.x}：${p.y}</title></circle>`;
+    });
+  });
+  series[0].points.forEach((p,i)=>{
+    if(n<=8 || i%Math.ceil(n/8)===0)
+      g+=`<text x="${X(i)}" y="${H-8}" font-size="9" fill="#8C8574" text-anchor="middle">${p.x.slice(5)}</text>`;
+  });
+  el.innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}">${g}</svg>`;
+}
+function renderExamChart(){
+  const data = [...S.exams].sort((a,b)=>a.date<b.date?-1:1);
+  lineChart($('exam-chart'), [
+    {color:'#D9552C', points:data.map(e=>({x:e.date,y:e.l+e.r+e.w}))},
+    {color:'#6E7F61', points:data.map(e=>({x:e.date,y:Math.round(e.l/248.5*100)/10}))},
+    {color:'#C09B2D', points:data.map(e=>({x:e.date,y:Math.round(e.r/248.5*100)/10}))},
+    {color:'#8C8574', points:data.map(e=>({x:e.date,y:Math.round(e.w/213*100)/10}))}
+  ], {empty:'记录第一次自测分数后显示曲线（分项为百分制得分率）'});
+}
+function renderVocabChart(){
+  const data = [...S.vocab].sort((a,b)=>a.date<b.date?-1:1);
+  lineChart($('vocab-chart'), [{color:'#6E7F61', points:data.map(v=>({x:v.date,y:v.n}))}], {empty:'记录词汇量后显示曲线'});
+}
+function renderRecords(){
+  const er = $('exam-records');
+  const exams=[...S.exams].sort((a,b)=>a.date<b.date?1:-1);
+  er.innerHTML = exams.length ? '' : '<div class="empty">还没有记录，起跑周自测后填第一条</div>';
+  exams.forEach(e=>{
+    const i = S.exams.indexOf(e);
+    er.innerHTML += `<div><span>${e.date}</span><b>总分 ${e.l+e.r+e.w}</b><span>听${e.l} 读${e.r} 写译${e.w}</span><a data-i="${i}" class="del-ex">删除</a></div>`;
+  });
+  const vr = $('vocab-records');
+  const voc=[...S.vocab].sort((a,b)=>a.date<b.date?1:-1);
+  vr.innerHTML = voc.length ? '' : '<div class="empty">用 App 测一次词汇量，记下基线</div>';
+  voc.forEach(v=>{
+    const i = S.vocab.indexOf(v);
+    vr.innerHTML += `<div><span>${v.date}</span><b>${v.n} 词</b><a data-i="${i}" class="del-vc">删除</a></div>`;
+  });
+  er.querySelectorAll('.del-ex').forEach(a=>a.onclick=()=>{ if(confirm('删除这条记录？')){ S.exams.splice(+a.dataset.i,1); save(); renderData(); }});
+  vr.querySelectorAll('.del-vc').forEach(a=>a.onclick=()=>{ if(confirm('删除这条记录？')){ S.vocab.splice(+a.dataset.i,1); save(); renderData(); }});
+}
+$('ex-add').onclick = ()=>{
+  const d=$('ex-date').value||today(), l=+$('ex-l').value, r=+$('ex-r').value, w=+$('ex-w').value;
+  if(isNaN(l)||isNaN(r)||isNaN(w)) return toast('请填完整听力/阅读/写译三项');
+  S.exams.push({date:d,l,r,w}); save(); renderData(); toast('模考分数已记录 ✓');
+  $('ex-l').value=$('ex-r').value=$('ex-w').value='';
+};
+$('vc-add').onclick = ()=>{
+  const d=$('vc-date').value||today(), n=+$('vc-n').value;
+  if(!n) return toast('请填词汇量');
+  S.vocab.push({date:d,n}); save(); renderData(); toast('词汇量已记录 ✓'); $('vc-n').value='';
+};
+
+/* ================= AI 搭子 ================= */
+function renderPrompts(){
+  const box = $('prompt-list'); box.innerHTML='';
+  PROMPTS.forEach(p=>{
+    const div = document.createElement('div'); div.className='prompt-card';
+    div.innerHTML = `<h3>${p.t}</h3><p>${p.d}</p><button class="btn ghost small">📋 复制提示词</button>`;
+    div.querySelector('button').onclick = async e=>{
+      try{ await navigator.clipboard.writeText(p.text); }
+      catch(_){ const ta=document.createElement('textarea'); ta.value=p.text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); }
+      e.target.textContent='✓ 已复制'; setTimeout(()=>e.target.textContent='📋 复制提示词',1500);
+    };
+    box.appendChild(div);
+  });
+}
+const BUDDY_SYS = `你是用户的英语学习搭子（buddy），她叫小台，是环境艺术设计专业大四学生，正在备考六级（2026年12月，目标500+）和雅思（2027年，目标6.5），每天练习口语。你的角色：
+1. 像朋友一样陪她学英语：可以用中文交流，但鼓励并引导她多用英语表达
+2. 她说英语时，自然地帮她纠正错误（每次1-2处，温和地给"Better: ..."）
+3. 可以陪她练口语话题、抽查单词、讲解语法、批改句子、吐槽打气
+4. 结合她的专业（环境艺术设计/AI），多用设计和科技话题做例子
+5. 回复简洁口语化，不要长篇大论，像微信聊天一样`;
+function renderChat(){
+  const box=$('chat-msgs'); box.innerHTML='';
+  if(!S.chat.length){
+    box.innerHTML='<div class="msg sys">👋 我是你的英语学习搭子！可以陪你练口语、抽单词、改句子。<br>没配置 API 的话，先去「⚙️ 设置」填一下 Key；也可以先在下方复制提示词，去任何 AI 工具里用。</div>';
+    return;
+  }
+  S.chat.forEach(m=>{ const d=document.createElement('div'); d.className='msg '+(m.role==='user'?'user':'ai'); d.textContent=m.content; box.appendChild(d); });
+  box.scrollTop = box.scrollHeight;
+}
+async function sendChat(){
+  const inp=$('chat-in'), text=inp.value.trim(); if(!text) return;
+  if(!S.settings.apiKey) return toast('请先在「设置」里填 API Key');
+  S.chat.push({role:'user',content:text}); inp.value=''; renderChat();
+  const box=$('chat-msgs');
+  const wait=document.createElement('div'); wait.className='msg ai'; wait.textContent='思考中…'; box.appendChild(wait); box.scrollTop=box.scrollHeight;
+  try{
+    const res = await fetch(S.settings.apiBase.replace(/\/+$/,'')+'/chat/completions',{
+      method:'POST', headers:{'Content-Type':'application/json','Authorization':'Bearer '+S.settings.apiKey},
+      body: JSON.stringify({model:S.settings.model, messages:[{role:'system',content:BUDDY_SYS},...S.chat.slice(-20)]})
+    });
+    if(!res.ok) throw new Error('HTTP '+res.status+' '+(await res.text()).slice(0,120));
+    const data = await res.json();
+    const reply = data.choices?.[0]?.message?.content || '（空回复）';
+    wait.remove();
+    S.chat.push({role:'assistant',content:reply}); save(); renderChat();
+  }catch(e){
+    wait.textContent='⚠️ 请求失败：'+e.message+'\n（检查 API 地址/Key/网络，或该接口不允许浏览器跨域调用）';
+  }
+}
+$('chat-send').onclick = sendChat;
+$('chat-in').addEventListener('keydown', e=>{ if(e.key==='Enter') sendChat(); });
+
+/* ================= 设置 ================= */
+function renderSettings(){
+  $('set-cet6').value=S.settings.cet6Date; $('set-ielts').value=S.settings.ieltsDate;
+  $('set-base').value=S.settings.apiBase; $('set-key').value=S.settings.apiKey; $('set-model').value=S.settings.model;
+}
+$('set-save').onclick=()=>{
+  S.settings.cet6Date=$('set-cet6').value||DEFAULTS.cet6Date;
+  S.settings.ieltsDate=$('set-ielts').value||DEFAULTS.ieltsDate;
+  S.settings.apiBase=$('set-base').value.trim()||DEFAULTS.apiBase;
+  S.settings.apiKey=$('set-key').value.trim();
+  S.settings.model=$('set-model').value.trim()||DEFAULTS.model;
+  save(); renderHero(); toast('设置已保存 ✓');
+};
+$('set-test').onclick=async ()=>{
+  const base=$('set-base').value.trim().replace(/\/+$/,''), key=$('set-key').value.trim();
+  const out=$('test-result');
+  if(!base||!key){ out.textContent='请先填 API 地址和 Key'; return; }
+  out.textContent='测试中…';
+  try{
+    const res=await fetch(base+'/models',{headers:{'Authorization':'Bearer '+key}});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data=await res.json();
+    const ids=(data.data||[]).map(m=>m.id);
+    out.innerHTML='✅ 连接成功，可用模型：'+(ids.length?ids.slice(0,8).join('、')+(ids.length>8?' …':'')+'（复制一个填到「模型」栏）':'（未返回模型列表，可直接在「AI搭子」页发消息试试）');
+  }catch(e){
+    out.textContent='❌ 连接失败：'+e.message+'（检查地址是否以 /v1 结尾、Key 是否正确、网络是否可访问）';
+  }
+};
+$('export-btn').onclick=()=>{
+  const blob=new Blob([JSON.stringify(S,null,2)],{type:'application/json'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download='英语工作台数据-'+today()+'.json'; a.click(); URL.revokeObjectURL(a.href);
+};
+$('import-btn').onclick=()=>$('import-file').click();
+$('import-file').onchange=e=>{
+  const f=e.target.files[0]; if(!f) return;
+  const rd=new FileReader();
+  rd.onload=()=>{ try{ const d=JSON.parse(rd.result); if(!d.settings) throw 0; S=d; save(); location.reload(); }catch(_){ toast('文件格式不对'); } };
+  rd.readAsText(f);
+};
+$('reset-btn').onclick=()=>{
+  if(confirm('确定清空全部打卡/分数/设置数据？此操作不可恢复！')){
+    localStorage.removeItem('en-workbench-v1'); location.reload();
+  }
+};
+
+/* ================= 启动 ================= */
+renderHero(); renderToday(); renderWeek(); renderPrompts(); renderChat(); renderSettings();
+
+/* 离线缓存（PWA）：https 下生效，首次访问后断网也能打开 */
+if('serviceWorker' in navigator){
+  window.addEventListener('load', ()=>{ navigator.serviceWorker.register('sw.js').catch(()=>{}); });
+}
+</script>
+</body>
+</html>
