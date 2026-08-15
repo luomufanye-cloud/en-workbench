@@ -1,5 +1,5 @@
-/* 离线缓存：首次在线打开后，无网络也能打开 */
-const CACHE = 'en-workbench-v2';
+/* 离线缓存：在线时始终加载最新版，断网时回退到已缓存版本 */
+const CACHE = 'en-workbench-v3';
 const ASSETS = [
   './',
   './index.html',
@@ -25,17 +25,34 @@ self.addEventListener('activate', e => {
   );
 });
 
+function cacheFirst(req){
+  return caches.match(req).then(r => r || fetch(req).then(res => {
+    if (res && res.status === 200 && res.type === 'basic') {
+      const copy = res.clone();
+      caches.open(CACHE).then(c => c.put(req, copy));
+    }
+    return res;
+  }));
+}
+
+function networkFirst(req){
+  return fetch(req).then(res => {
+    if (res && res.status === 200 && res.type === 'basic') {
+      const copy = res.clone();
+      caches.open(CACHE).then(c => c.put(req, copy));
+    }
+    return res;
+  }).catch(() => caches.match(req).then(r => r || caches.match('./index.html')));
+}
+
 self.addEventListener('fetch', e => {
-  e.respondWith(
-    caches.match(e.request).then(r => {
-      if (r) return r;
-      return fetch(e.request).then(res => {
-        if (res && res.status === 200 && res.type === 'basic') {
-          const copy = res.clone();
-          caches.open(CACHE).then(c => c.put(e.request, copy));
-        }
-        return res;
-      });
-    })
-  );
+  const url = new URL(e.request.url);
+  if (e.request.mode === 'navigate' ||
+      url.pathname.endsWith('.html') ||
+      url.pathname.endsWith('.js') ||
+      url.pathname.endsWith('manifest.json')) {
+    e.respondWith(networkFirst(e.request));
+  } else {
+    e.respondWith(cacheFirst(e.request));
+  }
 });
