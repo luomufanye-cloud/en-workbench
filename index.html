@@ -88,6 +88,7 @@ body{
 .task .tag{font-size:11px;padding:3px 9px;border-radius:999px;flex-shrink:0}
 .tag.core{background:var(--accent-soft);color:var(--accent)}
 .tag.flex{background:#EFECE4;color:var(--muted)}
+.tag.sage{background:var(--sage-soft);color:var(--sage)}
 .task.done .t-label{color:var(--muted);text-decoration:line-through}
 .progress-row{display:flex;align-items:center;gap:16px;margin-top:6px}
 .bar{flex:1;height:10px;background:#EFEAE0;border-radius:99px;overflow:hidden}
@@ -170,8 +171,49 @@ svg.chart{width:100%;height:auto;display:block}
 }
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
-/* ---------- Mobile ---------- */
+/* ---------- 资料 ---------- */
+.word-list{max-height:480px;overflow-y:auto;margin-top:12px;border:1px solid var(--line);border-radius:12px}
+.word-row{display:flex;align-items:center;gap:10px;padding:9px 12px;border-bottom:1px dashed var(--line);font-size:14px}
+.word-row:last-child{border-bottom:none}
+.word-row .w-w{font-family:Georgia,serif;font-weight:700;min-width:130px}
+.word-row .w-m{flex:1;color:var(--muted)}
+.word-row.ok .w-w{color:var(--sage);text-decoration:line-through}
+.word-row.ng .w-w{color:var(--accent)}
+.word-row .w-btns{display:flex;gap:6px}
+.mini{border:1px solid var(--line);background:#FCFAF5;border-radius:8px;padding:3px 9px;font-size:12px;cursor:pointer;color:var(--muted)}
+.mini:hover{border-color:var(--accent);color:var(--accent)}
+.mini.ok:hover{border-color:var(--sage);color:var(--sage)}
+.mini.ng:hover{border-color:var(--accent);color:var(--accent)}
+.quiz-panel{display:none;border:1px solid var(--accent);background:var(--accent-soft);border-radius:14px;padding:18px;margin-top:12px;text-align:center}
+.quiz-top{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--accent)}
+.quiz-w{font-family:Georgia,serif;font-size:34px;font-weight:700;margin:14px 0 4px}
+.quiz-m{font-size:16px;color:var(--ink);min-height:24px;margin-bottom:12px}
+.quiz-btns{display:flex;gap:10px;justify-content:center}
+.topic{border:1px solid var(--line);border-radius:12px;padding:14px;background:#FCFAF5}
+.topic h3{font-size:14px;margin-bottom:4px}
+.topic .t-cn{font-size:12px;color:var(--muted);margin-bottom:8px}
+.topic .kw{display:inline-block;font-size:11px;background:#EFEAE0;border-radius:99px;padding:2px 8px;margin:2px 3px 2px 0;color:#5C5544}
+.topic .t-ex{font-size:12px;line-height:1.7;margin-top:8px;color:#4C5A41;background:var(--sage-soft);padding:8px 10px;border-radius:8px}
+.phrase-sec{margin-bottom:14px}
+.phrase-sec h3{font-size:13px;color:var(--accent);margin-bottom:6px}
+.phrase-sec li{font-size:13px;color:var(--ink);line-height:1.9;list-style:none;border-bottom:1px dashed var(--line);padding:5px 0}
+.phrase-sec li:last-child{border-bottom:none}
+.link-sec{margin-bottom:16px}
+.link-sec h3{font-size:13px;color:var(--sage);margin-bottom:8px}
+.link-sec .link-row{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px dashed var(--line);font-size:13px}
+.link-sec .link-row:last-child{border-bottom:none}
+.link-sec a{color:var(--accent);text-decoration:none;font-weight:600;min-width:110px}
+.link-sec a:hover{text-decoration:underline}
+.link-sec span{color:var(--muted)}
+@media(max-width:640px){
+  .word-row{flex-wrap:wrap}
+  .word-row .w-w{min-width:0;flex:1}
+  .word-row .w-m{flex-basis:100%;order:3}
+  .quiz-w{font-size:26px}
+  #quiz-filter,#quiz-filter2{flex-wrap:wrap}
+}
 input[type=date],input[type=number],input[type=text],input[type=password],select,textarea{-webkit-appearance:none;appearance:none}
+/* ---------- Mobile ---------- */
 @media(max-width:640px){
   .wrap{padding:0 14px}
   .hero{margin:14px 0 16px;padding:22px 20px;border-radius:18px}
@@ -217,6 +259,7 @@ input[type=date],input[type=number],input[type=text],input[type=password],select
     <button class="tab" data-tab="week">🗓 周计划</button>
     <button class="tab" data-tab="data">📊 数据</button>
     <button class="tab" data-tab="ai">🤖 AI 搭子</button>
+    <button class="tab" data-tab="mats">📚 资料</button>
     <button class="tab" data-tab="set">⚙️ 设置</button>
   </div>
 
@@ -321,6 +364,58 @@ input[type=date],input[type=number],input[type=text],input[type=password],select
     </div>
   </div>
 
+  <!-- ===== 资料 ===== -->
+  <div class="panel" id="p-mats">
+    <div class="card">
+      <h2>六级核心词表（内置 200 高频词）</h2>
+      <div class="stat-cards">
+        <div class="stat"><div class="v" id="ws-total">0</div><div class="k">总词数</div></div>
+        <div class="stat"><div class="v" id="ws-known">0</div><div class="k">已认识</div></div>
+        <div class="stat"><div class="v" id="ws-unknown">0</div><div class="k">生词待复习</div></div>
+      </div>
+      <div class="form-row">
+        <button class="btn" id="quiz-start">🎲 随机抽查 10 个</button>
+        <span id="quiz-filter" style="display:flex;gap:8px">
+          <button class="tab f-p active" data-p="all">全部词性</button>
+          <button class="tab f-p" data-p="v">动词</button>
+          <button class="tab f-p" data-p="n">名词</button>
+          <button class="tab f-p" data-p="a">形容词</button>
+        </span>
+        <span id="quiz-filter2" style="display:flex;gap:8px">
+          <button class="tab f-s active" data-s="all">全部</button>
+          <button class="tab f-s" data-s="known">已认识</button>
+          <button class="tab f-s" data-s="unknown">生词</button>
+        </span>
+      </div>
+      <div class="quiz-panel" id="quiz-panel">
+        <div class="quiz-top"><b id="quiz-i">1 / 10</b><button class="btn ghost small" id="quiz-close">✕ 关闭</button></div>
+        <div class="quiz-w" id="quiz-w">word</div>
+        <div class="quiz-m" id="quiz-m"></div>
+        <div class="quiz-btns">
+          <button class="btn ghost small" id="quiz-show">👀 显示释义</button>
+          <button class="btn small q-ok">✓ 认识</button>
+          <button class="btn small q-ng">✗ 生词</button>
+        </div>
+      </div>
+      <div class="word-list" id="word-list"></div>
+    </div>
+
+    <div class="card">
+      <h2>口语话题卡（10 个高频话题）</h2>
+      <div class="grid2" id="topic-list"></div>
+    </div>
+
+    <div class="card">
+      <h2>常用表达速查</h2>
+      <div class="grid2" id="phrase-list"></div>
+    </div>
+
+    <div class="card">
+      <h2>资源链接导航（点击直达）</h2>
+      <div id="link-list"></div>
+    </div>
+  </div>
+
   <!-- ===== 设置 ===== -->
   <div class="panel" id="p-set">
     <div class="card">
@@ -355,6 +450,7 @@ input[type=date],input[type=number],input[type=text],input[type=password],select
 </div>
 <div class="toast" id="toast"></div>
 
+<script src="mats.js"></script>
 <script>
 /* ================= 数据层 ================= */
 const PLAN_START = '2026-08-15', CET6_END = '2026-12-20', HEAT_WEEKS = 18;
@@ -366,9 +462,9 @@ let S = load();
 function load(){
   try{
     const raw = localStorage.getItem('en-workbench-v1');
-    if(raw){ const d = JSON.parse(raw); d.settings = Object.assign({},DEFAULTS,d.settings||{}); return d; }
+    if(raw){ const d = JSON.parse(raw); d.settings = Object.assign({},DEFAULTS,d.settings||{}); d.word = d.word || {}; return d; }
   }catch(e){}
-  return { checks:{}, exams:[], vocab:[], chat:[], settings:{...DEFAULTS} };
+  return { checks:{}, exams:[], vocab:[], chat:[], word:{}, settings:{...DEFAULTS} };
 }
 function save(){ localStorage.setItem('en-workbench-v1', JSON.stringify(S)); }
 
@@ -750,8 +846,106 @@ $('reset-btn').onclick=()=>{
   }
 };
 
+/* ================= 资料 ================= */
+const WORD_P = {v:'动词', n:'名词', a:'形容词'};
+let wordFilter = {p:'all', s:'all'};
+let quiz = null;
+function wordState(w){ return S.word[w] || 'new'; }
+
+function renderMats(){
+  renderWordStats(); renderWordList(); renderTopics(); renderPhrases(); renderLinks();
+}
+function renderWordStats(){
+  $('ws-total').textContent = WORDS.length;
+  $('ws-known').textContent = WORDS.filter(x=>wordState(x.w)==='known').length;
+  $('ws-unknown').textContent = WORDS.filter(x=>wordState(x.w)==='unknown').length;
+}
+function renderWordList(){
+  const list = $('word-list'); list.innerHTML='';
+  let arr = WORDS;
+  if(wordFilter.p!=='all') arr = arr.filter(x=>x.p===wordFilter.p);
+  if(wordFilter.s!=='all') arr = arr.filter(x=>wordState(x.w)===wordFilter.s);
+  if(!arr.length){ list.innerHTML='<div class="empty">没有符合条件的词</div>'; return; }
+  arr.forEach(w=>{
+    const st = wordState(w.w);
+    const row = document.createElement('div');
+    row.className = 'word-row' + (st==='known' ? ' ok' : st==='unknown' ? ' ng' : '');
+    row.innerHTML = `<span class="w-w">${w.w}</span><span class="w-m">${w.m}</span>
+      <span class="tag ${w.p==='v'?'core':w.p==='n'?'flex':'sage'}">${WORD_P[w.p]}</span>
+      <span class="w-btns"><button class="mini ok">✓ 认识</button><button class="mini ng">✗ 生词</button></span>`;
+    row.querySelector('.ok').onclick=()=>{ S.word[w.w]='known'; save(); renderMats(); };
+    row.querySelector('.ng').onclick=()=>{ S.word[w.w]='unknown'; save(); renderMats(); };
+    list.appendChild(row);
+  });
+}
+function startQuiz(){
+  const pool = WORDS.filter(w=>wordState(w.w)!=='known');
+  const qs = (pool.length?pool:[...WORDS]).sort(()=>Math.random()-.5).slice(0,10);
+  quiz = {qs, i:0};
+  showQuiz();
+}
+function showQuiz(){
+  $('quiz-panel').style.display='block';
+  $('quiz-i').textContent = (quiz.i+1)+' / '+quiz.qs.length;
+  $('quiz-w').textContent = quiz.qs[quiz.i].w;
+  $('quiz-m').textContent = '';
+}
+function quizAnswer(kind){
+  const q = quiz.qs[quiz.i]; S.word[q.w]=kind; save();
+  quiz.i++;
+  if(quiz.i < quiz.qs.length){ showQuiz(); }
+  else{
+    $('quiz-panel').style.display='none';
+    const known = quiz.qs.filter(x=>wordState(x.w)==='known').length;
+    toast(`抽查完成：认识 ${known} 个 / 共 10 个`);
+    renderMats();
+  }
+}
+$('quiz-start').onclick = startQuiz;
+$('quiz-close').onclick = ()=>{ $('quiz-panel').style.display='none'; };
+$('quiz-show').onclick = ()=>{ $('quiz-m').textContent = quiz.qs[quiz.i].m; };
+document.querySelectorAll('.q-ok').forEach(b=>b.onclick=()=>quizAnswer('known'));
+document.querySelectorAll('.q-ng').forEach(b=>b.onclick=()=>quizAnswer('unknown'));
+document.querySelectorAll('.f-p').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.f-p').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); wordFilter.p = b.dataset.p; renderWordList();
+});
+document.querySelectorAll('.f-s').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.f-s').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); wordFilter.s = b.dataset.s; renderWordList();
+});
+
+function renderTopics(){
+  const box = $('topic-list'); box.innerHTML='';
+  TOPICS.forEach(t=>{
+    const div = document.createElement('div'); div.className='topic';
+    div.innerHTML = `<h3>${t.t}</h3><p class="t-cn">${t.cn}</p>
+      <div>${t.kw.map(k=>`<span class="kw">${k}</span>`).join('')}</div>
+      <p class="t-ex">💡 ${t.ex}</p>`;
+    box.appendChild(div);
+  });
+}
+function renderPhrases(){
+  const box = $('phrase-list'); box.innerHTML='';
+  PHRASES.forEach(g=>{
+    const sec = document.createElement('div'); sec.className='phrase-sec';
+    sec.innerHTML = `<h3>${g.cat}</h3><ul>${g.items.map(i=>`<li>${i}</li>`).join('')}</ul>`;
+    box.appendChild(sec);
+  });
+}
+function renderLinks(){
+  const box = $('link-list'); box.innerHTML='';
+  LINKS.forEach(c=>{
+    const sec = document.createElement('div'); sec.className='link-sec';
+    sec.innerHTML = `<h3>${c.cat}</h3>` + c.items.map(i=>
+      `<div class="link-row"><a href="${i.u}" target="_blank" rel="noopener">${i.n} ↗</a><span>${i.d}</span></div>`
+    ).join('');
+    box.appendChild(sec);
+  });
+}
+
 /* ================= 启动 ================= */
-renderHero(); renderToday(); renderWeek(); renderPrompts(); renderChat(); renderSettings();
+renderHero(); renderToday(); renderWeek(); renderPrompts(); renderChat(); renderSettings(); renderMats();
 
 /* 离线缓存（PWA）：https 下生效，首次访问后断网也能打开 */
 if('serviceWorker' in navigator){

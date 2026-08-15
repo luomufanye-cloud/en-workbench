@@ -1,8 +1,9 @@
 /* 离线缓存：首次在线打开后，无网络也能打开 */
-const CACHE = 'en-workbench-v1';
+const CACHE = 'en-workbench-v2';
 const ASSETS = [
   './',
   './index.html',
+  './mats.js',
   './manifest.json',
   './icon-192.png',
   './icon-512.png'
