@@ -40,6 +40,7 @@ jobs:
           git config user.email "actions@github.com"
           git add apk/en-app.apk
           git commit -m "chore: build apk $(date +%Y%m%d-%H%M)" || echo "no changes"
+          git pull --rebase origin main || git pull --no-rebase origin main || true
           git push
 
       - name: Upload APK artifact
