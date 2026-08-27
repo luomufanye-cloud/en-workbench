@@ -8,6 +8,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="英语跃迁工作台">
 <meta name="theme-color" content="#FBF7F0">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" href="icon-192.png">
 <title>英语跃迁工作台 · CET6 → 雅思</title>
 <style>
 :root{
@@ -1181,6 +1183,12 @@ function boot(){
   renderTrain();renderBank();renderVocab();renderPlan();renderSpeak();renderLib();renderData();
 }
 boot();
+  // PWA: 注册 Service Worker（静默失败不影响页面）
+  if('serviceWorker'in navigator){
+    window.addEventListener('load',function(){
+      navigator.serviceWorker.register('sw.js').catch(function(){});
+    });
+  }
 </script>
 </body>
 </html>
