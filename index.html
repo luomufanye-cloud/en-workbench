@@ -186,6 +186,15 @@ label.fld{display:block;font-size:12.5px;color:var(--muted);margin:8px 0 3px}
 .verchip{position:fixed;right:12px;bottom:78px;z-index:60;border:1px solid var(--line);background:var(--surface);color:var(--muted);font-size:11px;padding:4px 10px;border-radius:999px;box-shadow:var(--shadow);cursor:pointer;font-family:inherit;transition:.2s}
 .verchip.collapsed{padding:0;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px}
 .verchip.collapsed .txt{display:none}
+/* PWA install banner */
+.pwa-install{position:fixed;top:0;left:0;right:0;z-index:80;background:var(--surface);border-bottom:1px solid var(--line);display:none;align-items:center;gap:10px;padding:8px 14px;box-shadow:var(--shadow)}
+.pwa-install.show{display:flex}
+.pwa-install .ico{font-size:20px}
+.pwa-install .txt{flex:1;font-size:13.5px;color:var(--ink);line-height:1.4}
+.pwa-install .txt b{display:block;font-size:14px}
+.pwa-install .btn-sm{background:var(--terra);color:#fff;border:none;padding:6px 14px;border-radius:8px;font-size:13px;font-weight:600;cursor:pointer}
+.pwa-install .btn-sm:hover{opacity:.92}
+.pwa-install .close{background:none;border:none;color:var(--muted);font-size:16px;cursor:pointer;padding:2px 6px}
 @media(max-width:480px){
   .verchip{padding:0;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px}
   .verchip .txt{display:none}
@@ -266,6 +275,13 @@ label.fld{display:block;font-size:12.5px;color:var(--muted);margin:8px 0 3px}
 </style>
 </head>
 <body>
+<!-- PWA install banner -->
+<div class="pwa-install" id="pwaBanner">
+  <span class="ico">📲</span>
+  <div class="txt"><b>安装到桌面</b>像 App 一样使用，全屏打开、离线可用</div>
+  <button class="btn-sm" id="pwaInstallBtn">安装</button>
+  <button class="close" id="pwaDismiss">×</button>
+</div>
 <header class="top">
   <div class="wrap">
     <div class="brand">
@@ -476,6 +492,26 @@ function voiceDiag(){
       voiceDiag();
     }
   });
+})();
+/* PWA 安装引导 */
+(function(){
+  let deferredPrompt=null;
+  const banner=document.getElementById('pwaBanner');
+  const btn=document.getElementById('pwaInstallBtn');
+  const close=document.getElementById('pwaDismiss');
+  if(!banner)return;
+  window.addEventListener('beforeinstallprompt',function(e){
+    e.preventDefault();
+    deferredPrompt=e;
+    banner.classList.add('show');
+  });
+  if(btn)btn.addEventListener('click',function(){
+    if(!deferredPrompt)return;
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(function(c){if(c.outcome==='accepted')banner.classList.remove('show');deferredPrompt=null;});
+  });
+  if(close)close.addEventListener('click',function(){banner.classList.remove('show');});
+  if(window.matchMedia('(display-mode: standalone)').matches||navigator.standalone){banner.style.display='none';}
 })();
 function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 // 拆分阅读题的 stem：原文 vs 题目
