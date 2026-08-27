@@ -284,7 +284,7 @@ label.fld{display:block;font-size:12.5px;color:var(--muted);margin:8px 0 3px}
   <section class="panel" id="tab-data"></section>
 </main>
 
-<button class="verchip" id="verChip" type="button"><span class="txt">🤖 AI搭子 v2.4 · 在线美音</span><span class="ico">🔧</span></button>
+<button class="verchip" id="verChip" type="button"><span class="txt">🤖 AI搭子 v2.4.1 · 在线美音</span><span class="ico">🔧</span></button>
 <div class="toast" id="toast"></div>
 <nav class="bottomnav" id="bottomNav"></nav>
 
@@ -357,58 +357,71 @@ function oralize(t){
 }
 function hasEnVoice(){return _voices.some(v=>(v.lang||'').toLowerCase().startsWith('en'));}
 /* 在线美音降级：手机没装英文语音包时，用有道词典美音接口朗读（联网即可，无需装语音包） */
-let _ttsAudio=null;
+let _ttsAudioEl=null;
+function getTtsAudioEl(){
+  if(!_ttsAudioEl){
+    _ttsAudioEl=document.createElement('audio');
+    _ttsAudioEl.style.display='none';
+    _ttsAudioEl.setAttribute('playsinline','true');
+    document.body.appendChild(_ttsAudioEl);
+  }
+  return _ttsAudioEl;}
 function playOnlineTTS(t){
-  let txt=oralize(t).trim();
-  if(!txt)return;
+  let txt=oralize(t).trim();if(!txt)return;
   const segs=txt.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[txt];
   const q=segs.map(s=>s.trim()).filter(s=>s.length>0&&s.length<=120);
   if(!q.length)q.push(txt.slice(0,120));
-  if(_ttsAudio){try{_ttsAudio.pause();}catch(e){}_ttsAudio=null;}
+  const a=getTtsAudioEl();
+  try{a.pause();a.src='';}catch(e){}
   let i=0;
-  (function next(){
-    if(i>=q.length)return;
-    try{
-      const a=new Audio('https://dict.youdao.com/dictvoice?type=2&audio='+encodeURIComponent(q[i++]));
-      _ttsAudio=a;
-      a.onended=function(){_ttsAudio=null;next();};
-      a.onerror=function(){_ttsAudio=null;next();};
-      a.play().catch(function(){_ttsAudio=null;next();});
-    }catch(e){_ttsAudio=null;next();}
-  })();
-}
+  function next(){
+    if(i>=q.length){a.src='';return;}
+    const url='https://dict.youdao.com/dictvoice?type=2&audio='+encodeURIComponent(q[i++]);
+    a.src=url;
+    a.onended=function(){next();};
+    a.onerror=function(){console.warn('TTS audio error',a.error);next();};
+    function tryPlay(){
+      a.play().catch(function(err){
+        // 没加载好：等 canplaythrough 再试一次（某些浏览器允许）
+        if(err.name==='NotSupportedError'||err.name==='NotAllowedError'||(err.message||'').includes('supported')||(err.message||'').includes('allowed')){
+          a.oncanplaythrough=function(){a.oncanplaythrough=null;a.play().catch(function(){next();});};
+          // 保险：2秒后如果还没响，跳过这句
+          setTimeout(function(){if(a.src===url){next();}},2500);
+        }else{next();}
+      });
+    }
+    // 若已缓存或足够快则直接播；否则等 canplaythrough
+    if(a.readyState>=3){tryPlay();}
+    else{a.oncanplaythrough=function(){a.oncanplaythrough=null;tryPlay();};a.onerror=function(){next();};}
+  }
+  next();}
 function speak(t){if(!t)return;
   if(!('speechSynthesis'in window)){playOnlineTTS(t);return;}
   if(!_voices.length)loadVoices();
-  // 无英文语音包 → 自动切在线美音（联网即可，无需装语音包）
-  if(_voices.length&&!hasEnVoice()){
+  // 无英文语音包（含 voices 尚未加载的 0 个情况）→ 自动切在线美音
+  if(!hasEnVoice()){
     if(!LS.get('wb_en_tts_tip_v1')){LS.set('wb_en_tts_tip_v1',1);toast('🔊 已用在线美音朗读（无需安装语音包，联网即可）');}
-    playOnlineTTS(t);
-    return;
-  }
+    playOnlineTTS(t);return;}
   try{speechSynthesis.cancel();
     const u=new SpeechSynthesisUtterance(oralize(t));u.lang='en-US';u.rate=.95;
     if(!_voices.length)loadVoices();
     const v=pickVoice('en-US');if(v)u.voice=v;
     const fire=()=>{
-      // voices 延迟就绪的机型（部分安卓）此时再选一次
       if(!u.voice){loadVoices();const v2=pickVoice('en-US');if(v2)u.voice=v2;}
-      try{speechSynthesis.speak(u);}catch(e){toast('朗读失败：'+(e.message||e));}
-    };
-    // iOS: cancel 后紧跟 speak 常被吞，且 voice 可能未就绪 → 延后触发
+      try{speechSynthesis.speak(u);}catch(e){toast('朗读失败：'+(e.message||e));}};
     if(_voices.length)fire();else setTimeout(fire,150);
     u.onerror=e=>{if(e.error&&e.error!=='canceled'&&e.error!=='interrupted')toast('朗读出错：'+e.error);};
-  }catch(e){toast('朗读失败：'+(e.message||e));}
-}
+  }catch(e){toast('朗读失败：'+(e.message||e));}}
 // 全局委托：所有 data-spk 按钮统一触发朗读（绕开内联 onclick 的引号嵌套问题）
 document.addEventListener('click',function(e){const t=e.target;const b=t.closest?t.closest('[data-spk]'):null;if(b){e.preventDefault();speak(b.getAttribute('data-spk'));}});
 /* ============ 语音诊断（点右下角版本角标）============ */
-const APP_VER='美音增强 v2.4（在线美音降级）';
+const APP_VER='美音增强 v2.4.1（在线美音降级）';
 function voiceDiag(){
   if(!('speechSynthesis'in window)){alert('当前浏览器不支持语音合成（Web Speech API）');return;}
   loadVoices();
   const v=pickVoice('en-US');
   const vs=_voices;
+  const online=!hasEnVoice();
   let msg='版本：'+APP_VER+'\n\n';
   msg+='检测到 '+vs.length+' 个系统语音：\n';
   if(vs.length){
@@ -417,13 +430,21 @@ function voiceDiag(){
   }else{
     msg+='（暂未获取到——部分手机加载较慢，可过几秒再点一次）';
   }
-  msg+='\n\n朗读将使用：'+(v?((v.name||'?')+' ['+(v.lang||'?')+']'):'系统默认语音（按 en-US 自动路由）');
+  if(online){
+    msg+='\n\n朗读将使用：🔊 在线美音（有道词典）\n无需安装语音包，联网即可标准美音朗读';
+  }else{
+    msg+='\n\n朗读将使用：'+(v?((v.name||'?')+' ['+(v.lang||'?')+']'):'系统默认语音（按 en-US 自动路由）');
+  }
   if(!v||!(v.lang||'').toLowerCase().startsWith('en')){
     msg+='\n\n⚠️ 未检测到英文语音包，这就是读音不像美式的原因。\n';
     msg+='安卓修复：设置 → 辅助功能（或语言和输入法）→ 文字转语音 → 选 Google 文字转语音引擎 → 安装/下载 英语(美国) 语音数据\n';
     msg+='iPhone：系统自带 Samantha(en-US)，一般无需设置；若仍异常请检查 设置→辅助功能→朗读内容→声音';
   }
-  alert(msg);
+  // 追加测试按钮提示
+  msg+='\n\n【测试】点击"确定"后，再点右下角 🔧 → 会尝试播放一句在线美音。';
+  if(confirm(msg+'\n\n是否现在测试在线美音？')){
+    playOnlineTTS('Hello, this is a test of the online American English pronunciation.');
+  }
 }
 /* 移动端点击展开/收起诊断面板 */
 (function(){
