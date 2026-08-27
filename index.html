@@ -284,7 +284,7 @@ label.fld{display:block;font-size:12.5px;color:var(--muted);margin:8px 0 3px}
   <section class="panel" id="tab-data"></section>
 </main>
 
-<button class="verchip" id="verChip" type="button"><span class="txt">🤖 AI搭子 v2.3 · 点此诊断</span><span class="ico">🔧</span></button>
+<button class="verchip" id="verChip" type="button"><span class="txt">🤖 AI搭子 v2.4 · 在线美音</span><span class="ico">🔧</span></button>
 <div class="toast" id="toast"></div>
 <nav class="bottomnav" id="bottomNav"></nav>
 
@@ -355,8 +355,37 @@ function oralize(t){
           .replace(/\//g,' ')
           .replace(/\s+/g,' ').trim();
 }
+function hasEnVoice(){return _voices.some(v=>(v.lang||'').toLowerCase().startsWith('en'));}
+/* 在线美音降级：手机没装英文语音包时，用有道词典美音接口朗读（联网即可，无需装语音包） */
+let _ttsAudio=null;
+function playOnlineTTS(t){
+  let txt=oralize(t).trim();
+  if(!txt)return;
+  const segs=txt.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[txt];
+  const q=segs.map(s=>s.trim()).filter(s=>s.length>0&&s.length<=120);
+  if(!q.length)q.push(txt.slice(0,120));
+  if(_ttsAudio){try{_ttsAudio.pause();}catch(e){}_ttsAudio=null;}
+  let i=0;
+  (function next(){
+    if(i>=q.length)return;
+    try{
+      const a=new Audio('https://dict.youdao.com/dictvoice?type=2&audio='+encodeURIComponent(q[i++]));
+      _ttsAudio=a;
+      a.onended=function(){_ttsAudio=null;next();};
+      a.onerror=function(){_ttsAudio=null;next();};
+      a.play().catch(function(){_ttsAudio=null;next();});
+    }catch(e){_ttsAudio=null;next();}
+  })();
+}
 function speak(t){if(!t)return;
-  if(!('speechSynthesis'in window)){toast('当前浏览器不支持语音朗读（可长按复制文本）');return;}
+  if(!('speechSynthesis'in window)){playOnlineTTS(t);return;}
+  if(!_voices.length)loadVoices();
+  // 无英文语音包 → 自动切在线美音（联网即可，无需装语音包）
+  if(_voices.length&&!hasEnVoice()){
+    if(!LS.get('wb_en_tts_tip_v1')){LS.set('wb_en_tts_tip_v1',1);toast('🔊 已用在线美音朗读（无需安装语音包，联网即可）');}
+    playOnlineTTS(t);
+    return;
+  }
   try{speechSynthesis.cancel();
     const u=new SpeechSynthesisUtterance(oralize(t));u.lang='en-US';u.rate=.95;
     if(!_voices.length)loadVoices();
@@ -374,7 +403,7 @@ function speak(t){if(!t)return;
 // 全局委托：所有 data-spk 按钮统一触发朗读（绕开内联 onclick 的引号嵌套问题）
 document.addEventListener('click',function(e){const t=e.target;const b=t.closest?t.closest('[data-spk]'):null;if(b){e.preventDefault();speak(b.getAttribute('data-spk'));}});
 /* ============ 语音诊断（点右下角版本角标）============ */
-const APP_VER='美音增强 v2.2';
+const APP_VER='美音增强 v2.4（在线美音降级）';
 function voiceDiag(){
   if(!('speechSynthesis'in window)){alert('当前浏览器不支持语音合成（Web Speech API）');return;}
   loadVoices();
