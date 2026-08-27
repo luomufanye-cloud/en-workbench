@@ -106,6 +106,10 @@ label.fld{display:block;font-size:12.5px;color:var(--muted);margin:8px 0 3px}
 .q{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px;box-shadow:var(--shadow)}
 .q .qhead{display:flex;gap:6px;align-items:center;margin-bottom:8px;flex-wrap:wrap}
 .q .stem{white-space:pre-wrap;margin:4px 0 10px;font-size:14.5px}
+.q .passage{background:#FBF9F5;border:1px solid var(--line);border-radius:12px;padding:12px;margin:4px 0 10px;font-size:14px;white-space:pre-wrap;line-height:1.7;color:#3A352F;position:relative}
+.q .passage::before{content:'📖 阅读原文';display:block;font-size:11px;font-weight:700;color:var(--sage-d);margin-bottom:6px;letter-spacing:.5px}
+.q .qtext{margin:4px 0 10px;font-size:14.5px;white-space:pre-wrap;line-height:1.6;color:var(--ink)}
+.q .qtext::before{content:'🔍 ';font-weight:700;color:var(--terra-d)}
 .opt{display:flex;align-items:center;gap:10px;padding:9px 12px;border:1px solid var(--line);
   border-radius:10px;margin-bottom:7px;cursor:pointer;transition:.12s;background:var(--surface)}
 .opt:hover{border-color:var(--terra)}
@@ -185,6 +189,14 @@ label.fld{display:block;font-size:12.5px;color:var(--muted);margin:8px 0 3px}
 @media(max-width:480px){
   .verchip{padding:0;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px}
   .verchip .txt{display:none}
+  .q{padding:10px;margin-bottom:8px;border-radius:10px}
+  .q .stem{font-size:13.5px;margin:2px 0 6px}
+  .q .passage{padding:8px;font-size:12.5px;border-radius:8px;margin:2px 0 6px;line-height:1.6}
+  .q .passage::before{font-size:10px;margin-bottom:4px}
+  .q .qtext{font-size:13.5px;margin:2px 0 6px;line-height:1.55}
+  .q .qhead{gap:4px;margin-bottom:4px}
+  .opt{padding:7px 9px;gap:8px;font-size:13.5px;border-radius:8px}
+  .opt .mk{width:22px;height:22px;font-size:12px}
 }
 .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:var(--ink);color:#fff;
   padding:11px 18px;border-radius:12px;font-size:13.5px;z-index:99;opacity:0;transition:.25s;pointer-events:none;max-width:90vw}
@@ -678,7 +690,8 @@ function renderQuiz(){
       <span class="badge b-type">${q.type}</span><span class="badge b-type">${q.topic}</span>
       ${q.revealed&&q.options?`<span class="badge ${(q.sel||'')===(q.answer||'').trim()?'b-ok':'b-wrong'}">${(q.sel||'')===(q.answer||'').trim()?'✓ 正确':'✗ 错误'}</span>`:''}
       <div class="spacer"></div><span class="muted" style="font-size:12px">#${i+1}</span></div>
-      <div class="stem">${esc(q.stem)}</div>${(q.type==='听力')?`<div class="row"><button class="btn sm ghost" data-spk="${esc(q.stem)}">🔊 朗读听力原文</button></div>`:''}`;
+      ${q.type==='阅读'?(()=>{const {passage,question}=splitReadingStem(q.stem);return `<div class="passage">${esc(passage)}</div><div class="qtext">${esc(question)}</div>`;})():`<div class="stem">${esc(q.stem)}</div>`}
+      ${(q.type==='听力')?`<div class="row"><button class="btn sm ghost" data-spk="${esc(q.stem)}">🔊 朗读听力原文</button></div>`:''}`;
     if(q.options){
       q.options.forEach(op=>{
         const letter=op.split('.')[0];
