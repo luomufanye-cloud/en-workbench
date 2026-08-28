@@ -947,12 +947,26 @@ function grade(){
 let vocabF={level:'全部',mode:'list',q:''};
 function vocabPool(){return EN_DATA.vocab.concat(LS.get(K.impV,[]),LS.get(K.userVocab,[]));}
 function mastery(){return LS.get(K.mastery,{});}
+/* 生词本闭环：不认识→入本；掌握→出本 */
+function addToUserVocab(w){
+  const pool=vocabPool();
+  const src=pool.find(v=>v.word===w)||{word:w,phonetic:'',pos:'',zh:'',example_en:'',example_zh:'',level:'CET6'};
+  const uv=LS.get(K.userVocab,[]);
+  if(uv.some(v=>v.word===w))return false;
+  uv.unshift({word:src.word,phonetic:src.phonetic||'',pos:src.pos||'',zh:src.zh||'',example_en:src.example_en||'',example_zh:src.example_zh||'',level:src.level||'CET6'});
+  LS.set(K.userVocab,uv);
+  return true;
+}
+function removeFromUserVocab(w){
+  LS.set(K.userVocab,LS.get(K.userVocab,[]).filter(v=>v.word!==w));
+}
 let vocabLimit=80;
 function renderVocab(){
   const pool=vocabPool();
   const vis=pool.filter(v=>(vocabF.level==='全部'||v.level===vocabF.level)&&
     (!vocabF.q||(v.word+v.zh).toLowerCase().includes(vocabF.q.toLowerCase())));
   const m=mastery();
+  const uvSet=new Set(LS.get(K.userVocab,[]).map(v=>v.word));
   const known=pool.filter(v=>m[v.word]==='known').length;
   let h=`<div class="card">
     <h2>${ICONS.vocab} 词汇本 · CET6 → 雅思</h2>
@@ -976,7 +990,7 @@ function renderVocab(){
         <div class="ve">${esc(v.example_en||'')}<br>${esc(v.example_zh||'')}</div>
         <div class="vact">
           <button class="btn sm soft" data-know="${esc(v.word)}">${mk==='known'?'已掌握 ✓':'认识'}</button>
-          <button class="btn sm ghost" data-unk="${esc(v.word)}">生词</button>
+          <button class="btn sm ghost" data-unk="${esc(v.word)}">${uvSet.has(v.word)?'生词本 ✓':'不认识'}</button>
         </div></div>`;
     }).join('')+`</div>`;
       if(vis.length>vocabLimit)h+=`<div style="text-align:center;margin:14px 0"><button class="btn soft" id="vMore">显示更多（${Math.min(vocabLimit,vis.length)} / ${vis.length}）</button></div>`;
@@ -997,23 +1011,26 @@ function renderVocab(){
   }else{
     const uv=LS.get(K.userVocab,[]);
     h+=`<div class="card"><h2>我的生词本（${uv.length}）</h2>
+      <p class="sub">点击「学习并认识」→ 标记掌握并自动移出生词本</p>
       <div class="row"><input id="uw" placeholder="单词"><input id="up" placeholder="音标(可空)" style="max-width:140px"><input id="uz" placeholder="释义"></div>
       <button class="btn sm" id="addW" style="margin-top:8px">添加</button></div>`;
     if(uv.length)h+=`<div class="vgrid">`+uv.map(v=>`<div class="vcard"><div class="vw">${esc(v.word)} <button class="icon-btn" data-spk="${esc(v.word)}">🔊</button></div>
       <div class="vp">${esc(v.phonetic||'')}</div><div class="vm">${esc(v.zh)}</div>
-      <div class="vact"><button class="btn sm ghost" data-delw="${esc(v.word)}">删除</button></div></div>`).join('')+`</div>`;
+      ${v.example_en?`<div class="ve">${esc(v.example_en)}<br>${esc(v.example_zh||'')}</div>`:''}
+      <div class="vact"><button class="btn sm soft" data-learnw="${esc(v.word)}">学习并认识 ✓</button><button class="btn sm ghost" data-delw="${esc(v.word)}">删除</button></div></div>`).join('')+`</div>`;
   }
   $('#tab-vocab').innerHTML=h;
   $$('#vLv .seg-btn').forEach(b=>b.onclick=()=>{vocabF.level=b.dataset.lv;vocabLimit=80;renderVocab();});
   $$('#vMode .seg-btn').forEach(b=>b.onclick=()=>{vocabF.mode=b.dataset.mode;renderVocab();});
   const vm2=$('#vMore');if(vm2)vm2.onclick=()=>{vocabLimit+=120;renderVocab();};
   const vs=$('#vSearch');if(vs)vs.oninput=e=>{vocabF.q=e.target.value;vocabLimit=80;renderVocab();};
-  $$('#tab-vocab [data-know]').forEach(b=>b.onclick=()=>{const m=mastery();m[b.dataset.know]='known';LS.set(K.mastery,m);renderVocab();renderStats();});
-  $$('#tab-vocab [data-unk]').forEach(b=>b.onclick=()=>{const m=mastery();m[b.dataset.unk]='unk';LS.set(K.mastery,m);renderVocab();renderStats();});
+  $$('#tab-vocab [data-know]').forEach(b=>b.onclick=()=>{const w=b.dataset.know;const m=mastery();m[w]='known';LS.set(K.mastery,m);const was=uvSet.has(w);removeFromUserVocab(w);toast(was?'已掌握「'+w+'」，移出生词本':'已掌握');renderVocab();renderStats();});
+  $$('#tab-vocab [data-unk]').forEach(b=>b.onclick=()=>{const w=b.dataset.unk;const m=mastery();m[w]='unk';LS.set(K.mastery,m);const ok=addToUserVocab(w);toast(ok?'「'+w+'」已纳入生词本':'已在生词本中');renderVocab();renderStats();});
+  $$('#tab-vocab [data-learnw]').forEach(b=>b.onclick=()=>{const w=b.dataset.learnw;const m=mastery();m[w]='known';LS.set(K.mastery,m);removeFromUserVocab(w);toast('已掌握「'+w+'」，移出生词本');renderVocab();renderStats();});
   $$('#tab-vocab [data-delw]').forEach(b=>b.onclick=()=>{LS.set(K.userVocab,LS.get(K.userVocab,[]).filter(v=>v.word!==b.dataset.delw));renderVocab();});
   const fc=$('#fc');if(fc)fc.onclick=()=>{const a=fc.querySelector('.ans');a.style.display=a.style.display==='none'?'block':'none';};
-  const fk=$('#fk');if(fk)fk.onclick=()=>{const m=mastery();m[fc.dataset.w]='known';LS.set(K.mastery,m);renderVocab();renderStats();};
-  const fu=$('#fu');if(fu)fu.onclick=()=>{const m=mastery();m[fc.dataset.w]='unk';LS.set(K.mastery,m);renderVocab();renderStats();};
+  const fk=$('#fk');if(fk)fk.onclick=()=>{const w=fc.dataset.w;const m=mastery();m[w]='known';LS.set(K.mastery,m);const was=uvSet.has(w);removeFromUserVocab(w);toast(was?'已掌握「'+w+'」，移出生词本':'已认识');renderVocab();renderStats();};
+  const fu=$('#fu');if(fu)fu.onclick=()=>{const w=fc.dataset.w;const m=mastery();m[w]='unk';LS.set(K.mastery,m);const ok=addToUserVocab(w);toast(ok?'「'+w+'」已纳入生词本':'已在生词本中');renderVocab();renderStats();};
   const fn=$('#fn');if(fn)fn.onclick=()=>renderVocab();
   const aw=$('#addW');if(aw)aw.onclick=()=>{const w=$('#uw').value.trim();if(!w)return;const uv=LS.get(K.userVocab,[]);uv.unshift({word:w,phonetic:$('#up').value.trim(),pos:'',zh:$('#uz').value.trim(),example_en:'',example_zh:'',level:'CET6'});LS.set(K.userVocab,uv);toast('已加入生词本');renderVocab();};
 }
