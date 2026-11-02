@@ -1,0 +1,10 @@
+{
+  "name": "english-workbench",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Luomu English study studio with Word Atlas",
+  "scripts": {
+    "smoke": "node src/smoke.js"
+  },
+  "devDependencies": { "jsdom": "30.0.1" }
+}

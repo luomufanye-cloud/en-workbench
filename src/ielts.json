@@ -1,0 +1,697 @@
+[
+  {
+    "id": "ie-r-001",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'The government introduced a carbon tax in 2019, and emissions fell by 12% within two years.' According to the passage, the carbon tax was introduced before 2020. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文明确说明碳税于2019年推出，2019年早于2020年，因此陈述与文意一致，选 TRUE。FALSE 用于文意相反的情况，此处并无相反信息；NOT GIVEN 用于文中未提及，而本句时间点可直接推断，故不选。"
+  },
+  {
+    "id": "ie-r-002",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'Solar panels have become cheaper, yet their adoption in rural areas remains limited by maintenance costs.' According to the passage, solar panels are now too expensive for most households. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文指出太阳能板已变得更便宜（cheaper），并说明农村推广受限的原因是维护成本而非购置价格，因此‘太贵’与文意相反，选 FALSE。TRUE 与 cheaper 矛盾；NOT GIVEN 不适用，因为文中对价格有明确相反表述。"
+  },
+  {
+    "id": "ie-r-003",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Passage excerpt: 'Researchers developed a new battery that charges in seconds.' According to the passage, the new battery will be available to consumers next year. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文只说明研究者开发出秒充电池，并未提及上市时间或明年是否会面向消费者，因此选 NOT GIVEN。TRUE/FALSE 都要求文中有明确或可推断的肯定或相反信息，而此处属文中未提及的内容。"
+  },
+  {
+    "id": "ie-r-004",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Passage excerpt: 'A 2021 study found that meditation reduced anxiety in 60% of participants.' According to the passage, meditation had no effect on the remaining 40% of participants. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文只说明60%的参与者焦虑减轻，并未交代其余40%是否‘无效果’，他们可能减轻不明显或效果未知，故选 NOT GIVEN。FALSE 需要文中明确否定该结论，而本句仅未说明，不能推断为相反。"
+  },
+  {
+    "id": "ie-r-005",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "Passage excerpt: 'The school replaced textbooks with tablets, and test scores improved by 8%.' According to the passage, the use of tablets caused the improvement in test scores. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文提到换用平板后成绩提升8%，但仅呈现时间先后，并未证明因果关系，因此‘导致’属于过度推断，选 NOT GIVEN。TRUE 需文中明确归因，FALSE 需明确否定因果，二者均缺乏依据。"
+  },
+  {
+    "id": "ie-r-006",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Passage excerpt: 'Inflation reached 9% in 2022, the highest in four decades.' According to the passage, inflation in 2022 was higher than in any year since 1982. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文称2022年通胀率达9%，为40年来最高；40年前即约1982年，故可推断其高于1982年以来任何一年，选 TRUE。FALSE 与‘最高’矛盾；NOT GIVEN 不成立，因为时间范围可合理推断。"
+  },
+  {
+    "id": "ie-r-007",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Passage excerpt: 'Urban populations grew, but public transport investment stayed flat.' According to the passage, investment in public transport kept pace with population growth. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文指出人口在增长而公共交通投资‘持平（stayed flat）’，明确否定了投资跟上人口增长的说法，选 FALSE。TRUE 与 stayed flat 直接矛盾；NOT GIVEN 不适用，因为二者对比关系清晰。"
+  },
+  {
+    "id": "ie-r-008",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "Passage excerpt: 'The festival dates back to the 15th century and attracts visitors worldwide.' According to the passage, the festival was first held in the 16th century. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文明确说明节日起源于15世纪，因此‘首次于16世纪举办’与文意相反，选 FALSE。TRUE 与 dates back to the 15th century 矛盾；NOT GIVEN 不成立，因为有明确的相反时间信息。"
+  },
+  {
+    "id": "ie-r-009",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'Recycling rates in the city rose from 20% to 45% between 2010 and 2020.' According to the passage, the city recycled nearly half of its waste by 2020. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文说明2020年回收率达45%，‘nearly half（接近一半）’与45%相符，选 TRUE。FALSE 与数据矛盾；NOT GIVEN 不成立，因为45%可直接对应‘近一半’的表述。"
+  },
+  {
+    "id": "ie-r-010",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Passage excerpt: 'The algorithm was trained on 10 million images but performed poorly on rare objects.' According to the passage, the algorithm works perfectly on all image types. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文称算法在罕见物体上表现不佳（performed poorly），直接否定了‘对所有图像类型都完美’的说法，选 FALSE。TRUE 与 poorly 矛盾；NOT GIVEN 不适用，因为有明确相反证据。"
+  },
+  {
+    "id": "ie-r-011",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Passage excerpt: 'News consumption shifted from print to social media among younger readers.' According to the passage, older readers also abandoned print entirely. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文只说明年轻读者从纸媒转向社交媒体，并未提及老年读者是否‘完全放弃’纸媒，故选 NOT GIVEN。TRUE/FALSE 都缺乏文中依据，不能由年轻群体的行为推断老年群体。"
+  },
+  {
+    "id": "ie-r-012",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Passage excerpt: 'The vaccine was 90% effective in clinical trials conducted in 2020.' According to the passage, the vaccine was less than 90% effective in real-world use. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文仅给出临床试验中90%的有效率，未提及真实世界使用中的有效率，因此‘低于90%’属文中未提及，选 NOT GIVEN。TRUE/FALSE 需文中对真实世界效果有明确或相反说明，此处缺失。"
+  },
+  {
+    "id": "ie-r-013",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Passage excerpt: 'The company's profits doubled after it entered the Asian market in 2018.' According to the passage, entering the Asian market was the sole reason for the profit increase. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文陈述进入亚洲市场后利润翻倍，但未说明这是‘唯一原因’，可能还有成本下降等因素，故选 NOT GIVEN。TRUE 需明确归因于唯一因素；FALSE 需明确否定唯一性，二者均无依据。"
+  },
+  {
+    "id": "ie-r-014",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Passage excerpt: 'Homelessness increased by 15% despite a growing economy.' According to the passage, the growing economy eliminated homelessness. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文明确指出无家可归者增加15%，直接否定了‘经济增长消除了无家可归现象’的说法，选 FALSE。TRUE 与 increased by 15% 完全矛盾；NOT GIVEN 不成立，因为有明确相反信息。"
+  },
+  {
+    "id": "ie-r-015",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "Passage excerpt: 'Bilingual children outperformed monolingual peers in cognitive flexibility tests.' According to the passage, bilingual children scored lower in all academic subjects. (TRUE / FALSE / NOT GIVEN)",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文仅说明双语儿童在认知灵活性测试中表现更好，并未涉及‘所有学科成绩更低’，二者话题不同，故选 NOT GIVEN。FALSE 看似合理，但文中未对学科成绩做相反陈述，不能据此推断。"
+  },
+  {
+    "id": "ie-r-016",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'The Amazon stores around 100 billion tonnes of carbon. Deforestation now removes roughly 1 billion tonnes annually.' What is the main consequence of continued deforestation mentioned in the passage?",
+    "options": ["A. Increased rainfall in the region", "B. A gradual release of stored carbon into the atmosphere", "C. Faster regrowth of native species", "D. Lower global food prices"],
+    "answer": "B",
+    "analysis": "文中指出雨林储存巨量碳且砍伐每年释放约10亿吨，因此持续砍伐的主要后果是储存的碳逐步释放到大气中，选 B。A 与雨林调节降水的作用相悖；C 与森林减少相反；D 文中未提及，属无关干扰项。"
+  },
+  {
+    "id": "ie-r-017",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Passage excerpt: 'Quantum computers excel at optimization problems but remain error-prone. Researchers hope error correction will mature by 2030.' The writer's attitude toward quantum computing is best described as:",
+    "options": ["A. wholly dismissive", "B. cautiously optimistic", "C. openly hostile", "D. completely indifferent"],
+    "answer": "B",
+    "analysis": "文中既指出量子计算机的优势也承认其易出错，并期待纠错技术成熟，体现‘谨慎乐观’的态度，选 B。A 和 C 与承认优势相矛盾；D 与‘研究者希望’的积极期待不符。"
+  },
+  {
+    "id": "ie-r-018",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "Passage excerpt: 'Finland's education system emphasizes play and reduces standardized testing. Students still rank among the top globally.' Which factor does the passage credit for student success?",
+    "options": ["A. Extensive homework and tutoring", "B. A play-based approach with less testing", "C. Strict discipline and long school days", "D. Private funding of public schools"],
+    "answer": "B",
+    "analysis": "文中强调芬兰以游戏化教学并减少标准化考试，同时学生排名仍居前列，因此把成功归因于‘以玩为主、减少考试’的模式，选 B。A、C 与减少考试/强调玩相悖；D 文中未提及。"
+  },
+  {
+    "id": "ie-r-019",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Passage excerpt: 'Remote work cut office costs but widened regional inequality as talent concentrated in big cities.' The passage suggests that remote work:",
+    "options": ["A. eliminated all regional economic gaps", "B. reduced costs while increasing inequality", "C. mainly benefited rural areas", "D. ended the need for offices completely"],
+    "answer": "B",
+    "analysis": "文中明确说远程办公降低了办公成本却加剧了地区不平等，选 B。A 与‘widened inequality’相反；C 与人才集中于大城市相悖；D 中‘完全不需要办公室’过于绝对，文中仅说成本下降。"
+  },
+  {
+    "id": "ie-r-020",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Passage excerpt: 'Sitting for over eight hours daily raises cardiovascular risk, yet standing desks alone do not reverse it.' According to the passage, standing desks:",
+    "options": ["A. fully eliminate heart disease risk", "B. are insufficient by themselves to reverse the risk", "C. cause more harm than sitting", "D. are recommended only for athletes"],
+    "answer": "B",
+    "analysis": "文中明确指出仅靠站立办公桌无法逆转久坐风险，选 B。A 与‘do not reverse it’矛盾；C 文中未比较危害大小；D 无依据，文中未限定使用人群。"
+  },
+  {
+    "id": "ie-r-021",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Passage excerpt: 'The gig economy offers flexibility but leaves workers without benefits or stability.' The author primarily views the gig economy as:",
+    "options": ["A. an unmixed blessing", "B. a trade-off between freedom and security", "C. a failure that should be banned", "D. identical to traditional employment"],
+    "answer": "B",
+    "analysis": "文中既肯定灵活性又指出缺乏保障与稳定，体现‘自由与保障之间的权衡’，选 B。A 与指出弊端矛盾；C 文中未主张禁止；D 与‘缺乏福利’的差别相悖。"
+  },
+  {
+    "id": "ie-r-022",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "Passage excerpt: 'Museums are digitizing collections, reaching audiences who never visited physically.' The main benefit of digitization described is:",
+    "options": ["A. higher ticket revenue", "B. broader public access", "C. fewer staff needed", "D. permanent closure of buildings"],
+    "answer": "B",
+    "analysis": "文中说数字化让从未实地参观的观众也能接触藏品，主要好处是‘扩大公众可及性’，选 B。A 文中未提票价收入；C、D 均属无依据推断，文中未说裁员或闭馆。"
+  },
+  {
+    "id": "ie-r-023",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Passage excerpt: 'Algorithms prioritize engaging content, sometimes spreading misinformation faster than facts.' The passage implies that algorithms:",
+    "options": ["A. always promote accurate news", "B. can amplify false information", "C. are controlled by governments", "D. have no effect on readers"],
+    "answer": "B",
+    "analysis": "文中说明算法优先推送引人互动的内容，有时让虚假信息比事实传播更快，即‘可能放大错误信息’，选 B。A 与‘spreading misinformation’矛盾；C、D 文中均无依据。"
+  },
+  {
+    "id": "ie-r-024",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Passage excerpt: 'Electric vehicles reduce local emissions but depend on batteries whose mining harms ecosystems.' The passage presents EVs as:",
+    "options": ["A. entirely harmless", "B. beneficial locally yet environmentally costly to produce", "C. worse than petrol cars overall", "D. illegal in most countries"],
+    "answer": "B",
+    "analysis": "文中指出电动车减少本地排放但电池采矿危害生态，即‘本地有益、生产环境代价高’，选 B。A 与采矿危害矛盾；C 文中未做整体优劣判断；D 无依据。"
+  },
+  {
+    "id": "ie-r-025",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'Cities planting trees lowered summer temperatures by up to 4°C in pilot districts.' The passage concludes that urban trees:",
+    "options": ["A. are purely decorative", "B. can meaningfully reduce urban heat", "C. increase energy use", "D. harm air quality"],
+    "answer": "B",
+    "analysis": "文中用试点数据说明植树使夏季气温最多降低4°C，即‘能显著缓解城市热岛’，选 B。A 与降温功能矛盾；C、D 均与文中益处相反或无依据。"
+  },
+  {
+    "id": "ie-r-026",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Which paragraph heading best matches Paragraph A, which discusses how melting ice alters ocean currents? (Heading match)",
+    "options": ["i. The disruption of marine circulation", "ii. Economic benefits of tourism", "iii. Historical fishing methods", "iv. Urban transport reform", "v. The rise of renewable energy"],
+    "answer": "i",
+    "analysis": "段落A讲述融冰改变洋流，与标题i‘海洋环流的中断’直接对应，选 i。ii、iii 属旅游与渔业历史，话题无关；iv、v 涉及城市交通与可再生能源，均不匹配融冰改洋流的内容。"
+  },
+  {
+    "id": "ie-r-027",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Which paragraph heading best matches Paragraph B, which explains the principle of machine learning through data patterns? (Heading match)",
+    "options": ["i. The history of printing", "ii. Learning from patterns in data", "iii. The decline of agriculture", "iv. Classical music theory", "v. Space exploration milestones"],
+    "answer": "ii",
+    "analysis": "段落B解释机器学习通过数据模式运作，与标题ii‘从数据模式中学习’一致，选 ii。i、iii、iv、v 分别涉及印刷、农业、音乐、航天，均与机器学习原理无关。"
+  },
+  {
+    "id": "ie-r-028",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Which paragraph heading best matches Paragraph C, which describes rising loneliness among city dwellers? (Heading match)",
+    "options": ["i. The growth of suburban malls", "ii. Declining social isolation in villages", "iii. Urban solitude on the increase", "iv. The revival of crafts", "v. Global trade agreements"],
+    "answer": "iii",
+    "analysis": "段落C描述城市居民孤独感上升，与标题iii‘城市孤独感增加’对应，选 iii。ii 方向相反（说农村隔离下降）；i、iv、v 涉及商场、手工艺、贸易，均不匹配。"
+  },
+  {
+    "id": "ie-r-029",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Which paragraph heading best matches Paragraph D, which argues that automation threatens mid-skill jobs? (Heading match)",
+    "options": ["i. The future of high-skill roles", "ii. Threats to middle-tier employment", "iii. The cost of higher education", "iv. Agricultural subsidies", "v. The origin of money"],
+    "answer": "ii",
+    "analysis": "段落D论述自动化威胁中等技能岗位，与标题ii‘对中层级就业的威胁’相符，选 ii。i 谈高技能岗位，方向不同；iii、iv、v 涉及教育成本、农业补贴、货币起源，均无关。"
+  },
+  {
+    "id": "ie-r-030",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Which paragraph heading best matches Paragraph E, which reviews studies linking sleep loss to poor memory? (Heading match)",
+    "options": ["i. Benefits of daytime naps", "ii. Memory impairment from insufficient sleep", "iii. The popularity of gyms", "iv. Vegetarian diets", "v. Airport security changes"],
+    "answer": "ii",
+    "analysis": "段落E综述睡眠不足与记忆力差的研究，与标题ii‘睡眠不足导致记忆受损’对应，选 ii。i 谈午睡好处，文中未涉及；iii、iv、v 涉及健身房、素食、机场安检，均不匹配。"
+  },
+  {
+    "id": "ie-v-001",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "Choose the word that best replaces 'mitigate' in: 'Policies aim to mitigate the effects of climate change.'",
+    "options": ["A. worsen", "B. alleviate", "C. ignore", "D. exaggerate"],
+    "answer": "B",
+    "analysis": "mitigate 意为‘减轻、缓解’，与 alleviate 同义，选 B。A worsen（恶化）为反义；C ignore（忽视）和 D exaggerate（夸大）均不符合‘缓解影响’的语境。"
+  },
+  {
+    "id": "ie-v-002",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "Choose the synonym of 'comprehensive' in: 'The report gave a comprehensive overview of the system.'",
+    "options": ["A. brief", "B. thorough", "C. biased", "D. optional"],
+    "answer": "B",
+    "analysis": "comprehensive 意为‘全面的、详尽的’，与 thorough 同义，选 B。A brief（简短）为反义；C biased（有偏见的）和 D optional（可选的）均不表达‘全面’之意。"
+  },
+  {
+    "id": "ie-v-003",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "The new software is highly _____, adapting to each user's behavior. Which word fits?",
+    "options": ["A. rigid", "B. sophisticated", "C. obsolete", "D. random"],
+    "answer": "B",
+    "analysis": "句意为软件能适应用户行为，sophisticated（精密的、复杂的）符合‘高度智能化’语境，选 B。A rigid（死板的）与 adapt 矛盾；C obsolete（过时的）和 D random（随机的）均不符。"
+  },
+  {
+    "id": "ie-v-004",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "Choose the correct meaning of 'volatile' in: 'The stock market remained volatile throughout the year.'",
+    "options": ["A. stable", "B. unpredictable", "C. profitable", "D. regulated"],
+    "answer": "B",
+    "analysis": "volatile 意为‘波动剧烈、易变的’，与 unpredictable（不可预测的）相符，选 B。A stable（稳定）为反义；C profitable（盈利的）和 D regulated（受监管的）不是 volatile 的含义。"
+  },
+  {
+    "id": "ie-v-005",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "Which word best completes: 'The reform aimed to _____ the gap between rich and poor.'",
+    "options": ["A. widen", "B. narrow", "C. conceal", "D. celebrate"],
+    "answer": "B",
+    "analysis": "改革的目标是缩小贫富差距，narrow the gap 为固定搭配‘缩小差距’，选 B。A widen（扩大）与改革目的相反；C conceal（掩盖）和 D celebrate（庆祝）不合逻辑。"
+  },
+  {
+    "id": "ie-v-006",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "Choose the word closest in meaning to 'detrimental': 'Smoking has detrimental effects on health.'",
+    "options": ["A. beneficial", "B. harmful", "C. neutral", "D. temporary"],
+    "answer": "B",
+    "analysis": "detrimental 意为‘有害的’，与 harmful 同义，选 B。A beneficial（有益的）为反义；C neutral（中性的）和 D temporary（暂时的）均不表达‘有害’。"
+  },
+  {
+    "id": "ie-v-007",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "The festival is a _____ tradition passed down for centuries. Which fits?",
+    "options": ["A. fleeting", "B. enduring", "C. fictional", "D. recent"],
+    "answer": "B",
+    "analysis": "句意为传承数世纪的传统，enduring（持久的）符合‘延续至今’之意，选 B。A fleeting（短暂的）和 D recent（最近的）与‘数世纪’矛盾；C fictional（虚构的）不符合真实传承。"
+  },
+  {
+    "id": "ie-v-008",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "媒体",
+    "stem": "Choose the synonym of 'scrutinize' in: 'Journalists scrutinize official statements carefully.'",
+    "options": ["A. ignore", "B. examine", "C. publish", "D. fabricate"],
+    "answer": "B",
+    "analysis": "scrutinize 意为‘仔细审查、审视’，与 examine 同义，选 B。A ignore（忽视）为反义；C publish（发布）和 D fabricate（捏造）均非‘审查’之意。"
+  },
+  {
+    "id": "ie-v-009",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "The device is _____ to water damage and must be kept dry. Which word fits?",
+    "options": ["A. immune", "B. vulnerable", "C. indifferent", "D. superior"],
+    "answer": "B",
+    "analysis": "句意为设备怕水需保持干燥，vulnerable（易受伤害的）符合‘易受水损’之意，选 B。A immune（免疫的）与需防潮矛盾；C indifferent（冷漠的）和 D superior（优越的）均不表‘易受损’。"
+  },
+  {
+    "id": "ie-v-010",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "Choose the correct meaning of 'sustainable' in: 'We need sustainable sources of energy.'",
+    "options": ["A. cheap", "B. able to continue long-term", "C. dangerous", "D. imported"],
+    "answer": "B",
+    "analysis": "sustainable 意为‘可持续的、能长期维持的’，与 able to continue long-term 相符，选 B。A cheap（便宜）、C dangerous（危险）、D imported（进口的）均非其含义。"
+  },
+  {
+    "id": "ie-v-011",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "The company's profits _____ after the product launch. Which word best fits if profits rose sharply?",
+    "options": ["A. plummeted", "B. soared", "C. stagnated", "D. vanished"],
+    "answer": "B",
+    "analysis": "若利润急剧上升，soared（飙升）最贴切，选 B。A plummeted（骤降）为反义；C stagnated（停滞）和 D vanished（消失）均表示无增长，与‘上升’矛盾。"
+  },
+  {
+    "id": "ie-v-012",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "Choose the synonym of 'marginalized' in: 'The policy helps marginalized communities.'",
+    "options": ["A. empowered", "B. excluded", "C. wealthy", "D. urban"],
+    "answer": "B",
+    "analysis": "marginalized 意为‘被边缘化的、被排斥的’，与 excluded 同义，选 B。A empowered（被赋权的）为反义；C wealthy（富裕的）和 D urban（城市的）并非其含义。"
+  },
+  {
+    "id": "ie-v-013",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "A good essay should be _____, with each paragraph supporting the main argument. Which fits?",
+    "options": ["A. coherent", "B. chaotic", "C. redundant", "D. ambiguous"],
+    "answer": "A",
+    "analysis": "好文章应条理清晰、各段支撑主旨，coherent（连贯的）符合，选 A。B chaotic（混乱的）、C redundant（冗余的）、D ambiguous（含糊的）均为负面特征，与‘好文章’矛盾。"
+  },
+  {
+    "id": "ie-v-014",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "Choose the word that best replaces 'requisite' in: 'Sleep is requisite for recovery.'",
+    "options": ["A. unnecessary", "B. essential", "C. optional", "D. harmful"],
+    "answer": "B",
+    "analysis": "requisite 意为‘必需的’，与 essential 同义，选 B。A unnecessary（不必要的）和 C optional（可选的）为反义；D harmful（有害的）不符合‘恢复所需’语境。"
+  },
+  {
+    "id": "ie-v-015",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "媒体",
+    "stem": "The article was _____, presenting both sides of the debate fairly. Which fits?",
+    "options": ["A. biased", "B. balanced", "C. sensational", "D. deceptive"],
+    "answer": "B",
+    "analysis": "句意为文章公平呈现双方观点，balanced（平衡的）符合，选 B。A biased（有偏见的）、C sensational（煽情的）、D deceptive（欺骗的）均为不公平或负面特征，与‘fairly’矛盾。"
+  },
+  {
+    "id": "ie-g-001",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "教育",
+    "stem": "Choose the grammatically correct sentence:",
+    "options": ["A. Each of the students have a book.", "B. Each of the students has a book.", "C. Each of the students having a book.", "D. Each of the students is having a book."],
+    "answer": "B",
+    "analysis": "each of + 复数名词作主语时谓语用单数 has，选 B。A 误用 have；C 缺少谓语动词；D is having 不用于拥有类状态动词，且 each 仍需单数，但 having 在此不恰当。"
+  },
+  {
+    "id": "ie-g-002",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "环境",
+    "stem": "Fill the blank: 'If the temperature _____, sea levels will rise.'",
+    "options": ["A. rise", "B. rises", "C. rose", "D. will rise"],
+    "answer": "B",
+    "analysis": "在真实条件句（if + 一般现在时，主句将来时）中，if 从句用一般现在时 rises，选 B。A rise 主语为单数需加 -s；C rose 为过去式，用于虚拟；D will rise 不能用于 if 条件从句。"
+  },
+  {
+    "id": "ie-g-003",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "科技",
+    "stem": "Choose the correct passive form: 'The software _____ by the team last year.'",
+    "options": ["A. develops", "B. developed", "C. was developed", "D. has develop"],
+    "answer": "C",
+    "analysis": "句中有 last year 表过去，且主语 software 为受动者，需用一般过去时被动 was developed，选 C。A develops 主动现在时；B developed 主动过去时；D has develop 形式错误。"
+  },
+  {
+    "id": "ie-g-004",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "社会",
+    "stem": "Which sentence uses the present perfect correctly?",
+    "options": ["A. I live here since 2010.", "B. I have lived here since 2010.", "C. I lived here since 2010.", "D. I am living here since 2010."],
+    "answer": "B",
+    "analysis": "since + 过去时间点需用现在完成时 have lived，选 B。A live 为一般现在时不能与 since 连用；C lived 为过去时；D am living 进行时不搭配 since 表持续。"
+  },
+  {
+    "id": "ie-g-005",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "经济",
+    "stem": "Choose the correct comparative: 'This year's growth is _____ than last year's.'",
+    "options": ["A. more strong", "B. stronger", "C. strong", "D. most strong"],
+    "answer": "B",
+    "analysis": "strong 为单音节形容词，比较级直接加 -er 为 stronger，选 B。A more strong 形式错误（应为 stronger）；C strong 是原级；D most strong 最高级形式错误。"
+  },
+  {
+    "id": "ie-g-006",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "健康",
+    "stem": "Choose the correct article usage: '_____ elderly need more social support.'",
+    "options": ["A. A", "B. An", "C. The", "D. No article"],
+    "answer": "C",
+    "analysis": "the + 形容词（the elderly）表一类人‘老年人’，需用定冠词 The，选 C。A、B 为不定冠词，不能用于类指；D 缺冠词则语法错误。"
+  },
+  {
+    "id": "ie-g-007",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "文化",
+    "stem": "Choose the correct relative clause: 'The museum _____ we visited is famous.'",
+    "options": ["A. which", "B. who", "C. whose", "D. what"],
+    "answer": "A",
+    "analysis": "先行词 museum 为物，且在从句中作 visited 的宾语，用 which（或 that），选 A。B who 用于人；C whose 表所属；D what 不引导限定性定语从句。"
+  },
+  {
+    "id": "ie-g-008",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "媒体",
+    "stem": "Choose the correct preposition: 'She is interested _____ environmental issues.'",
+    "options": ["A. on", "B. at", "C. in", "D. for"],
+    "answer": "C",
+    "analysis": "固定搭配 be interested in 表‘对……感兴趣’，选 C。A on、B at、D for 均不与 interested 构成正确搭配。"
+  },
+  {
+    "id": "ie-g-009",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "科技",
+    "stem": "Choose the correct modal for speculation about the past: 'They _____ missed the train; it left on time.'",
+    "options": ["A. must have", "B. can't have", "C. should have", "D. will have"],
+    "answer": "B",
+    "analysis": "后句说火车准点出发，可推断‘他们不可能错过’，用 can't have + 过去分词表对过去的否定推测，选 B。A must have 表肯定推测，与语境相反；C should have 表本应；D will have 不用于此推测。"
+  },
+  {
+    "id": "ie-g-010",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "环境",
+    "stem": "Choose the correct parallel structure: 'The policy aims to reduce waste and _____ emissions.'",
+    "options": ["A. lowering", "B. to lower", "C. lower", "D. lowered"],
+    "answer": "B",
+    "analysis": "并列结构应与 to reduce 保持一致，用 to lower（aims to reduce ... and to lower ...），选 B。A lowering 破坏平行；C、D 形式不对应前面的 to 不定式。"
+  },
+  {
+    "id": "ie-w-001",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "社会",
+    "stem": "Some people believe that governments should invest more in public transport than in roads. To what extent do you agree or disagree? (Task 2)",
+    "answer": "Thesis: Governments should prioritise public transport investment because it reduces congestion and emissions more efficiently. Body 1: Public transport moves more people per kilometre, cutting traffic and pollution. Body 2: Road expansion induces demand and encourages car use, worsening sustainability. Counter: Roads remain vital for freight and rural access, so a balanced mix is needed. Conclusion: A shift toward public transport is justified, not an outright abandonment of roads.",
+    "analysis": "评分要点：Task Response 需明确立场并兼顾反方（balanced mix），避免一边倒；Coherence 用主题句+解释+例证推进；Lexical 使用 prioritise / congestion / induce demand 等学术词；Grammar 展示定语从句与对比结构。四项均衡可达 Band 7+。"
+  },
+  {
+    "id": "ie-w-002",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "科技",
+    "stem": "Nowadays, more people work from home. Do the advantages outweigh the disadvantages? (Task 2)",
+    "answer": "Thesis: The benefits of remote work outweigh drawbacks if supported by clear policies. Advantages: flexibility boosts productivity and cuts commuting emissions. Disadvantages: isolation and blurred boundaries harm well-being and teamwork. Solution: hybrid models and virtual collaboration tools mitigate the downsides. Conclusion: With safeguards, remote work is net positive.",
+    "analysis": "评分要点：Task Response 须衡量双方并给出结论（outweigh）；Coherence 用利弊对照段落；Lexical 体现 blurred boundaries / hybrid models 等；Grammar 使用条件句与比较级。注意避免只列点不展开，每点需解释与结果。"
+  },
+  {
+    "id": "ie-w-003",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "教育",
+    "stem": "Universities should focus on career preparation rather than academic knowledge. Discuss both views and give your opinion. (Task 2)",
+    "answer": "View 1: Career-focused courses improve employability and meet labour-market needs. View 2: Broad academic education fosters critical thinking and adaptability beyond one job. Opinion: A combination is ideal—core academics plus practical modules. Conclusion: Universities should integrate both rather than choose one.",
+    "analysis": "评分要点：Task Response 必须讨论双方并表态；Coherence 用 View1/View2/Opinion 清晰分段；Lexical 用 employability / adaptability / integrate；Grammar 展示 rather than 与对比从句。双边讨论题型切忌只写一方。"
+  },
+  {
+    "id": "ie-w-004",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "环境",
+    "stem": "Individual action is useless in fighting climate change; only governments and corporations can help. To what extent do you agree? (Task 2)",
+    "answer": "Thesis: I disagree that individual action is useless; it complements systemic change. Point 1: Collective consumer choices shift demand toward green products, pressuring corporations. Point 2: Individual advocacy influences policy and social norms. Concession: Systemic action is essential and larger in scale. Conclusion: Individual and institutional efforts are mutually reinforcing.",
+    "analysis": "评分要点：Task Response 需反驳极端立场并承认制度作用（concession）；Coherence 用 Point/Concession 推进；Lexical 用 complement / mutually reinforcing / norms；Grammar 用让步从句。反驳型题目要部分肯定对方以显辩证。"
+  },
+  {
+    "id": "ie-w-005",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "媒体",
+    "stem": "Social media has damaged real-life communication skills among young people. To what extent do you agree or disagree? (Task 2)",
+    "answer": "Thesis: Social media has mixed effects; it does not simply damage skills. Point 1: Heavy use can reduce face-to-face practice and deepen awkwardness. Point 2: It also builds written communication and global connections. Balanced view: Moderation and digital literacy education determine outcomes. Conclusion: Effects depend on usage, not the medium alone.",
+    "analysis": "评分要点：Task Response 避免绝对化，给出 balanced view；Coherence 用 Point1/Point2/Balanced 分层；Lexical 用 face-to-face / digital literacy / medium；Grammar 用条件与对比结构。结论应回归‘使用方式决定结果’以体现批判思维。"
+  },
+  {
+    "id": "ie-l-001",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "教育",
+    "stem": "Listening script: 'The library will be closed for renovation from the 10th to the 17th of March.' When will the library reopen?",
+    "options": ["A. March 9th", "B. March 10th", "C. March 17th", "D. March 18th"],
+    "answer": "D",
+    "analysis": "文中说图书馆3月10日至17日装修关闭，故17日之后、即18日重新开放，选 D。A、B 为关闭期内；C 17日仍是关闭最后一天，尚未开放。"
+  },
+  {
+    "id": "ie-l-002",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "环境",
+    "stem": "Listening script: 'We collected 200 samples, but only 150 were usable due to contamination.' How many samples were unusable?",
+    "options": ["A. 50", "B. 150", "C. 200", "D. 350"],
+    "answer": "A",
+    "analysis": "共采集200份，可用150份，不可用为200−150=50份，选 A。B 是可用数；C 是总数；D 无依据。"
+  },
+  {
+    "id": "ie-l-003",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "社会",
+    "stem": "Listening script: 'The meeting was moved from Room 2 to Room 5 because of the conference.' Where is the meeting now?",
+    "options": ["A. Room 2", "B. Room 5", "C. The conference hall", "D. Outside"],
+    "answer": "B",
+    "analysis": "说话人明确说会议从2室改到5室，故现在在 Room 5，选 B。A 是原地点；C 会议厅是改地点的原因而非会议地点；D 无依据。"
+  },
+  {
+    "id": "ie-l-004",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "科技",
+    "stem": "Listening script: 'The app update is free, but the premium version costs $9.99 per month.' How much is the premium version annually?",
+    "options": ["A. $9.99", "B. $99.90", "C. $119.88", "D. Free"],
+    "answer": "C",
+    "analysis": "高级版每月$9.99，一年12个月共9.99×12=$119.88，选 C。A 是月费；B 是10个月错误计算；D 免费仅指基础更新，不含高级版。"
+  },
+  {
+    "id": "ie-l-005",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "健康",
+    "stem": "Listening script: 'Patients should take one tablet in the morning and two at night.' What is the daily total dosage?",
+    "options": ["A. 1 tablet", "B. 2 tablets", "C. 3 tablets", "D. 4 tablets"],
+    "answer": "C",
+    "analysis": "早晨1片加晚上2片，每日共3片，选 C。A、B 仅算其中一次；D 无依据。"
+  },
+  {
+    "id": "ie-l-006",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "经济",
+    "stem": "Listening script: 'Sales rose 20% in Q1, then fell 5% in Q2.' Compared with the start of Q1, sales at end of Q2 are:",
+    "options": ["A. 15% lower", "B. 25% higher", "C. 14% higher", "D. unchanged"],
+    "answer": "C",
+    "analysis": "先涨20%再降5%，净变化约为 1.20×0.95=1.14，即比Q1初高14%，选 C。A 误将两百分比相减；B 误将两百分比相加；D 明显错误。"
+  },
+  {
+    "id": "ie-l-007",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "文化",
+    "stem": "Listening script: 'The exhibition opens at 9 a.m. and the guided tour starts at 11 a.m.' When does the guided tour begin?",
+    "options": ["A. 9 a.m.", "B. 10 a.m.", "C. 11 a.m.", "D. 2 p.m."],
+    "answer": "C",
+    "analysis": "说话人明确说导览11点开始，选 C。A 是展览开放时间；B、D 文中未提及。"
+  },
+  {
+    "id": "ie-l-008",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "媒体",
+    "stem": "Listening script: 'Submit your essay by Friday; late work will not be accepted.' What happens if you submit on Saturday?",
+    "options": ["A. It receives a penalty", "B. It is not accepted", "C. It gets an extension", "D. It is graded normally"],
+    "answer": "B",
+    "analysis": "文中说周五后提交不予接受，周六属迟到故不被接受，选 B。A 惩罚、C 延期、D 正常评分均与‘will not be accepted’矛盾。"
+  },
+  {
+    "id": "ie-l-009",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "环境",
+    "stem": "Listening script: 'The train departs at 6:45 and the journey takes 90 minutes.' What time does it arrive?",
+    "options": ["A. 7:15", "B. 7:45", "C. 8:15", "D. 8:45"],
+    "answer": "C",
+    "analysis": "6:45出发，行驶90分钟即1.5小时，到达时间为8:15，选 C。A、B 时间计算不足；D 多了半小时。"
+  },
+  {
+    "id": "ie-l-010",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "教育",
+    "stem": "Listening script: 'The course has 12 weeks, with a break in week 7.' How many weeks of teaching are there?",
+    "options": ["A. 11 weeks", "B. 12 weeks", "C. 13 weeks", "D. 6 weeks"],
+    "answer": "A",
+    "analysis": "课程共12周但第7周为休息，实际教学周为12−1=11周，选 A。B 未扣除休息周；C 多算；D 仅算前半错误。"
+  }
+]

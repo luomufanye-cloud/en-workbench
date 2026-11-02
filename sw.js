@@ -1,19 +1,59 @@
-const CACHE='en-wb-v1';
-self.addEventListener('install',e=>{self.skipWaiting();});
-self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
-self.addEventListener('fetch',e=>{
-  const req=e.request;
-  if(req.method!=='GET')return;
-  const url=new URL(req.url);
-  if(url.origin!==self.location.origin)return;
-  // 只缓存同源 GET（HTML/CSS/JS/图标等），不缓存跨域音频
-  e.respondWith(
-    fetch(req).then(res=>{
-      if(res&&res.status===200){
-        const c=res.clone();
-        caches.open(CACHE).then(cache=>cache.put(req,c)).catch(()=>{});
-      }
-      return res;
-    }).catch(()=>caches.match(req).then(m=>m||new Response('offline',{status:503})))
+/* 离线缓存：在线时始终加载最新版，断网时回退到已缓存版本 */
+const CACHE = 'en-workbench-atlas-v4';
+const ASSETS = [
+  './',
+  './index.html',
+  './luomu-logo.svg',
+  './manifest.json',
+  './icon-192.png',
+  './icon-512.png'
+];
+
+self.addEventListener('install', e => {
+  e.waitUntil(
+    caches.open(CACHE)
+      .then(c => c.addAll(ASSETS))
+      .then(() => self.skipWaiting())
   );
+});
+
+self.addEventListener('activate', e => {
+  e.waitUntil(
+    caches.keys()
+      .then(keys => Promise.all(keys.filter(k => k.startsWith('en-workbench-') && k !== CACHE).map(k => caches.delete(k))))
+      .then(() => self.clients.claim())
+  );
+});
+
+function cacheFirst(req){
+  return caches.match(req).then(r => r || fetch(req).then(res => {
+    if (res && res.status === 200 && res.type === 'basic') {
+      const copy = res.clone();
+      caches.open(CACHE).then(c => c.put(req, copy));
+    }
+    return res;
+  }));
+}
+
+function networkFirst(req){
+  return fetch(req).then(res => {
+    if (res && res.status === 200 && res.type === 'basic') {
+      const copy = res.clone();
+      caches.open(CACHE).then(c => c.put(req, copy));
+    }
+    return res;
+  }).catch(() => caches.match(req).then(r => r || (req.mode === 'navigate' ? caches.match('./index.html') : Response.error())));
+}
+
+self.addEventListener('fetch', e => {
+  const url = new URL(e.request.url);
+  if (e.request.method !== 'GET' || url.origin !== self.location.origin) return;
+  if (e.request.mode === 'navigate' ||
+      url.pathname.endsWith('.html') ||
+      url.pathname.endsWith('.js') ||
+      url.pathname.endsWith('manifest.json')) {
+    e.respondWith(networkFirst(e.request));
+  } else {
+    e.respondWith(cacheFirst(e.request));
+  }
 });

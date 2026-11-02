@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "xi-r-001",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'The national carbon tax was introduced in 2019 and applied to all major emitters.' According to the passage, the carbon tax was introduced before 2020.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文明确说明碳税于2019年推出，因此‘在2020年前实施’与文意一致，选 TRUE。FALSE 用于文意相反的情况，而此处时间表述相符。NOT GIVEN 用于文中未提及，本文已提供确切年份，故不适用。"
+  },
+  {
+    "id": "xi-r-002",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Passage excerpt: 'Researchers observed a slight increase in battery efficiency but did not measure long-term degradation.' The study confirmed that the batteries last more than ten years.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "文中只提到效率略有提升且未测量长期衰减，并未给出‘可使用十年以上’的任何结论。因此该陈述属于文中未提及的信息，选 NOT GIVEN。TRUE 需要明确支持，FALSE 需要明确否定，二者均缺乏依据。"
+  },
+  {
+    "id": "xi-r-003",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "Passage excerpt: 'School enrolment rose sharply after the reform, yet dropout rates remained unchanged.' The education reform reduced the number of students leaving school early.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文指出辍学率‘保持不变’，与‘改革降低了早退学生人数’直接矛盾，因此选 FALSE。TRUE 与文意相反；NOT GIVEN 不适用，因为文中已明确说明辍学率未变。"
+  },
+  {
+    "id": "xi-r-004",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Passage excerpt: 'Urban populations grew, and commuting times increased as a result.' The growth of cities caused longer journeys to work.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文用‘as a result’表明通勤时间增加是城市人口增长的结果，因果关系明确，选 TRUE。FALSE 用于否定该关系，NOT GIVEN 用于缺少因果表述，此处均不符合。"
+  },
+  {
+    "id": "xi-r-005",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Passage excerpt: 'Exports fell by 3% while domestic consumption stayed steady.' The country's total economic output declined during the period.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "文中只提到出口下降3%、国内消费平稳，并未说明整体经济产出的变化。整体 GDP 是否下降文中未给出，故选 NOT GIVEN。TRUE 与 FALSE 都需要对总量下结论，而文中信息不足。"
+  },
+  {
+    "id": "xi-r-006",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Passage excerpt: 'The new vaccine showed 90% effectiveness in clinical trials conducted in 2021.' The vaccine was proven safe for children under five.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文仅报告了疫苗在2021年试验中的有效性（90%），并未提及五岁以下儿童的安全性数据。因此该陈述文中未提及，选 NOT GIVEN。TRUE 与 FALSE 都缺乏文本支撑。"
+  },
+  {
+    "id": "xi-r-007",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "Passage excerpt: 'Traditional festivals declined in cities but remained vibrant in rural areas.' City dwellers celebrate traditional festivals more than rural residents.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文明确指出传统节日在城市衰退、在农村依然活跃，二者对比与陈述相反，选 FALSE。TRUE 颠倒了城乡情况；NOT GIVEN 不适用，因为对比信息已经明确给出。"
+  },
+  {
+    "id": "xi-r-008",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Passage excerpt: 'News outlets increased their online presence, though print circulation continued to fall.' The total number of readers across all formats grew.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "文中说明线上影响力增加、纸质发行量下降，但并未给出所有渠道读者总数的变化。整体读者量是否增长无法判断，选 NOT GIVEN。TRUE 与 FALSE 都需要总量结论，文中未提供。"
+  },
+  {
+    "id": "xi-r-009",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'Deforestation slowed after the 2015 ban, but illegal logging persisted.' The 2015 ban completely stopped illegal logging.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文明确说‘非法砍伐仍然存在’，与‘完全阻止’直接矛盾，选 FALSE。TRUE 与文意相反；NOT GIVEN 不适用，因为文中已给出明确相反信息。"
+  },
+  {
+    "id": "xi-r-010",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Passage excerpt: 'The algorithm processed images faster, but its accuracy was no better than previous models.' The new algorithm was more accurate than earlier systems.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文指出新算法准确性‘并不比此前模型更好’，直接否定了‘更准确’的说法，选 FALSE。TRUE 与文意相反；NOT GIVEN 不适用，因为准确性对比已经明确。"
+  },
+  {
+    "id": "xi-r-011",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "Passage excerpt: 'Funding for arts programmes was cut, and science budgets were expanded.' More money was allocated to science than to the arts.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文说明艺术项目经费被削减、科学预算扩大，二者对比支持‘科学拨款多于艺术’，选 TRUE。FALSE 与文意相反；NOT GIVEN 不适用，因为资金方向已明确。"
+  },
+  {
+    "id": "xi-r-012",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Passage excerpt: 'Volunteer numbers doubled, although participation by young people declined.' Most volunteers were under the age of 25.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "文中提到志愿者总数翻倍但年轻人参与下降，并未说明志愿者中多数是否低于25岁。该比例信息文中未提供，选 NOT GIVEN。TRUE 与 FALSE 都需要明确的年龄分布数据。"
+  },
+  {
+    "id": "xi-r-013",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Passage excerpt: 'Inflation reached 5% in 2022, the highest in a decade.' Prices were stable throughout 2022.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文指出2022年通胀达5%、为十年来最高，与‘价格全年稳定’完全矛盾，选 FALSE。TRUE 与文意相反；NOT GIVEN 不适用，因为通胀数据已明确否定稳定。"
+  },
+  {
+    "id": "xi-r-014",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Passage excerpt: 'Exercise reduced stress levels in the study group, but sleep quality was not assessed.' Physical activity improved participants' sleep.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "原文说明锻炼降低了压力，但未评估睡眠质量，因此‘改善睡眠’缺乏文本依据。该结论文中未提及，选 NOT GIVEN。TRUE 需要明确支持，FALSE 需要明确否定，二者均无。"
+  },
+  {
+    "id": "xi-r-015",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "Passage excerpt: 'The museum attracted record visitors after free admission was introduced.' Free entry led to a rise in museum attendance.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文表明免费开放后参观人数创纪录，因果关系清晰，支持‘免费导致参观人数上升’，选 TRUE。FALSE 与文意相反；NOT GIVEN 不适用，因为前后变化已经明确对应。"
+  },
+  {
+    "id": "xi-r-016",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Passage excerpt: 'Social media amplified both accurate and misleading reports during the crisis.' The platform only spread false information.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文说明平台同时放大了准确和误导性信息，与‘只传播虚假信息’直接矛盾，选 FALSE。TRUE 与文意相反；NOT GIVEN 不适用，因为文中已明确否定‘只’这一绝对表述。"
+  },
+  {
+    "id": "xi-r-017",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'Renewable energy supplied 40% of power in 2023, up from 25% a decade earlier.' Solar power alone provided the majority of electricity.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "文中给出可再生能源占比40%，但未说明其中太阳能是否占多数（多数应为超过50%）。太阳能的具体份额文中未提及，选 NOT GIVEN。TRUE 与 FALSE 都缺乏细分数据支撑。"
+  },
+  {
+    "id": "xi-r-018",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Passage excerpt: 'The robot completed the task in half the time of human workers.' The machine performed the job more quickly than people.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文明确说机器人用时为人类的一半，即更快，与陈述一致，选 TRUE。FALSE 与文意相反；NOT GIVEN 不适用，因为速度对比已直接给出。"
+  },
+  {
+    "id": "xi-r-019",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "Passage excerpt: 'Remote learning improved access but lowered test scores in some subjects.' Online education benefited all academic outcomes.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文指出远程学习虽扩大了可及性，但部分科目分数下降，与‘所有学业结果都受益’矛盾，选 FALSE。TRUE 过于绝对且与文意相反；NOT GIVEN 不适用。"
+  },
+  {
+    "id": "xi-r-020",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Passage excerpt: 'The policy aimed to reduce inequality, though its effects were modest.' The policy eliminated the wealth gap.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文称政策效果‘有限’，与‘消除贫富差距’这一绝对结论直接矛盾，选 FALSE。TRUE 夸大效果且相反；NOT GIVEN 不适用，因为文中已明确说明效果有限。"
+  },
+  {
+    "id": "xi-r-021",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Passage excerpt: 'The company expanded abroad while domestic sales stagnated.' International growth compensated for weak home markets.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "文中提到海外扩张、国内销售停滞，但并未说明海外增长是否‘弥补’了国内疲软。弥补这一因果结果文中未给出，选 NOT GIVEN。TRUE 与 FALSE 都缺少明确的补偿关系表述。"
+  },
+  {
+    "id": "xi-r-022",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Passage excerpt: 'Smoking rates fell following the public health campaign.' The campaign caused a decline in smoking.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "A",
+    "analysis": "原文表明控烟宣传后吸烟率下降，时间先后与因果指向一致，支持该陈述，选 TRUE。FALSE 与文意相反；NOT GIVEN 不适用，因为前后变化已对应。"
+  },
+  {
+    "id": "xi-r-023",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "Passage excerpt: 'Immigrants enriched the local cuisine without replacing native dishes.' The arrival of immigrants destroyed traditional food culture.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文说移民丰富了当地饮食且未取代本土菜肴，与‘摧毁传统饮食文化’相反，选 FALSE。TRUE 与文意矛盾；NOT GIVEN 不适用，因为文中已明确否定破坏。"
+  },
+  {
+    "id": "xi-r-024",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Passage excerpt: 'Readers trusted independent outlets more than state-controlled media.' Government media was the most trusted source.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "B",
+    "analysis": "原文指出读者更信任独立媒体而非国家控制的媒体，与‘政府媒体最可信’相反，选 FALSE。TRUE 与文意相反；NOT GIVEN 不适用，因为信任对比已明确。"
+  },
+  {
+    "id": "xi-r-025",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Passage excerpt: 'Coral reefs declined, and ocean temperatures rose during the same period.' Rising sea temperatures damaged the coral.",
+    "options": ["A. TRUE", "B. FALSE", "C. NOT GIVEN"],
+    "answer": "C",
+    "analysis": "文中说明珊瑚礁衰退与海水升温同时发生，但并未断言升温‘导致’了损害。二者因果关系文中未明确，选 NOT GIVEN。TRUE 需要明确的因果表述，FALSE 需要否定因果，文中均未给出。"
+  },
+  {
+    "id": "xi-r-026",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "What is the main purpose of the third paragraph?",
+    "options": ["A. To compare two competing theories", "B. To introduce a new research method", "C. To summarise the previous findings", "D. To criticise government policy"],
+    "answer": "B",
+    "analysis": "第三段描述了研究者采用的一种全新实验手段，核心是介绍新方法，故 B 正确。A 混淆了段落内容，文中并未并列比较两种理论。C 与 D 分别把段落误判为总结或批评，均不符合该段以‘方法’为主的行文。"
+  },
+  {
+    "id": "xi-r-027",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "According to the author, the primary benefit of small class sizes is:",
+    "options": ["A. Lower operational costs", "B. More individual attention", "C. Faster curriculum coverage", "D. Improved discipline records"],
+    "answer": "B",
+    "analysis": "作者强调小班能让教师给予学生更多个性化关注，B 为原文核心观点。A 与事实相反，小班通常成本更高。C 与 D 属于文中未强调或未被支持的推论，属于干扰项。"
+  },
+  {
+    "id": "xi-r-028",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "The writer suggests that reforestation is effective because it:",
+    "options": ["A. Removes carbon from the air", "B. Increases urban density", "C. Reduces rainfall", "D. Replaces fossil fuels"],
+    "answer": "A",
+    "analysis": "文中指出森林通过光合作用吸收大气中的碳，因此重新造林能固碳，A 正确。B 与造林无关；C 与 D 在文中均未作为再造林的作用被提出，属于无依据选项。"
+  },
+  {
+    "id": "xi-r-029",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Which factor is described as the main driver of urban migration?",
+    "options": ["A. Climate change", "B. Better job prospects", "C. Lower housing costs", "D. Improved healthcare"],
+    "answer": "B",
+    "analysis": "文章将‘更好的就业前景’列为人口流向城市的首要原因，B 正确。A 并非文中主因；C 与文意相反，城市住房往往更贵；D 是附带好处而非主要驱动力。"
+  },
+  {
+    "id": "xi-r-030",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "The passage indicates that the tax reform was intended to:",
+    "options": ["A. Protect domestic industries", "B. Encourage foreign investment", "C. Reduce public debt", "D. Simplify the system"],
+    "answer": "D",
+    "analysis": "文中说明改革的目标是简化繁琐的税制，D 符合原意。A、B、C 虽可能是副作用，但均非作者明确指出的改革初衷，属于过度推断的干扰项。"
+  },
+  {
+    "id": "xi-r-031",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "What does the study conclude about Mediterranean diets?",
+    "options": ["A. They prevent all heart disease", "B. They lower certain health risks", "C. They are cheaper than others", "D. They require supplements"],
+    "answer": "B",
+    "analysis": "研究结论为地中海饮食能降低部分健康风险，B 表述严谨且符合原文。A 中‘预防所有’过于绝对，文中未支持。C 与 D 在文中均未提及，是典型干扰项。"
+  },
+  {
+    "id": "xi-r-032",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "The author's attitude toward globalisation is best described as:",
+    "options": ["A. Entirely negative", "B. Cautiously positive", "C. Indifferent", "D. Hostile"],
+    "answer": "B",
+    "analysis": "作者既承认全球化带来的便利，也指出其风险，整体态度是审慎乐观，B 正确。A 与 D 过度负面，C 不符文中细致讨论的立场。"
+  },
+  {
+    "id": "xi-r-033",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Why does the writer mention the 2016 incident?",
+    "options": ["A. To prove a general rule", "B. To illustrate a problem", "C. To introduce the topic", "D. To refute an argument"],
+    "answer": "B",
+    "analysis": "作者引用2016年事件是为了举例说明虚假信息扩散的问题，B 正确。A 夸大了个案的代表性；C 与 D 不符合该例在文中的支撑性作用。"
+  },
+  {
+    "id": "xi-r-034",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "The word 'robust' in line 12 is closest in meaning to:",
+    "options": ["A. Fragile", "B. Complex", "C. Strong", "D. Temporary"],
+    "answer": "C",
+    "analysis": "在语境中‘robust’描述系统可靠、抗干扰，意为‘强健的/稳固的’，C 正确。A 是反义；B 与 D 均不符合该词在文中的技术含义。"
+  },
+  {
+    "id": "xi-r-035",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "What challenge does the programme face?",
+    "options": ["A. Lack of volunteers", "B. Insufficient funding", "C. Poor attendance", "D. Weak curriculum"],
+    "answer": "B",
+    "analysis": "文章将资金不足列为该教育项目面临的主要困难，B 正确。A、C、D 在文中或被否定或未提及，属于干扰项。"
+  },
+  {
+    "id": "xi-r-036",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "The author recommends which action to combat flooding?",
+    "options": ["A. Building higher dams", "B. Restoring wetlands", "C. Relocating cities", "D. Banning agriculture"],
+    "answer": "B",
+    "analysis": "作者主张恢复湿地以自然蓄洪，B 正确。A 只是工程手段且文中未优先推荐；C 与 D 过于极端，文中未提出。"
+  },
+  {
+    "id": "xi-r-037",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "According to the passage, community centres mainly serve to:",
+    "options": ["A. Generate profit", "B. Build social ties", "C. Enforce rules", "D. Provide childcare"],
+    "answer": "B",
+    "analysis": "文中说明社区中心的核心功能是促进社会联结，B 正确。A 与公益性质相悖；C 与 D 是次要或未被强调的作用，属干扰项。"
+  },
+  {
+    "id": "xi-r-038",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "The phrase 'trickle-down effect' in paragraph 4 refers to:",
+    "options": ["A. Rapid inflation", "B. Benefits reaching lower groups", "C. Export decline", "D. Tax evasion"],
+    "answer": "B",
+    "analysis": "‘trickle-down effect’指经济增长的利益逐渐惠及底层群体，B 正确。A、C、D 均与该经济学术语含义无关，是干扰项。"
+  },
+  {
+    "id": "xi-r-039",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "What is identified as the leading cause of the outbreak?",
+    "options": ["A. Poor sanitation", "B. Air travel", "C. Climate shifts", "D. Genetic factors"],
+    "answer": "A",
+    "analysis": "文章将卫生条件差确定为疫情爆发的主因，A 正确。B 与 C 是次要推动因素；D 在文中未被支持，属干扰项。"
+  },
+  {
+    "id": "xi-r-040",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "The passage implies that language loss is driven by:",
+    "options": ["A. Natural disasters", "B. Dominant languages", "C. Reduced population", "D. Religious change"],
+    "answer": "B",
+    "analysis": "文中暗示弱势语言因强势通用语的挤压而消失，B 正确。A、C、D 虽可能影响文化，但并非文中指出的语言流失主因。"
+  },
+  {
+    "id": "xi-r-041",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Which statement best reflects the writer's view of algorithms?",
+    "options": ["A. They are entirely neutral", "B. They need oversight", "C. They replace editors", "D. They reduce bias"],
+    "answer": "B",
+    "analysis": "作者认为推荐算法存在偏见，需要监管，B 正确。A 与文中批判立场相反；C 与 D 均非作者观点，属干扰项。"
+  },
+  {
+    "id": "xi-r-042",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "The study found that automation most affected:",
+    "options": ["A. Creative roles", "B. Routine tasks", "C. Management", "D. Research"],
+    "answer": "B",
+    "analysis": "研究发现自动化主要取代重复性常规工作，B 正确。A、C、D 属难以自动化的岗位，文中说明受冲击较小，是干扰项。"
+  },
+  {
+    "id": "xi-r-043",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "Which heading best matches Paragraph A? Paragraph A discusses the historical background of climate agreements.",
+    "options": ["A. A brief history of accords", "B. Economic impacts", "C. Individual action", "D. Future predictions", "E. Scientific debate", "F. Political resistance", "G. Technological fixes", "H. Public opinion"],
+    "answer": "A",
+    "analysis": "段落A讲述气候协议的历史背景，与标题‘协定的简史’完全对应，A 正确。B 谈经济、C 谈个人行动等均与历史背景无关，属干扰标题。"
+  },
+  {
+    "id": "xi-r-044",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "Which heading best matches Paragraph B? Paragraph B explains how early childhood education improves later outcomes.",
+    "options": ["A. Funding models", "B. Long-term benefits", "C. Teacher training", "D. Curriculum design", "E. Global comparisons", "F. Technology use", "G. Parental role", "H. Assessment methods"],
+    "answer": "B",
+    "analysis": "段落B聚焦早期教育对后续结果的长期益处，标题‘长期收益’最贴切，B 正确。A、C、D 等讨论的是其他维度，与段落主旨不符。"
+  },
+  {
+    "id": "xi-r-045",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "Which heading best matches Paragraph C? Paragraph C warns about privacy risks of smart devices.",
+    "options": ["A. Market growth", "B. Design trends", "C. Privacy concerns", "D. Energy use", "E. Legal frameworks", "F. User habits", "G. Cost reduction", "H. Network speed"],
+    "answer": "C",
+    "analysis": "段落C警告智能设备的隐私风险，标题‘隐私担忧’直接对应，C 正确。A、B、D 等偏离了隐私这一核心议题，是干扰项。"
+  },
+  {
+    "id": "xi-r-046",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "Which heading best matches Paragraph D? Paragraph D describes rising inequality between regions.",
+    "options": ["A. Urban planning", "B. Regional disparities", "C. Migration flows", "D. Healthcare access", "E. Education gaps", "F. Cultural shift", "G. Crime rates", "H. Ageing population"],
+    "answer": "B",
+    "analysis": "段落D描述地区间日益加剧的不平等，标题‘地区差异’最匹配，B 正确。C 谈迁移、D 谈医疗等虽相关但非本段主旨，属干扰。"
+  },
+  {
+    "id": "xi-r-047",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "Which heading best matches Paragraph E? Paragraph E outlines steps to stabilise the currency.",
+    "options": ["A. Trade deficits", "B. Inflation control", "C. Stabilisation measures", "D. Labour markets", "E. Tax reform", "F. Debt crisis", "G. Foreign aid", "H. Banking rules"],
+    "answer": "C",
+    "analysis": "段落E列出稳定货币的步骤，标题‘稳定措施’准确概括，C 正确。B 与 E 虽属经济话题，但本段特指货币稳定而非通胀或税制。"
+  },
+  {
+    "id": "xi-r-048",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "Which heading best matches Paragraph F? Paragraph F reviews evidence on exercise and mental health.",
+    "options": ["A. Diet plans", "B. Exercise and mood", "C. Sleep hygiene", "D. Medical costs", "E. Ageing issues", "F. Vaccine safety", "G. Hospital reform", "H. Genetic risk"],
+    "answer": "B",
+    "analysis": "段落F综述运动与心理健康（情绪）的证据，标题‘运动与情绪’最贴切，B 正确。A、C、D 等偏离运动—心理这一主题，属干扰。"
+  },
+  {
+    "id": "xi-r-049",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "Which heading best matches Paragraph G? Paragraph G examines how films spread cultural values.",
+    "options": ["A. Film and values", "B. Music trends", "C. Literary canon", "D. Sport identity", "E. Food culture", "F. Fashion industry", "G. Religious art", "H. Digital media"],
+    "answer": "A",
+    "analysis": "段落G探讨电影如何传播文化价值，标题‘电影与价值观’直接对应，A 正确。B、C、D 等讨论其他文化载体，与电影主题不符。"
+  },
+  {
+    "id": "xi-r-050",
+    "level": "IELTS",
+    "type": "阅读",
+    "topic": "媒体",
+    "stem": "Which heading best matches Paragraph H? Paragraph H questions the reliability of viral news.",
+    "options": ["A. News production", "B. Trust in viral content", "C. Advertising income", "D. Editorial standards", "E. Audience growth", "F. Platform design", "G. Regulation debate", "H. Local journalism"],
+    "answer": "B",
+    "analysis": "段落H质疑病毒式新闻的可靠性，标题‘对病毒内容的信任’最匹配，B 正确。A、C、D 等讨论新闻业其他方面，未触及可信度质疑。"
+  },
+  {
+    "id": "xi-v-001",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "The word 'mitigate' in the context of climate policy most nearly means:",
+    "options": ["A. worsen", "B. reduce", "C. ignore", "D. analyse"],
+    "answer": "B",
+    "analysis": "‘mitigate’意为‘减轻、缓解’，在气候语境中指减少负面影响，B 正确。A 是反义；C 与 D 不符合该词含义，属干扰项。"
+  },
+  {
+    "id": "xi-v-002",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "Choose the synonym of 'comprehensive' as used in academic texts:",
+    "options": ["A. brief", "B. thorough", "C. optional", "D. confusing"],
+    "answer": "B",
+    "analysis": "‘comprehensive’意为‘全面的、详尽的’，近义词为 thorough，B 正确。A 是反义；C 与 D 不符合词义，属干扰。"
+  },
+  {
+    "id": "xi-v-003",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "In 'the device is obsolete', 'obsolete' means:",
+    "options": ["A. outdated", "B. expensive", "C. reliable", "D. portable"],
+    "answer": "A",
+    "analysis": "‘obsolete’指‘过时、淘汰的’，A 正确。B、C、D 均与该词含义无关，是常见干扰项。"
+  },
+  {
+    "id": "xi-v-004",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "The term 'marginalised' groups refers to those who are:",
+    "options": ["A. wealthy", "B. excluded", "C. educated", "D. organised"],
+    "answer": "B",
+    "analysis": "‘marginalised’意为‘被边缘化的、被排斥的’，B 正确。A 与 C 往往与之相反；D 不符合词义，属干扰。"
+  },
+  {
+    "id": "xi-v-005",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "Select the best definition of 'fluctuate':",
+    "options": ["A. remain constant", "B. vary irregularly", "C. decline sharply", "D. double"],
+    "answer": "B",
+    "analysis": "‘fluctuate’指‘波动、不规则变化’，B 正确。A 是反义；C 与 D 描述具体变化方向，未体现‘波动’本质，属干扰。"
+  },
+  {
+    "id": "xi-v-006",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "'Sedentary' lifestyle is best described as:",
+    "options": ["A. active", "B. inactive", "C. stressful", "D. outdoor"],
+    "answer": "B",
+    "analysis": "‘sedentary’指‘久坐的、缺乏活动的’，B 正确。A 是反义；C 与 D 不描述运动量，属干扰项。"
+  },
+  {
+    "id": "xi-v-007",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "The word 'assimilate' in cultural contexts means to:",
+    "options": ["A. reject", "B. absorb", "C. isolate", "D. preserve"],
+    "answer": "B",
+    "analysis": "‘assimilate’指‘同化、吸收（融入）’，B 正确。A 与 C 是反义方向；D 指保留，与同化相反，属干扰。"
+  },
+  {
+    "id": "xi-v-008",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "媒体",
+    "stem": "A 'biased' report is one that is:",
+    "options": ["A. balanced", "B. partial", "C. accurate", "D. brief"],
+    "answer": "B",
+    "analysis": "‘biased’意为‘有偏见的、不公正的’，对应 partial，B 正确。A 与 C 是反义；D 描述篇幅，与偏见无关，属干扰。"
+  },
+  {
+    "id": "xi-v-009",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "Choose the antonym of 'sustainable':",
+    "options": ["A. renewable", "B. depletable", "C. efficient", "D. natural"],
+    "answer": "B",
+    "analysis": "‘sustainable’意为‘可持续的’，反义词为‘不可再生的/会耗尽的’depletable，B 正确。A 是近义；C 与 D 不构成反义，属干扰。"
+  },
+  {
+    "id": "xi-v-010",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "The phrase 'peer review' refers to evaluation by:",
+    "options": ["A. students", "B. equals", "C. teachers", "D. the public"],
+    "answer": "B",
+    "analysis": "‘peer review’指‘同行评审’，由同等地位的专家评估，B 正确。A、C、D 均不对应‘peer（同侪）’含义，属干扰。"
+  },
+  {
+    "id": "xi-v-011",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "In computing, 'interface' most closely means:",
+    "options": ["A. a connection point", "B. a virus", "C. a battery", "D. a file"],
+    "answer": "A",
+    "analysis": "‘interface’指‘界面、连接点’，A 正确。B、C、D 均为计算机其他部件，与该词无关，属干扰。"
+  },
+  {
+    "id": "xi-v-012",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "The word 'cohesion' in 'social cohesion' means:",
+    "options": ["A. conflict", "B. unity", "C. growth", "D. decline"],
+    "answer": "B",
+    "analysis": "‘cohesion’意为‘凝聚力、团结’，B 正确。A 是反义；C 与 D 描述变化方向，不表达‘凝聚’含义，属干扰。"
+  },
+  {
+    "id": "xi-v-013",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "Select the meaning of 'inflation':",
+    "options": ["A. price rise", "B. unemployment", "C. trade surplus", "D. tax cut"],
+    "answer": "A",
+    "analysis": "‘inflation’指‘通货膨胀、物价普遍上涨’，A 正确。B、C、D 是其他经济现象，不与通胀同义，属干扰。"
+  },
+  {
+    "id": "xi-v-014",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "'Prevalent' in a medical study means:",
+    "options": ["A. rare", "B. widespread", "C. fatal", "D. new"],
+    "answer": "B",
+    "analysis": "‘prevalent’意为‘普遍的、流行的’，B 正确。A 是反义；C 与 D 描述严重程度或新颖性，不表达‘普遍’，属干扰。"
+  },
+  {
+    "id": "xi-v-015",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "The word 'heritage' refers to:",
+    "options": ["A. future plans", "B. inherited tradition", "C. foreign goods", "D. modern art"],
+    "answer": "B",
+    "analysis": "‘heritage’指‘遗产、传承的传统’，B 正确。A 与 D 指向现代或未来；C 指外来物品，均不对应，属干扰。"
+  },
+  {
+    "id": "xi-v-016",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "媒体",
+    "stem": "A 'credible' source is one that is:",
+    "options": ["A. entertaining", "B. believable", "C. popular", "D. free"],
+    "answer": "B",
+    "analysis": "‘credible’意为‘可信的’，对应 believable，B 正确。A、C、D 描述趣味、人气或价格，与可信度无必然联系，属干扰。"
+  },
+  {
+    "id": "xi-v-017",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "'Biodiversity' is best defined as:",
+    "options": ["A. clean air", "B. variety of life", "C. forest area", "D. water supply"],
+    "answer": "B",
+    "analysis": "‘biodiversity’指‘生物多样性’，即生命的丰富种类，B 正确。A、C、D 是环境要素但不等同于生物多样性，属干扰。"
+  },
+  {
+    "id": "xi-v-018",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "The word 'curriculum' means:",
+    "options": ["A. a building", "B. course of study", "C. a teacher", "D. a exam"],
+    "answer": "B",
+    "analysis": "‘curriculum’指‘课程体系、学习计划’，B 正确。A、C、D 均与该词无关，属干扰项。"
+  },
+  {
+    "id": "xi-v-019",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "Choose the meaning of 'algorithm':",
+    "options": ["A. a set of steps", "B. a machine", "C. a language", "D. a network"],
+    "answer": "A",
+    "analysis": "‘algorithm’指‘算法、一套计算步骤’，A 正确。B、C、D 是相关但不同的概念，不定义算法本身，属干扰。"
+  },
+  {
+    "id": "xi-v-020",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "The term 'demographic' relates to:",
+    "options": ["A. population", "B. weather", "C. religion", "D. technology"],
+    "answer": "A",
+    "analysis": "‘demographic’指‘人口统计的’，与 population 相关，A 正确。B、C、D 是其他领域，不对应人口含义，属干扰。"
+  },
+  {
+    "id": "xi-v-021",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "'Subsidy' refers to:",
+    "options": ["A. a tax", "B. financial aid", "C. a loan", "D. a fine"],
+    "answer": "B",
+    "analysis": "‘subsidy’指‘补贴、财政援助’，B 正确。A 与 D 是反向资金流动；C 是需偿还的贷款，与无偿补贴不同，属干扰。"
+  },
+  {
+    "id": "xi-v-022",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "The word 'chronic' describes a condition that is:",
+    "options": ["A. sudden", "B. long-lasting", "C. contagious", "D. minor"],
+    "answer": "B",
+    "analysis": "‘chronic’指‘慢性的、长期的’，B 正确。A 是急性（acute）的反义；C 与 D 不描述病程长短，属干扰。"
+  },
+  {
+    "id": "xi-v-023",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "Select the meaning of 'diversity':",
+    "options": ["A. similarity", "B. variety", "C. conflict", "D. decline"],
+    "answer": "B",
+    "analysis": "‘diversity’意为‘多样性’，对应 variety，B 正确。A 是反义；C 与 D 不表达多样性含义，属干扰。"
+  },
+  {
+    "id": "xi-v-024",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "媒体",
+    "stem": "A 'headline' is:",
+    "options": ["A. the main title", "B. the author", "C. the date", "D. the photo"],
+    "answer": "A",
+    "analysis": "‘headline’指‘标题、大字标题’，A 正确。B、C、D 是新闻其他要素，不对应标题，属干扰。"
+  },
+  {
+    "id": "xi-v-025",
+    "level": "IELTS",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "The word 'emission' in 'carbon emission' means:",
+    "options": ["A. absorption", "B. release", "C. storage", "D. measurement"],
+    "answer": "B",
+    "analysis": "‘emission’指‘排放、释放’，B 正确。A 是吸收，反义；C 与 D 不表达排放动作，属干扰。"
+  },
+  {
+    "id": "xi-g-001",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "教育",
+    "stem": "Choose the grammatically correct sentence:",
+    "options": ["A. The number of students are increasing.", "B. The number of students is increasing.", "C. The number of students be increasing.", "D. The number of students increasing."],
+    "answer": "B",
+    "analysis": "‘the number of + 复数名词’作主语时谓语用单数，因此 B 正确。A 误用复数 are；C 与 D 缺少正确动词形式，属常见主谓一致错误。"
+  },
+  {
+    "id": "xi-g-002",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "科技",
+    "stem": "Select the correct passive form: 'The software ___ by engineers last year.'",
+    "options": ["A. was developed", "B. developed", "C. is developed", "D. has develop"],
+    "answer": "A",
+    "analysis": "句子有时间状语 last year，需用一般过去时被动 was developed，A 正确。B 缺 be 动词；C 时态不符；D 动词形式错误。"
+  },
+  {
+    "id": "xi-g-003",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "环境",
+    "stem": "Choose the correct article usage: '___ Amazon is ___ largest rainforest.'",
+    "options": ["A. The / the", "B. A / a", "C. An / the", "D. The / a"],
+    "answer": "A",
+    "analysis": "专有名词 the Amazon 与最高级前用 the，均须定冠词，A 正确。B、C、D 在冠词选择上违反专有名词与最高级规则。"
+  },
+  {
+    "id": "xi-g-004",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "社会",
+    "stem": "Which sentence uses the present perfect correctly?",
+    "options": ["A. I live here since 2010.", "B. I have lived here since 2010.", "C. I lived here since 2010.", "D. I has lived here since 2010."],
+    "answer": "B",
+    "analysis": "‘since + 时间点’须搭配现在完成时 have lived，B 正确。A 误用一般现在时；C 误用过去时；D 主谓不一致。"
+  },
+  {
+    "id": "xi-g-005",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "经济",
+    "stem": "Choose the correct comparative: 'This policy is ___ than the previous one.'",
+    "options": ["A. effective", "B. more effective", "C. most effective", "D. effectively"],
+    "answer": "B",
+    "analysis": "句中有 than，需用比较级 more effective，B 正确。A 是原级；C 是最高级；D 是副词，均不符合比较结构。"
+  },
+  {
+    "id": "xi-g-006",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "健康",
+    "stem": "Select the correct preposition: 'She suffered ___ a rare disease.'",
+    "options": ["A. from", "B. with", "C. of", "D. by"],
+    "answer": "A",
+    "analysis": "固定搭配 suffer from 表示‘患……病/受……苦’，A 正确。B、C、D 均不与该动词构成规范搭配。"
+  },
+  {
+    "id": "xi-g-007",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "文化",
+    "stem": "Choose the correct relative clause: 'The book ___ I borrowed was fascinating.'",
+    "options": ["A. who", "B. which", "C. whose", "D. what"],
+    "answer": "B",
+    "analysis": "先行词 book 为物，关系代词用 which（或 that），B 正确。A 用于人；C 表所属；D 不引导定语从句。"
+  },
+  {
+    "id": "xi-g-008",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "媒体",
+    "stem": "Which is correctly punctuated?",
+    "options": ["A. The report said, the economy grew.", "B. The report said the economy grew.", "C. The report, said the economy grew.", "D. The report said; the economy grew."],
+    "answer": "B",
+    "analysis": "间接引语后接宾语从句无需逗号，B 正确。A 多余逗号；C 逗号错置；D 误用分号断开自然宾语从句。"
+  },
+  {
+    "id": "xi-g-009",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "环境",
+    "stem": "Choose the correct modal for necessity: 'Visitors ___ wear masks in the lab.'",
+    "options": ["A. must", "B. might", "C. could", "D. would"],
+    "answer": "A",
+    "analysis": "表达强制规定用 must，A 正确。B 与 C 表可能；D 表意愿或假设，均不表达必要性。"
+  },
+  {
+    "id": "xi-g-010",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "教育",
+    "stem": "Select the correct verb form: 'If it rains, the trip ___ cancelled.'",
+    "options": ["A. is", "B. was", "C. will be", "D. has been"],
+    "answer": "C",
+    "analysis": "真实条件句主句用一般将来时 will be，C 正确。A 为现在时；B 过去时；D 现在完成时，均不符主将从现规则。"
+  },
+  {
+    "id": "xi-g-011",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "科技",
+    "stem": "Choose the correct gerund subject: '___ early improves focus.'",
+    "options": ["A. Exercise", "B. To exercising", "C. Exercised", "D. Exercises"],
+    "answer": "A",
+    "analysis": "动名词 exercising 可作主语，但选项中 A 的 Exercise 作名词‘锻炼’亦可作主语且最自然，此处取 A。B 形式错误；C 是过去分词；D 是动词第三人称，均不能作主语。"
+  },
+  {
+    "id": "xi-g-012",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "社会",
+    "stem": "Which sentence is in the passive voice?",
+    "options": ["A. The committee approved the plan.", "B. The plan was approved by the committee.", "C. The committee approves plans.", "D. They approve the plan."],
+    "answer": "B",
+    "analysis": "被动语态结构为 be + 过去分词，B 中 was approved 符合，正确。A、C、D 均为主动语态。"
+  },
+  {
+    "id": "xi-g-013",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "经济",
+    "stem": "Choose the correct quantifier: '___ information was available to the public.'",
+    "options": ["A. Many", "B. Few", "C. Much", "D. Several"],
+    "answer": "C",
+    "analysis": "information 为不可数名词，用 much 修饰，C 正确。A、D 修饰可数复数；B 修饰可数复数且表否定，均不适用。"
+  },
+  {
+    "id": "xi-g-014",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "健康",
+    "stem": "Select the correct tag question: 'They haven't arrived, ___?'",
+    "options": ["A. have they", "B. haven't they", "C. did they", "D. are they"],
+    "answer": "A",
+    "analysis": "前句为否定现在完成时，反义疑问句用肯定 have they，A 正确。B 重复否定错误；C 与 D 动词与时态均不匹配。"
+  },
+  {
+    "id": "xi-g-015",
+    "level": "IELTS",
+    "type": "语法",
+    "topic": "文化",
+    "stem": "Choose the correct conjunction: 'He studied abroad ___ he could learn the language.'",
+    "options": ["A. although", "B. because", "C. unless", "D. despite"],
+    "answer": "B",
+    "analysis": "后句说明目的/原因，用 because 引导原因状语从句，B 正确。A 表转折；C 表条件；D 是介词不能接从句。"
+  },
+  {
+    "id": "xi-w-001",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "环境",
+    "stem": "Task 2: Some people believe that individuals should take responsibility for protecting the environment, while others think governments should lead. Discuss both views and give your opinion.",
+    "answer": "引言：环境危机需多方协作，个人与政府各有角色。主体段1：个人可通过减少消费、垃圾分类等行为产生累积效应。主体段2：政府拥有立法与税收工具，能系统性推动减排与可再生能源。结论：政府应设定框架，个人在框架内尽责，二者互补。",
+    "analysis": "Task Response：双边讨论完整并明确给出个人见解，符合议题要求。Coherence and Cohesion：用清晰段落与连接词（while, consequently）展开逻辑。Lexical Resource：使用 cumulative effect、renewable energy 等学术词汇。Grammatical Range：混合使用条件句与被动语态，句式多样。"
+  },
+  {
+    "id": "xi-w-002",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "教育",
+    "stem": "Task 2: Universities should focus on academic subjects rather than sports and social activities. To what extent do you agree?",
+    "answer": "立场：部分同意，学术为核心但活动不可忽视。主体段1：学术训练奠定专业知识与就业基础。主体段2：体育与社交培养团队协作与心理健康，提升综合竞争力。结论：应以学术为主、活动为辅，平衡发展。",
+    "analysis": "Task Response：明确程度立场并论证，回应题目。Coherence：用让步—转折结构组织，层次分明。Lexical：employability、well-rounded 等用词准确。Grammar：比较级与情态动词使用恰当，错误少。"
+  },
+  {
+    "id": "xi-w-003",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "科技",
+    "stem": "Task 2: Advances in technology have made people less sociable. Do you agree or disagree?",
+    "answer": "立场：不同意，技术改变而非削弱社交。主体段1：社交媒体扩大弱联系，便于跨地域维系关系。主体段2：过度使用可能减少面对面交流，但这是使用方式问题。结论：技术本身中性，关键在于节制与平衡。",
+    "analysis": "Task Response：清晰反驳并区分‘技术’与‘使用方式’，论证有深度。Coherence：对比结构清晰，衔接自然。Lexical：weak ties、face-to-face 等术语贴切。Grammar：从句与对比句式准确。"
+  },
+  {
+    "id": "xi-w-004",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "社会",
+    "stem": "Task 2: The best way to reduce crime is to educate people while they are still young. To what extent do you agree?",
+    "answer": "立场：同意教育是关键但非唯一。主体段1：早期教育提升就业机会，从根源降低犯罪动机。主体段2：仍需警力、司法与社会福利等配套措施。结论：教育优先但须综合治理。",
+    "analysis": "Task Response：给出程度判断并补充其他手段，论证全面。Coherence：主体段并列且结论收束有力。Lexical：root cause、comprehensive governance 等表达学术。Grammar：条件与被动句式多样且正确。"
+  },
+  {
+    "id": "xi-w-005",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "经济",
+    "stem": "Task 2: Some countries are getting richer while others are getting poorer. What problems does this cause and what solutions can you suggest?",
+    "answer": "问题：贫富国差距扩大引发 Migration 压力与全球不稳定。主体段1：富国可通过对债务减免与公平贸易帮助穷国。主体段2：穷国须改善治理与基础设施以吸引投资。结论：国际合作与国内改革双轨并行。",
+    "analysis": "Task Response：问题—解决结构完整，覆盖题目两问。Coherence：问题段与解决段对应清晰。Lexical：debt relief、fair trade 等经济词汇准确。Grammar：因果与建议句型使用得当。"
+  },
+  {
+    "id": "xi-w-006",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "健康",
+    "stem": "Task 2: Some people say the government should pay for public healthcare, while others think individuals should pay. Discuss both views.",
+    "answer": "观点1：政府付费保障公平，使低收入者也能就医。观点2：个人付费可减少浪费并分担财政压力。结论：基本医疗政府兜底，可选服务个人承担，混合模式更佳。",
+    "analysis": "Task Response：双边充分讨论并给出折中方案。Coherence：用 whereas 对比两方，段落过渡顺畅。Lexical：universal coverage、out-of-pocket 等术语准确。Grammar：比较与条件句正确，句式有变化。"
+  },
+  {
+    "id": "xi-w-007",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "文化",
+    "stem": "Task 2: Globalisation threatens local cultures and traditions. To what extent do you agree?",
+    "answer": "立场：部分同意，冲击存在但非必然消亡。主体段1：全球品牌与媒体挤压本土习俗空间。主体段2：许多文化借全球化获得展示与复兴平台。结论：应主动保护并创新传承，而非被动消亡。",
+    "analysis": "Task Response：辩证立场清晰，论证有层次。Coherence：转折结构明确，结论提出对策。Lexical：cultural erosion、revitalisation 等用词高级。Grammar：从句与名词化结构多样。"
+  },
+  {
+    "id": "xi-w-008",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "媒体",
+    "stem": "Task 2: News media have too much influence on people's lives. Do you agree or disagree?",
+    "answer": "立场：同意影响力过大但需规范而非禁止。主体段1：媒体塑造舆论并影响消费与投票行为。主体段2：算法与商业利益可能放大偏见，需透明与监管。结论：保障自由的同时强化媒介素养与问责。",
+    "analysis": "Task Response：明确立场并平衡自由与监管，论证成熟。Coherence：因果与对比展开有序。Lexical：public opinion、media literacy 等表达准确。Grammar：情态动词与被动句运用恰当。"
+  },
+  {
+    "id": "xi-w-009",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "环境",
+    "stem": "Task 2: Many species are at risk of extinction due to human activity. What measures can governments and individuals take?",
+    "answer": "政府：设立保护区、限制开发与打击非法贸易。个人：减少碳足迹、支持可持续产品与环保组织。结论：政策硬约束配合公众意识，方能遏制物种丧失。",
+    "analysis": "Task Response：分别回应政府与个人的措施，覆盖题目。Coherence：分类论述清晰，结论呼应。Lexical：protected areas、carbon footprint 等术语准确。Grammar：并列与条件结构正确。"
+  },
+  {
+    "id": "xi-w-010",
+    "level": "IELTS",
+    "type": "写作",
+    "topic": "教育",
+    "stem": "Task 2: It is better for children to grow up in the countryside than in a big city. To what extent do you agree?",
+    "answer": "立场：不同意绝对化，各有优劣。主体段1：乡村提供更安全自然的环境，利于身心。主体段2：城市拥有更优质教育与文化资源。结论：关键在于家庭与资源质量，而非城乡二元对立。",
+    "analysis": "Task Response：反驳绝对化并给出平衡判断。Coherence：对比结构清晰，结论升华。Lexical：upbringing、access to resources 等用词准确。Grammar：比较级与让步从句使用正确。"
+  },
+  {
+    "id": "xi-l-001",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "教育",
+    "stem": "Listen: 'The lecture begins at half past nine in Room 204.' What time does the lecture start?",
+    "options": ["A. 9:00", "B. 9:30", "C. 10:00", "D. 8:30"],
+    "answer": "B",
+    "analysis": "录音明确说‘half past nine’即9:30，B 正确。A 是整点干扰；C 与 D 为数字混淆项，需抓住 half past 这一关键表达。"
+  },
+  {
+    "id": "xi-l-002",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "环境",
+    "stem": "Listen: 'We should recycle paper, glass, and plastic every week.' Which item is NOT mentioned?",
+    "options": ["A. paper", "B. glass", "C. metal", "D. plastic"],
+    "answer": "C",
+    "analysis": "录音列举了纸、玻璃、塑料，未提及金属，C 正确。A、B、D 均在录音中出现，属排除型细节题，需逐一比对。"
+  },
+  {
+    "id": "xi-l-003",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "社会",
+    "stem": "Listen: 'The museum is closed on Mondays but open from Tuesday to Sunday.' When is it open?",
+    "options": ["A. Monday only", "B. Tuesday to Sunday", "C. weekends only", "D. every day"],
+    "answer": "B",
+    "analysis": "录音说明周一闭馆、周二至周日开放，B 正确。A 与事实相反；C 范围过窄；D 包含闭馆日，均错误。"
+  },
+  {
+    "id": "xi-l-004",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "科技",
+    "stem": "Listen: 'Please submit the assignment via the online portal by Friday.' How should the work be submitted?",
+    "options": ["A. by email", "B. online portal", "C. in person", "D. by post"],
+    "answer": "B",
+    "analysis": "录音明确说通过在线门户提交，B 正确。A、C、D 均为常见提交方式干扰项，需注意听清 via the online portal。"
+  },
+  {
+    "id": "xi-l-005",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "健康",
+    "stem": "Listen: 'The doctor recommended drinking at least two litres of water daily.' What is the minimum daily amount?",
+    "options": ["A. 1 litre", "B. 2 litres", "C. 3 litres", "D. 5 litres"],
+    "answer": "B",
+    "analysis": "录音说‘至少两升’，最低即为2升，B 正确。A 低于要求；C 与 D 高于最低值，属数字干扰，需抓住 at least。"
+  },
+  {
+    "id": "xi-l-006",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "经济",
+    "stem": "Listen: 'The ticket costs fifteen pounds for adults and ten for children.' How much for a child?",
+    "options": ["A. 5", "B. 10", "C. 15", "D. 20"],
+    "answer": "B",
+    "analysis": "录音说明儿童票10英镑，B 正确。A 与 D 为干扰数字；C 是成人票价，需区分 adults 与 children 的对应数值。"
+  },
+  {
+    "id": "xi-l-007",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "文化",
+    "stem": "Listen: 'The festival originated in the 18th century and celebrates the harvest.' When did it start?",
+    "options": ["A. 17th century", "B. 18th century", "C. 19th century", "D. 20th century"],
+    "answer": "B",
+    "analysis": "录音说起源于18世纪，B 正确。A、C、D 为相邻世纪干扰，需准确捕捉序数词 eighteenth。"
+  },
+  {
+    "id": "xi-l-008",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "媒体",
+    "stem": "Listen: 'The interview was broadcast on Radio 4 at eight in the evening.' Which station aired it?",
+    "options": ["A. Radio 2", "B. Radio 4", "C. TV 1", "D. Online only"],
+    "answer": "B",
+    "analysis": "录音明确说在 Radio 4 播出，B 正确。A 是其他电台干扰；C 与 D 未提及，需锁定电台编号。"
+  },
+  {
+    "id": "xi-l-009",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "教育",
+    "stem": "Listen: 'You must bring your student card and a pencil to the exam.' Which is required?",
+    "options": ["A. passport", "B. student card", "C. calculator", "D. textbook"],
+    "answer": "B",
+    "analysis": "录音要求带学生证和铅笔，B 正确。A、C、D 均未在必带清单中，属排除型细节题。"
+  },
+  {
+    "id": "xi-l-010",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "环境",
+    "stem": "Listen: 'The train to the lake departs at quarter past eight.' What is the departure time?",
+    "options": ["A. 8:15", "B. 8:45", "C. 7:45", "D. 9:15"],
+    "answer": "A",
+    "analysis": "录音说‘quarter past eight’即8:15，A 正确。B 是 quarter to 混淆；C 与 D 为数字干扰，需辨清 past 与 to。"
+  },
+  {
+    "id": "xi-l-011",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "社会",
+    "stem": "Listen: 'The meeting was postponed from Wednesday to Thursday.' When is it now?",
+    "options": ["A. Wednesday", "B. Thursday", "C. Tuesday", "D. Friday"],
+    "answer": "B",
+    "analysis": "录音说明会议从周三改到周四，B 正确。A 是原定日干扰；C 与 D 未提及，需抓住 postponed to。"
+  },
+  {
+    "id": "xi-l-012",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "科技",
+    "stem": "Listen: 'The app updates automatically every two weeks.' How often does it update?",
+    "options": ["A. daily", "B. weekly", "C. every two weeks", "D. monthly"],
+    "answer": "C",
+    "analysis": "录音说每两周自动更新，C 正确。A、B、D 频率均不符，需捕捉 every two weeks 这一间隔表达。"
+  },
+  {
+    "id": "xi-l-013",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "健康",
+    "stem": "Listen: 'She felt dizzy and was advised to rest for three days.' How long was the rest?",
+    "options": ["A. 1 day", "B. 2 days", "C. 3 days", "D. 1 week"],
+    "answer": "C",
+    "analysis": "录音建议休息三天，C 正确。A、B 少于建议；D 多于建议，属数字干扰，需锁定 three days。"
+  },
+  {
+    "id": "xi-l-014",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "经济",
+    "stem": "Listen: 'Profits rose by 12% compared with last year.' By how much did profits rise?",
+    "options": ["A. 2%", "B. 12%", "C. 20%", "D. 21%"],
+    "answer": "B",
+    "analysis": "录音说利润上涨12%，B 正确。A 与 C、D 为邻近数字干扰，需准确抓取 twelve percent。"
+  },
+  {
+    "id": "xi-l-015",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "文化",
+    "stem": "Listen: 'The painting was created by a French artist in 1905.' What is the artist's nationality?",
+    "options": ["A. Italian", "B. French", "C. German", "D. Spanish"],
+    "answer": "B",
+    "analysis": "录音说明画家是法国人，B 正确。A、C、D 为其他国籍干扰，需抓住 French 这一形容词。"
+  },
+  {
+    "id": "xi-l-016",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "媒体",
+    "stem": "Listen: 'The article was written by a journalist based in Tokyo.' Where is the writer located?",
+    "options": ["A. London", "B. Tokyo", "C. Paris", "D. New York"],
+    "answer": "B",
+    "analysis": "录音说记者驻东京，B 正确。A、C、D 为其他城市干扰，需锁定 based in Tokyo。"
+  },
+  {
+    "id": "xi-l-017",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "环境",
+    "stem": "Listen: 'We planted over three hundred trees in the park.' Approximately how many trees?",
+    "options": ["A. 30", "B. 300", "C. 3000", "D. 30,000"],
+    "answer": "B",
+    "analysis": "录音说种了三百多棵树，B 正确。A 少一个零；C 与 D 多零，属数量级干扰，需注意 hundred 与 thousand 的区分。"
+  },
+  {
+    "id": "xi-l-018",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "教育",
+    "stem": "Listen: 'The course includes lectures, tutorials, and a final project.' Which is part of the course?",
+    "options": ["A. a field trip", "B. a final project", "C. an exam only", "D. a thesis"],
+    "answer": "B",
+    "analysis": "录音列出课程含讲座、辅导课与期末项目，B 正确。A、C、D 未在列举中，属排除型细节题。"
+  },
+  {
+    "id": "xi-l-019",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "社会",
+    "stem": "Listen: 'The new library will open on the first of June.' When does it open?",
+    "options": ["A. June 1", "B. July 1", "C. May 1", "D. June 11"],
+    "answer": "A",
+    "analysis": "录音说6月1日开放，A 正确。B 与 C 为相邻月份干扰；D 混淆了日期数字，需抓住 first of June。"
+  },
+  {
+    "id": "xi-l-020",
+    "level": "IELTS",
+    "type": "听力",
+    "topic": "科技",
+    "stem": "Listen: 'The device weighs just 250 grams and fits in your pocket.' What is its weight?",
+    "options": ["A. 25 g", "B. 250 g", "C. 2.5 kg", "D. 25 kg"],
+    "answer": "B",
+    "analysis": "录音说明设备仅重250克，B 正确。A 少一个零；C 与 D 为千克级干扰，需注意 gram 与 kilogram 的单位换算。"
+  }
+]

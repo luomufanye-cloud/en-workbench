@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "x6-v-001",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "The government plans to ___ the use of plastic bags in all supermarkets.",
+    "options": [
+      "A. abolish",
+      "B. enhance",
+      "C. maintain",
+      "D. neglect"
+    ],
+    "answer": "A",
+    "analysis": "abolish 意为“废除、取消”，政府禁用塑料袋用 abolish 最贴切。enhance 表示“提升”，与限制使用相悖；maintain 指“维持现状”，neglect 指“忽视、疏于管理”，均不符合政策主动禁止的语境。"
+  },
+  {
+    "id": "x6-v-002",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "Universities should ___ students' ability to think independently rather than memorize facts.",
+    "options": [
+      "A. cultivate",
+      "B. abandon",
+      "C. suppress",
+      "D. postpone"
+    ],
+    "answer": "A",
+    "analysis": "cultivate 意为“培养”，与 ability to think independently 搭配自然。abandon 指“放弃”，suppress 指“压制”，均与教育目标相反；postpone 表示“推迟”，不能接能力培养。"
+  },
+  {
+    "id": "x6-v-003",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "Tech companies must constantly ___ to survive in a fast-changing market.",
+    "options": [
+      "A. innovate",
+      "B. replicate",
+      "C. stagnate",
+      "D. regress"
+    ],
+    "answer": "A",
+    "analysis": "innovate 意为“创新”，符合科技企业持续发展的需要。replicate 指“复制”，stagnate 指“停滞”，regress 指“倒退”，三者均无法帮助企业在快速变化的市场中存活。"
+  },
+  {
+    "id": "x6-v-004",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "New policies aim to ___ poverty in remote mountainous areas.",
+    "options": [
+      "A. alleviate",
+      "B. aggravate",
+      "C. intensify",
+      "D. provoke"
+    ],
+    "answer": "A",
+    "analysis": "alleviate 意为“缓解、减轻”，与 poverty 搭配表示扶贫。aggravate 和 intensify 都表示“加重”，与政策目标相反；provoke 指“激起、引发”，不用于贫困。"
+  },
+  {
+    "id": "x6-v-005",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "House prices tend to ___ depending on interest rates and demand.",
+    "options": [
+      "A. fluctuate",
+      "B. stabilize",
+      "C. solidify",
+      "D. freeze"
+    ],
+    "answer": "A",
+    "analysis": "fluctuate 意为“波动”，准确描述房价随利率和需求上下变化。stabilize 与 solidify 表示“稳定、固化”，freeze 表示“冻结”，均与“depending on”所暗示的不稳定性矛盾。"
+  },
+  {
+    "id": "x6-v-006",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "It is important to ___ traditional crafts before they disappear.",
+    "options": [
+      "A. preserve",
+      "B. discard",
+      "C. abandon",
+      "D. dissolve"
+    ],
+    "answer": "A",
+    "analysis": "preserve 意为“保护、保存”，与 traditional crafts 搭配表达保护传统手艺。discard 与 abandon 表示“丢弃、放弃”，dissolve 指“溶解、解散”，都与原意相反。"
+  },
+  {
+    "id": "x6-v-007",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "His health began to ___ after years of overwork and poor diet.",
+    "options": [
+      "A. deteriorate",
+      "B. improve",
+      "C. recover",
+      "D. strengthen"
+    ],
+    "answer": "A",
+    "analysis": "deteriorate 意为“恶化”，对应 overwork 和 poor diet 带来的负面影响。improve、recover、strengthen 均表示“好转、增强”，与语境中健康下滑的趋势相反。"
+  },
+  {
+    "id": "x6-v-008",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "工作",
+    "stem": "Under pressure from the board, the CEO decided to ___ from his position.",
+    "options": [
+      "A. resign",
+      "B. persist",
+      "C. retain",
+      "D. insist"
+    ],
+    "answer": "A",
+    "analysis": "resign 意为“辞职”，与 from his position 搭配表示辞去职务。persist 和 insist 表示“坚持”，retain 表示“保留”，都不符合压力下离任的语境。"
+  },
+  {
+    "id": "x6-v-009",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "Industrial waste has severely ___ the local river, killing fish stocks.",
+    "options": [
+      "A. contaminated",
+      "B. purified",
+      "C. refreshed",
+      "D. ventilated"
+    ],
+    "answer": "A",
+    "analysis": "contaminate 意为“污染”，与 killing fish stocks 形成因果呼应。purified 与 refreshed 表示“净化、使清新”，ventilated 指“通风”，均与污染致鱼死亡的后果相反。"
+  },
+  {
+    "id": "x6-v-010",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "Children ___ language skills more easily than adults do.",
+    "options": [
+      "A. acquire",
+      "B. require",
+      "C. inquire",
+      "D. expire"
+    ],
+    "answer": "A",
+    "analysis": "acquire 意为“习得、获得”，常用于语言、知识等技能的自然获取。require 表示“需要”，inquire 指“询问”，expire 指“到期”，均不能与 language skills 搭配表达学习。"
+  },
+  {
+    "id": "x6-v-011",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "Many routine jobs are being ___ by artificial intelligence and robotics.",
+    "options": [
+      "A. automated",
+      "B. humanized",
+      "C. randomized",
+      "D. generalized"
+    ],
+    "answer": "A",
+    "analysis": "automated 意为“自动化”，描述 AI 和机器人接管重复性工作。humanized 表示“人性化”，randomized 指“随机化”，generalized 指“概括化”，均不符合技术替代人力的语境。"
+  },
+  {
+    "id": "x6-v-012",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "The law prohibits employers from ___ against workers based on gender.",
+    "options": [
+      "A. discriminating",
+      "B. distinguishing",
+      "C. contributing",
+      "D. distributing"
+    ],
+    "answer": "A",
+    "analysis": "discriminate 意为“歧视”，discriminate against 是固定搭配，指基于性别的不公平对待。distinguish 指“区分”（中性），contribute 指“贡献”，distribute 指“分配”，都不含贬义歧视义。"
+  },
+  {
+    "id": "x6-v-013",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "During the crisis, the cost of living ___ and many families struggled.",
+    "options": [
+      "A. inflated",
+      "B. deflated",
+      "C. declined",
+      "D. shrank"
+    ],
+    "answer": "A",
+    "analysis": "inflate 意为“（使）膨胀、物价上涨”，inflated 描述生活成本上升。deflate、decline、shrink 均表示“下降、缩减”，与 families struggled 的高物价困境相反。"
+  },
+  {
+    "id": "x6-v-014",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "The festival allows younger generations to ___ their ancestors' customs.",
+    "options": [
+      "A. inherit",
+      "B. surrender",
+      "C. forfeit",
+      "D. abandon"
+    ],
+    "answer": "A",
+    "analysis": "inherit 意为“继承”，用于习俗、传统由后代承接。surrender 与 forfeit 表示“放弃、丧失”，abandon 指“遗弃”，都与传承祖先习俗的正面语境相反。"
+  },
+  {
+    "id": "x6-v-015",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "Doctors recommend a daily vitamin ___ to improve immunity.",
+    "options": [
+      "A. supplement",
+      "B. substitute",
+      "C. surplus",
+      "D. substitute"
+    ],
+    "answer": "A",
+    "analysis": "supplement 意为“补充剂”，vitamin supplement 是常见搭配指维生素补剂。substitute 表示“替代品”，surplus 指“过剩”，均不能准确表达日常额外补充营养素之意。"
+  },
+  {
+    "id": "x6-v-016",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "工作",
+    "stem": "Chronic stress can ___ your productivity and damage team morale.",
+    "options": [
+      "A. undermine",
+      "B. enhance",
+      "C. boost",
+      "D. uplift"
+    ],
+    "answer": "A",
+    "analysis": "undermine 意为“逐渐削弱、损害”，描述压力对效率和士气的负面作用。enhance、boost、uplift 均表示“提升、鼓舞”，与负面结果相反。"
+  },
+  {
+    "id": "x6-v-017",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "We must ___ natural resources for future generations instead of wasting them.",
+    "options": [
+      "A. conserve",
+      "B. consume",
+      "C. exhaust",
+      "D. deplete"
+    ],
+    "answer": "A",
+    "analysis": "conserve 意为“节约、保护（资源）”，与 for future generations 呼应。consume、exhaust、deplete 都表示“消耗、耗尽”，与保护资源的意图相反。"
+  },
+  {
+    "id": "x6-v-018",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "A good teacher can ___ students about the wider world beyond textbooks.",
+    "options": [
+      "A. enlighten",
+      "B. confuse",
+      "C. obscure",
+      "D. mislead"
+    ],
+    "answer": "A",
+    "analysis": "enlighten 意为“启发、开导”，指教师帮助学生认识更广阔的世界。confuse 与 obscure 表示“使困惑、使模糊”，mislead 指“误导”，均为负面义，与好老师的形象不符。"
+  },
+  {
+    "id": "x6-v-019",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "Engineers use computer models to ___ how the bridge will behave under stress.",
+    "options": [
+      "A. simulate",
+      "B. calculate",
+      "C. celebrate",
+      "D. accelerate"
+    ],
+    "answer": "A",
+    "analysis": "simulate 意为“模拟”，准确表达用计算机模型仿真桥梁受力情况。calculate 偏“计算具体数值”，celebrate 指“庆祝”，accelerate 指“加速”，都不如 simulate 贴切。"
+  },
+  {
+    "id": "x6-v-020",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "Without support, the elderly may feel ___ and cut off from society.",
+    "options": [
+      "A. marginalized",
+      "B. prioritized",
+      "C. celebrated",
+      "D. integrated"
+    ],
+    "answer": "A",
+    "analysis": "marginalized 意为“被边缘化”，与 cut off from society 呼应，描述老人被社会忽视。prioritized 指“被优先对待”，celebrated 指“被颂扬”，integrated 指“融入”，均与原意相反。"
+  },
+  {
+    "id": "x6-v-021",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "The government agreed to ___ the struggling farmers with direct payments.",
+    "options": [
+      "A. subsidize",
+      "B. tax",
+      "C. fine",
+      "D. penalize"
+    ],
+    "answer": "A",
+    "analysis": "subsidize 意为“补贴、资助”，direct payments 即补贴形式。tax、fine、penalize 都表示“征税、罚款、惩罚”，与帮扶困境中农民的意图相反。"
+  },
+  {
+    "id": "x6-v-022",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "Modern cities are increasingly ___ , with people from many backgrounds living together.",
+    "options": [
+      "A. diverse",
+      "B. uniform",
+      "C. identical",
+      "D. monotonous"
+    ],
+    "answer": "A",
+    "analysis": "diverse 意为“多元的”，与 many backgrounds 对应。uniform、identical、monotonous 都表示“单一、雷同、单调”，与多元共处的描述相反。"
+  },
+  {
+    "id": "x6-v-023",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "Obesity has become ___ among children in developed countries.",
+    "options": [
+      "A. prevalent",
+      "B. rare",
+      "C. scarce",
+      "D. absent"
+    ],
+    "answer": "A",
+    "analysis": "prevalent 意为“普遍的、流行的”，描述儿童肥胖在发达国家的常见程度。rare、scarce、absent 均表示“罕见、缺乏、不存在”，与已成为社会问题的语境相反。"
+  },
+  {
+    "id": "x6-v-024",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "工作",
+    "stem": "A good manager knows how to ___ tasks to team members effectively.",
+    "options": [
+      "A. delegate",
+      "B. monopolize",
+      "C. concentrate",
+      "D. accumulate"
+    ],
+    "answer": "A",
+    "analysis": "delegate 意为“委派、授权”，delegate tasks 是管理常用表达。monopolize 指“垄断”，concentrate 指“集中”，accumulate 指“积累”，都不表达合理分配任务给团队之意。"
+  },
+  {
+    "id": "x6-v-025",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "Reducing carbon ___ is a key goal of the international climate agreement.",
+    "options": [
+      "A. emissions",
+      "B. admissions",
+      "C. omissions",
+      "D. permissions"
+    ],
+    "answer": "A",
+    "analysis": "emissions 意为“排放物”，carbon emissions 是固定用法指碳排放。admissions 指“准许进入”，omissions 指“遗漏”，permissions 指“许可”，拼写相近但语义完全不同。"
+  },
+  {
+    "id": "x6-v-026",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "Language barriers remain a major ___ to cross-cultural communication.",
+    "options": [
+      "A. obstacle",
+      "B. advantage",
+      "C. catalyst",
+      "D. facilitator"
+    ],
+    "answer": "A",
+    "analysis": "obstacle 意为“障碍”，语言障碍阻碍跨文化交流。advantage 指“优势”，catalyst 与 facilitator 都指“促进因素”，均为正面义，与 remains a major 困难语境相反。"
+  },
+  {
+    "id": "x6-v-027",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "As machines take over, many factory workers fear their skills will become ___ .",
+    "options": [
+      "A. redundant",
+      "B. essential",
+      "C. vital",
+      "D. indispensable"
+    ],
+    "answer": "A",
+    "analysis": "redundant 意为“多余的、被淘汰的”，描述技能因自动化而不再被需要。essential、vital、indispensable 都表示“必不可少的”，与工人担忧被取代的语境相反。"
+  },
+  {
+    "id": "x6-v-028",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "社会",
+    "stem": "His ___ answer left everyone unsure of his true position.",
+    "options": [
+      "A. ambiguous",
+      "B. explicit",
+      "C. definite",
+      "D. clear"
+    ],
+    "answer": "A",
+    "analysis": "ambiguous 意为“模棱两可的”，与 left everyone unsure 呼应。explicit、definite、clear 都表示“明确、清晰”，与令人不确定的结果相反。"
+  },
+  {
+    "id": "x6-v-029",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "经济",
+    "stem": "The country is running a large trade ___ , importing far more than it exports.",
+    "options": [
+      "A. deficit",
+      "B. surplus",
+      "C. profit",
+      "D. bonus"
+    ],
+    "answer": "A",
+    "analysis": "deficit 意为“逆差、赤字”，进口大于出口即贸易逆差。surplus 指“顺差、盈余”，profit 与 bonus 指“利润、奖金”，均与进口远超出口的描述相反。"
+  },
+  {
+    "id": "x6-v-030",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "文化",
+    "stem": "The ancient temple is part of our national ___ and must be protected.",
+    "options": [
+      "A. heritage",
+      "B. garbage",
+      "C. burden",
+      "D. liability"
+    ],
+    "answer": "A",
+    "analysis": "heritage 意为“遗产”，national heritage 指国家文化遗产。garbage 指“垃圾”，burden 与 liability 指“负担、债务”，均为贬义，与应受保护的古寺语境相反。"
+  },
+  {
+    "id": "x6-v-031",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "健康",
+    "stem": "Physical ___ such as massage can relieve muscle pain effectively.",
+    "options": [
+      "A. therapy",
+      "B. surgery",
+      "C. injury",
+      "D. trauma"
+    ],
+    "answer": "A",
+    "analysis": "therapy 意为“疗法、治疗”，physical therapy 指物理治疗/按摩疗法。surgery 指“外科手术”，injury 与 trauma 指“受伤、创伤”，按摩属于理疗而非手术或伤害。"
+  },
+  {
+    "id": "x6-v-032",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "工作",
+    "stem": "She showed great ___ in launching the new product without waiting for orders.",
+    "options": [
+      "A. initiative",
+      "B. hesitation",
+      "C. reluctance",
+      "D. passivity"
+    ],
+    "answer": "A",
+    "analysis": "initiative 意为“主动性、首创精神”，主动推出产品体现积极性。hesitation 与 reluctance 表示“犹豫、不情愿”，passivity 指“被动”，均为消极义，与语境相反。"
+  },
+  {
+    "id": "x6-v-033",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "环境",
+    "stem": "___ development seeks to meet today's needs without harming the future.",
+    "options": [
+      "A. Sustainable",
+      "B. Temporary",
+      "C. Destructive",
+      "D. Reckless"
+    ],
+    "answer": "A",
+    "analysis": "sustainable 意为“可持续的”，sustainable development 是固定术语。temporary 指“临时的”，destructive 与 reckless 指“破坏性的、鲁莽的”，都与兼顾未来的理念相反。"
+  },
+  {
+    "id": "x6-v-034",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "教育",
+    "stem": "Improving digital ___ is essential in an age of online information.",
+    "options": [
+      "A. literacy",
+      "B. illiteracy",
+      "C. ignorance",
+      "D. negligence"
+    ],
+    "answer": "A",
+    "analysis": "literacy 意为“素养”，digital literacy 指数字素养。illiteracy 指“文盲”，ignorance 与 negligence 指“无知、疏忽”，均为负面，与提升能力的要求相反。"
+  },
+  {
+    "id": "x6-v-035",
+    "level": "CET6",
+    "type": "词汇",
+    "topic": "科技",
+    "stem": "The ___ meeting allowed colleagues in three countries to attend at once.",
+    "options": [
+      "A. virtual",
+      "B. actual",
+      "C. physical",
+      "D. tangible"
+    ],
+    "answer": "A",
+    "analysis": "virtual 意为“虚拟的”，virtual meeting 指线上虚拟会议。actual、physical、tangible 都表示“实际的、实体的”，与跨国线上参会的虚拟特性相反。"
+  },
+  {
+    "id": "x6-g-001",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Not until the train pulled out ___ that he had left his passport on the seat.",
+    "options": [
+      "A. did he realize",
+      "B. he realized",
+      "C. he did realize",
+      "D. realized he"
+    ],
+    "answer": "A",
+    "analysis": "Not until 位于句首引起主句部分倒装，助动词 did 提前到主语 he 之前。B 未倒装，C 语序错误，D 完全倒装混乱，均不符合否定词前置的倒装规则。"
+  },
+  {
+    "id": "x6-g-002",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "The professor insisted that the report ___ submitted before Friday.",
+    "options": [
+      "A. be",
+      "B. is",
+      "C. was",
+      "D. will be"
+    ],
+    "answer": "A",
+    "analysis": "insist 表示“坚持要求”时，其后的宾语从句用(should)+动词原形的虚拟语气，故用 be。is/was/will be 均为陈述语气，此处表达要求而非事实，故不适用。"
+  },
+  {
+    "id": "x6-g-003",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Scarcely had she finished the speech ___ the audience burst into applause.",
+    "options": [
+      "A. when",
+      "B. than",
+      "C. then",
+      "D. as"
+    ],
+    "answer": "A",
+    "analysis": "scarcely...when... 是固定搭配，表示“一……就……”，且 scarcely 提前用部分倒装。than 常与 no sooner 搭配（no sooner...than），then 与 as 均不用于此结构。"
+  },
+  {
+    "id": "x6-g-004",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "___ hard you try, you cannot please everyone in the office.",
+    "options": [
+      "A. However",
+      "B. Whatever",
+      "C. Whoever",
+      "D. Wherever"
+    ],
+    "answer": "A",
+    "analysis": "However + 形容词/副词 引导让步状语从句，此处 however hard 表示“无论多努力”。whatever 后接名词，whoever 指人，wherever 指地点，均不能修饰 hard 这一副词。"
+  },
+  {
+    "id": "x6-g-005",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Had I known about the traffic jam, I ___ earlier.",
+    "options": [
+      "A. would have left",
+      "B. will leave",
+      "C. left",
+      "D. leave"
+    ],
+    "answer": "A",
+    "analysis": "Had I known 是 if I had known 的倒装，表示与过去事实相反的虚拟条件，主句用 would have done。will leave/leave/left 均为陈述语气，不能用于虚拟结果句。"
+  },
+  {
+    "id": "x6-g-006",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "The committee recommends that the budget ___ cut by ten percent.",
+    "options": [
+      "A. be",
+      "B. is",
+      "C. was",
+      "D. has been"
+    ],
+    "answer": "A",
+    "analysis": "recommend 后的宾语从句需用(should)+动词原形的虚拟语气，故用 be。is/was/has been 为陈述语气，不能表达建议性要求。"
+  },
+  {
+    "id": "x6-g-007",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "It was not the policy but the implementation ___ drew public criticism.",
+    "options": [
+      "A. that",
+      "B. which",
+      "C. what",
+      "D. who"
+    ],
+    "answer": "A",
+    "analysis": "本句是强调句 It was...that... 结构，强调主语 not the policy but the implementation。强调句统一用 that（指人也可用 who，但此处为事物），which/what/who 均不适用。"
+  },
+  {
+    "id": "x6-g-008",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "By the time the rescue team arrived, the villagers ___ for two days.",
+    "options": [
+      "A. had been trapped",
+      "B. have trapped",
+      "C. were trapping",
+      "D. are trapped"
+    ],
+    "answer": "A",
+    "analysis": "by the time + 过去时 表示“到过去某时为止”，主句动作在此之前持续，用过去完成进行时 had been trapped 强调受困两天的持续状态。have trapped 为现在时，were trapping 表主动进行，均错。"
+  },
+  {
+    "id": "x6-g-009",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "The doctor warned him that smoking ___ his recovery from surgery.",
+    "options": [
+      "A. would delay",
+      "B. will delay",
+      "C. delays",
+      "D. delayed"
+    ],
+    "answer": "A",
+    "analysis": "主句 warned 为过去时，宾语从句需用过去将来时 would delay 表示“会延误”。will delay 为一般将来，与主句时态不一致；delays/delayed 不能体现“将会”的含义。"
+  },
+  {
+    "id": "x6-g-010",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Only after the experiment failed ___ the flaw in the design.",
+    "options": [
+      "A. did they notice",
+      "B. they noticed",
+      "C. they did notice",
+      "D. noticed they"
+    ],
+    "answer": "A",
+    "analysis": "Only after 置于句首引起主句部分倒装，助动词 did 提前。B 未倒装，C 语序错误，D 主谓颠倒，均违反 only+状语前置的倒装规则。"
+  },
+  {
+    "id": "x6-g-011",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "She is the only one of the students who ___ awarded the scholarship.",
+    "options": [
+      "A. was",
+      "B. were",
+      "C. have been",
+      "D. are"
+    ],
+    "answer": "A",
+    "analysis": "the only one of + 复数名词 + who 从句，关系代词 who 指代 the only one（单数），谓语动词用单数 was。were/have been/are 为复数，与先行词单数不一致。"
+  },
+  {
+    "id": "x6-g-012",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "So absorbed ___ in the book that he didn't hear the doorbell.",
+    "options": [
+      "A. was he",
+      "B. he was",
+      "C. did he",
+      "D. he did"
+    ],
+    "answer": "A",
+    "analysis": "So + 形容词 置于句首引起主句完全倒装，be 动词 was 提前，故 was he。he was 未倒装，did he 误用助动词（absorbed 是形容词需 be 动词），均错。"
+  },
+  {
+    "id": "x6-g-013",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "I wish I ___ a more useful suggestion at yesterday's meeting.",
+    "options": [
+      "A. had offered",
+      "B. offered",
+      "C. would offer",
+      "D. offer"
+    ],
+    "answer": "A",
+    "analysis": "wish 后接与过去事实相反的愿望用过去完成时 had offered，对应 yesterday's meeting 的过去情境。offered 表与现在相反，would offer/offer 不用于已过去的事。"
+  },
+  {
+    "id": "x6-g-014",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "The novel, ___ in 1999, won the national literature prize.",
+    "options": [
+      "A. published",
+      "B. publishing",
+      "C. being published",
+      "D. to publish"
+    ],
+    "answer": "A",
+    "analysis": "过去分词 published 作后置定语，表示小说“被出版”的被动完成状态。publishing 表主动进行，being published 强调进行中，to publish 表将来，均不符合已完成出版的语境。"
+  },
+  {
+    "id": "x6-g-015",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Despite ___ heavy losses, the company remained optimistic.",
+    "options": [
+      "A. suffering",
+      "B. suffer",
+      "C. to suffer",
+      "D. suffered"
+    ],
+    "answer": "A",
+    "analysis": "despite 是介词，后接动名词 suffering 作宾语。suffer 为动词原形，to suffer 为不定式，suffered 为过去式，均不能直接置于介词后。"
+  },
+  {
+    "id": "x6-g-016",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Neither the manager nor the assistants ___ aware of the error.",
+    "options": [
+      "A. were",
+      "B. was",
+      "C. is",
+      "D. has been"
+    ],
+    "answer": "A",
+    "analysis": "neither...nor... 连接主语时谓语就近一致，靠近 assistants（复数）故用 were。was/is 为单数，has been 单数完成时，均违反了就近原则。"
+  },
+  {
+    "id": "x6-g-017",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Hardly ___ the office when the phone started ringing.",
+    "options": [
+      "A. had he left",
+      "B. he had left",
+      "C. did he leave",
+      "D. he left"
+    ],
+    "answer": "A",
+    "analysis": "Hardly 置于句首引起部分倒装，且 hardly...when 表“刚……就……”，主句用过去完成时 had he left。he had left 未倒装，did he leave 时态错误，he left 未倒装。"
+  },
+  {
+    "id": "x6-g-018",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "The teacher demanded that the assignment ___ on time.",
+    "options": [
+      "A. be finished",
+      "B. is finished",
+      "C. was finished",
+      "D. finishes"
+    ],
+    "answer": "A",
+    "analysis": "demand 后的宾语从句用(should)+动词原形虚拟语气，被动用 be finished。is/was finished 为陈述语气被动，finishes 主动单数，均不符合虚拟要求。"
+  },
+  {
+    "id": "x6-g-019",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "___ from the hill, the village looked peaceful and small.",
+    "options": [
+      "A. Seen",
+      "B. Seeing",
+      "C. To see",
+      "D. See"
+    ],
+    "answer": "A",
+    "analysis": "过去分词 Seen 作状语，主语 the village 与 see 是被动关系（村庄被看）。Seeing 表主动，To see 表目的，See 动词原形不能作状语，均错。"
+  },
+  {
+    "id": "x6-g-020",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "It is essential that every citizen ___ the new regulation.",
+    "options": [
+      "A. know",
+      "B. knows",
+      "C. knew",
+      "D. will know"
+    ],
+    "answer": "A",
+    "analysis": "It is essential that... 从句用(should)+动词原形虚拟语气，故用 know。knows 为单数陈述，knew 过去式，will know 将来时，均不符合虚拟语气要求。"
+  },
+  {
+    "id": "x6-g-021",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "The more you practice, ___ you will become at public speaking.",
+    "options": [
+      "A. the more confident",
+      "B. more confident",
+      "C. the most confident",
+      "D. confident"
+    ],
+    "answer": "A",
+    "analysis": "“the+比较级..., the+比较级...”为固定句型表示“越……越……”，前半有 the more you practice，后半须用 the more confident。B 缺 the，C 用最高级，D 原级，均错。"
+  },
+  {
+    "id": "x6-g-022",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Were it not for your help, I ___ the deadline.",
+    "options": [
+      "A. would have missed",
+      "B. will miss",
+      "C. missed",
+      "D. miss"
+    ],
+    "answer": "A",
+    "analysis": "Were it not for 是 if it were not for 的倒装，表与现在/将来相反虚拟，但语境指已过的截止日期，主句用 would have missed 表示“本会错过”。will/miss/missed 均为陈述语气。"
+  },
+  {
+    "id": "x6-g-023",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "Such ___ his determination that nothing could stop him.",
+    "options": [
+      "A. was",
+      "B. is",
+      "C. has",
+      "D. did"
+    ],
+    "answer": "A",
+    "analysis": "Such 置于句首引起主句完全倒装，正常语序 his determination was such that，倒装为 Such was his determination。is 现在时与后句 could 过去时不一致，has/did 不能接 such 表语。"
+  },
+  {
+    "id": "x6-g-024",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "The students, as well as the teacher, ___ excited about the field trip.",
+    "options": [
+      "A. are",
+      "B. is",
+      "C. was",
+      "D. be"
+    ],
+    "answer": "A",
+    "analysis": "as well as 连接主语时，谓语动词与前面的核心主语一致；核心主语 the students 为复数，故用 are。is/was 为单数，be 为原形，均不符合主谓一致规则。"
+  },
+  {
+    "id": "x6-g-025",
+    "level": "CET6",
+    "type": "语法",
+    "topic": "语法",
+    "stem": "No sooner ___ the building than the fire alarm went off.",
+    "options": [
+      "A. had they entered",
+      "B. they had entered",
+      "C. did they enter",
+      "D. they entered"
+    ],
+    "answer": "A",
+    "analysis": "No sooner 置于句首引起部分倒装，且 no sooner...than 表“刚……就……”，主句用过去完成时 had they entered。they had entered 未倒装，did 时态错误，they entered 未倒装。"
+  },
+  {
+    "id": "x6-r-001",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "阅读以下短文并回答问题。\n\nGlobal biodiversity is declining at an unprecedented rate. A recent UN report warns that one million species face extinction, largely due to habitat loss, climate change, and overexploitation. While conservation efforts have saved some species, scientists argue that piecemeal actions are insufficient. They call for systemic change: reducing consumption, protecting ecosystems, and shifting to renewable energy.\n\nQuestion: What is the main cause of species extinction according to the passage?",
+    "options": [
+      "A. Habitat loss, climate change and overexploitation",
+      "B. Lack of scientific research",
+      "C. Natural evolution processes",
+      "D. Overpopulation of certain species"
+    ],
+    "answer": "A",
+    "analysis": "原文明确提到物种面临灭绝“largely due to habitat loss, climate change, and overexploitation”，对应 A。B 文中未提及研究不足，C 与文意为人为因素相悖，D 过度繁衍并非文中所述原因。"
+  },
+  {
+    "id": "x6-r-002",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "阅读以下短文并回答问题。\n\nArtificial intelligence is reshaping the labor market. A 2024 study found that while AI eliminates some routine jobs, it also creates roles in data analysis and AI supervision. The key challenge is reskilling: workers must learn to collaborate with machines rather than compete against them. Governments and firms are urged to invest in lifelong learning.\n\nQuestion: What is identified as the key challenge brought by AI?",
+    "options": [
+      "A. Reskilling the workforce",
+      "B. Eliminating all routine jobs",
+      "C. Replacing human managers",
+      "D. Reducing corporate investment"
+    ],
+    "answer": "A",
+    "analysis": "短文指出“The key challenge is reskilling”，即劳动力再培训是核心挑战，对应 A。B 表述绝对（AI 也创造岗位），C 文中未提取代管理者，D 与文中呼吁加大投资相反。"
+  },
+  {
+    "id": "x6-r-003",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "阅读以下短文并回答问题。\n\nTraditional exams are increasingly criticized for measuring memorization over understanding. Some universities now use portfolios and peer assessment to evaluate deeper learning. Proponents argue these methods better reflect real-world skills, though critics worry about consistency and fairness across evaluators.\n\nQuestion: Why do proponents favor portfolios and peer assessment?",
+    "options": [
+      "A. They better reflect real-world skills",
+      "B. They are easier to grade",
+      "C. They reduce the need for teachers",
+      "D. They guarantee absolute fairness"
+    ],
+    "answer": "A",
+    "analysis": "原文说支持者认为这些方法“better reflect real-world skills”，对应 A。B 文中未说更易评分，C 与减少教师无关，D 与批评者担忧公平性（fairness）相反，且“保证绝对公平”过于绝对。"
+  },
+  {
+    "id": "x6-r-004",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "阅读以下短文并回答问题。\n\nInflation has cooled from its peak, but central banks remain cautious. Raising interest rates too quickly could stall growth, while acting too slowly risks reigniting prices. Policymakers thus signal a “higher for longer” stance, keeping rates elevated until inflation durably returns to target.\n\nQuestion: What does the “higher for longer” stance mean?",
+    "options": [
+      "A. Keeping interest rates elevated for an extended period",
+      "B. Immediately cutting rates to zero",
+      "C. Abandoning inflation targets",
+      "D. Printing more money"
+    ],
+    "answer": "A",
+    "analysis": "文中解释该立场为“keeping rates elevated until inflation durably returns to target”，即长期维持高利率，对应 A。B 立即降息、C 放弃目标、D 印钞均与谨慎维持高利率相反。"
+  },
+  {
+    "id": "x6-r-005",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "阅读以下短文并回答问题。\n\nRemote work surged during the pandemic and has persisted. Supporters cite flexibility and saved commute time; opponents note isolation and blurred boundaries between work and life. A hybrid model—part office, part home—is emerging as a compromise that balances both sides.\n\nQuestion: What is the hybrid model presented as?",
+    "options": [
+      "A. A compromise balancing flexibility and social contact",
+      "B. A full return to the office",
+      "C. A permanent work-from-home policy",
+      "D. A rejection of remote work"
+    ],
+    "answer": "A",
+    "analysis": "文中称混合模式是“a compromise that balances both sides”，兼顾灵活性与社交联系，对应 A。B 全面返岗、C 永久居家、D 拒绝远程均与“折中”相悖。"
+  },
+  {
+    "id": "x6-r-006",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "阅读以下短文并回答问题。\n\nSleep deprivation is linked to impaired memory, weakened immunity, and higher accident risk. Yet many adults sacrifice sleep for work or screens. Experts recommend consistent schedules and limiting evening screen time, noting that quality matters as much as quantity.\n\nQuestion: According to experts, what matters about sleep?",
+    "options": [
+      "A. Both quality and quantity",
+      "B. Only total hours",
+      "C. Only deep sleep stages",
+      "D. Late-night awakenings"
+    ],
+    "answer": "A",
+    "analysis": "原文明确“quality matters as much as quantity”，即质量与数量同样重要，对应 A。B 仅看时长片面，C 仅深度睡眠文中未强调，D 夜间觉醒是问题而非专家强调的重点。"
+  },
+  {
+    "id": "x6-r-007",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "阅读以下短文并回答问题。\n\nCultural heritage sites face threats from tourism, pollution, and climate change. Digital preservation—3D scanning and virtual tours—offers a way to document and share them without physical damage. However, some argue that digital copies cannot replace the authenticity of experiencing the original.\n\nQuestion: What is a benefit of digital preservation mentioned?",
+    "options": [
+      "A. Documenting sites without physical damage",
+      "B. Replacing original artifacts",
+      "C. Eliminating the need for tourism",
+      "D. Increasing ticket revenue"
+    ],
+    "answer": "A",
+    "analysis": "文中说数字化保存能“document and share them without physical damage”，对应 A。B 与文中“不能替代原作真实性”相反，C 消除旅游需求未提及，D 增加门票收入无关。"
+  },
+  {
+    "id": "x6-r-008",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "工作",
+    "stem": "阅读以下短文并回答问题。\n\nBurnout is rising among young professionals, driven by long hours and constant connectivity. Unlike ordinary fatigue, burnout involves cynicism and a sense of ineffectiveness. Experts suggest setting boundaries, taking real breaks, and seeking support before exhaustion becomes chronic.\n\nQuestion: How does burnout differ from ordinary fatigue?",
+    "options": [
+      "A. It includes cynicism and feeling ineffective",
+      "B. It is cured by more sleep",
+      "C. It only affects older workers",
+      "D. It disappears on weekends"
+    ],
+    "answer": "A",
+    "analysis": "原文指出倦怠“involves cynicism and a sense of ineffectiveness”，区别于普通疲劳，对应 A。B 多睡眠可治愈错误，C 只影响年长者为反，D 周末消失与慢性特征矛盾。"
+  },
+  {
+    "id": "x6-r-009",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "阅读以下短文并回答问题。\n\nCities are experimenting with “15-minute cities,” where daily needs are reachable within a short walk or bike ride. Proponents say this cuts emissions and improves well-being; critics fear it restricts mobility and raises property prices near centers. The concept remains debated.\n\nQuestion: What is a criticism of the 15-minute city concept?",
+    "options": [
+      "A. It may raise property prices near centers",
+      "B. It increases car emissions",
+      "C. It eliminates public transport",
+      "D. It reduces walkable areas"
+    ],
+    "answer": "A",
+    "analysis": "文中批评者担忧“raises property prices near centers”，对应 A。B 与减少排放相反，C 取消公交未提及，D 缩减步行区与理念相反。"
+  },
+  {
+    "id": "x6-r-010",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "阅读以下短文并回答问题。\n\nQuantum computing promises to solve problems impossible for classical machines, such as simulating molecules for drug discovery. But the technology is fragile and error-prone, requiring extreme cooling. Practical, widespread use may still be a decade away despite recent breakthroughs.\n\nQuestion: What is a major obstacle to quantum computing?",
+    "options": [
+      "A. Its fragility and need for extreme cooling",
+      "B. Lack of useful problems",
+      "C. High availability of classical computers",
+      "D. Resistance from drug companies"
+    ],
+    "answer": "A",
+    "analysis": "原文指出该技术“fragile and error-prone, requiring extreme cooling”，对应 A。B 无有用问题错误（文中举了药物例子），C 传统电脑普及不是障碍，D 药企抵制未提及。"
+  },
+  {
+    "id": "x6-r-011",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "阅读以下短文并回答问题。\n\nBilingual children often outperform monolinguals in tasks requiring mental flexibility. Learning two languages seems to strengthen the brain's executive control. However, the advantage is modest and depends on sustained practice in both languages.\n\nQuestion: What strengthens executive control according to the text?",
+    "options": [
+      "A. Learning and using two languages",
+      "B. Starting school earlier",
+      "C. Watching foreign films",
+      "D. Taking memory pills"
+    ],
+    "answer": "A",
+    "analysis": "文中“Learning two languages seems to strengthen the brain's executive control”，对应 A。B 早入学、C 看外语片、D 记忆药丸均未在文中作为原因提及。"
+  },
+  {
+    "id": "x6-r-012",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "阅读以下短文并回答问题。\n\nThe gig economy offers flexibility but leaves workers without benefits or stable income. A growing movement pushes for portable benefits—protections tied to the worker, not the employer. Supporters say this fits modern, fluid careers; skeptics question who funds it.\n\nQuestion: What are “portable benefits” designed to do?",
+    "options": [
+      "A. Attach protections to the worker, not the employer",
+      "B. Increase gig platform profits",
+      "C. Replace full-time employment",
+      "D. Eliminate labor taxes"
+    ],
+    "answer": "A",
+    "analysis": "原文定义 portable benefits 为“protections tied to the worker, not the employer”，对应 A。B 增加平台利润非目的，C 取代全职就业未提，D 取消劳保税无关。"
+  },
+  {
+    "id": "x6-r-013",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "阅读以下短文并回答问题。\n\nMisinformation spreads faster on social media than verified news, partly because false stories evoke stronger emotion. Platforms now use labels and algorithms to slow it, yet critics argue these tools are inconsistent and can be gamed by sophisticated actors.\n\nQuestion: Why does misinformation spread quickly?",
+    "options": [
+      "A. False stories provoke stronger emotion",
+      "B. Platforms promote them for profit",
+      "C. Verified news is banned",
+      "D. Users cannot read"
+    ],
+    "answer": "A",
+    "analysis": "文中“false stories evoke stronger emotion”解释传播快的原因，对应 A。B 平台为盈利推广未提及，C 核实新闻被禁错误，D 用户不会阅读荒谬。"
+  },
+  {
+    "id": "x6-r-014",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "阅读以下短文并回答问题。\n\nRegular exercise lowers the risk of chronic disease, yet only a minority meet guidelines. Barriers include time, cost, and unsafe neighborhoods. Urban design that adds parks and bike lanes can quietly nudge residents toward more activity.\n\nQuestion: How can urban design encourage exercise?",
+    "options": [
+      "A. By adding parks and bike lanes",
+      "B. By banning cars completely",
+      "C. By subsidizing gyms only",
+      "D. By taxing unhealthy food"
+    ],
+    "answer": "A",
+    "analysis": "原文“Urban design that adds parks and bike lanes can nudge residents toward more activity”，对应 A。B 完全禁车过度，C 仅补贴健身房片面，D 对不健康食品征税未提及。"
+  },
+  {
+    "id": "x6-r-015",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "阅读以下短文并回答问题。\n\nIndigenous languages are vanishing at alarming speed; of roughly 7,000 tongues, half may disappear this century. Revival efforts include recording elders and teaching children. Success requires community ownership, not top-down policy alone.\n\nQuestion: What is essential for language revival according to the passage?",
+    "options": [
+      "A. Community ownership of the effort",
+      "B. Government bans on other languages",
+      "C. Foreign tourism",
+      "D. Universal compulsory schooling"
+    ],
+    "answer": "A",
+    "analysis": "文中“Success requires community ownership, not top-down policy alone”，对应 A。B 禁其他语言错误，C 外国旅游未提，D 强制义务教育与社区主导相悖。"
+  },
+  {
+    "id": "x6-r-016",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "工作",
+    "stem": "阅读以下短文并回答问题。\n\nAutomation anxiety is common, but history shows technology also creates new roles. The transition, however, is uneven: workers without adaptable skills bear the cost, while others thrive. Education systems must therefore teach adaptability, not just specific trades.\n\nQuestion: What should education systems teach according to the author?",
+    "options": [
+      "A. Adaptability, not just specific trades",
+      "B. One lifelong trade",
+      "C. How to avoid technology",
+      "D. Only theoretical knowledge"
+    ],
+    "answer": "A",
+    "analysis": "原文“teach adaptability, not just specific trades”，对应 A。B 单一终身行业错误，C 回避技术相反，D 仅理论违背实用适应力。"
+  },
+  {
+    "id": "x6-r-017",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "环境",
+    "stem": "阅读以下短文并回答问题。\n\nPlastic recycling rates remain low because many plastics are hard to sort and reprocess. Chemical recycling, which breaks plastic into basic chemicals, offers hope but is energy-intensive and costly. Until it scales up, reducing use remains the most effective step.\n\nQuestion: What is the most effective current step regarding plastic?",
+    "options": [
+      "A. Reducing plastic use",
+      "B. Chemical recycling everywhere",
+      "C. Banning all packaging",
+      "D. Shipping waste overseas"
+    ],
+    "answer": "A",
+    "analysis": "原文“reducing use remains the most effective step”，对应 A。B 化学回收尚未规模化，C 全面禁包装极端，D 外运废物非解决根本。"
+  },
+  {
+    "id": "x6-r-018",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "阅读以下短文并回答问题。\n\nSocial media algorithms optimize for engagement, often surfacing divisive content because it holds attention. This can polarize public debate. Some researchers propose giving users more control over what the algorithm shows them.\n\nQuestion: Why might algorithms surface divisive content?",
+    "options": [
+      "A. It holds user attention longer",
+      "B. It is always accurate",
+      "C. Regulators require it",
+      "D. It costs less to produce"
+    ],
+    "answer": "A",
+    "analysis": "文中“surfacing divisive content because it holds attention”，对应 A。B 总是准确错误，C 监管者要求未提，D 制作成本低无关。"
+  },
+  {
+    "id": "x6-r-019",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "经济",
+    "stem": "阅读以下短文并回答问题。\n\nA universal basic income (UBI) gives citizens regular cash with no conditions. Pilots show it reduces stress and improves some health outcomes, but critics warn it may discourage work and strain budgets. Its long-term effects remain uncertain.\n\nQuestion: What is a concern critics raise about UBI?",
+    "options": [
+      "A. It may discourage work and strain budgets",
+      "B. It increases bureaucratic control",
+      "C. It only helps the rich",
+      "D. It causes inflation immediately"
+    ],
+    "answer": "A",
+    "analysis": "原文批评者担忧“discourage work and strain budgets”，对应 A。B 增加官僚控制未提，C 只帮富人错误，D 立即引发通胀过度肯定。"
+  },
+  {
+    "id": "x6-r-020",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "社会",
+    "stem": "阅读以下短文并回答问题。\n\nUrban loneliness is rising even as cities grow denser, as weak community ties replace close neighbors. Shared spaces like libraries and community gardens can rebuild connection. Small, frequent interactions matter more than grand events.\n\nQuestion: What helps rebuild community connection in cities?",
+    "options": [
+      "A. Shared spaces like libraries and gardens",
+      "B. Moving to rural areas",
+      "C. Larger crowded events",
+      "D. Avoiding neighbors"
+    ],
+    "answer": "A",
+    "analysis": "文中“Shared spaces like libraries and community gardens can rebuild connection”，对应 A。B 搬到农村与城市语境无关，C 大型拥挤活动不如日常小互动，D 回避邻居相反。"
+  },
+  {
+    "id": "x6-r-021",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "健康",
+    "stem": "阅读以下短文并回答问题。\n\nProcessed food is cheap and convenient but linked to obesity and diabetes. Reforms like clearer labels and taxes on sugary drinks aim to nudge healthier choices. Yet personal education remains crucial, since information alone rarely changes habit.\n\nQuestion: Why is personal education still crucial?",
+    "options": [
+      "A. Information alone rarely changes habit",
+      "B. Labels are illegal",
+      "C. Taxes do not exist",
+      "D. Food is free"
+    ],
+    "answer": "A",
+    "analysis": "原文“personal education remains crucial, since information alone rarely changes habit”，对应 A。B 标签非法错误，C 税不存在错误，D 食物免费荒谬。"
+  },
+  {
+    "id": "x6-r-022",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "文化",
+    "stem": "阅读以下短文并回答问题。\n\nMuseums are shifting from passive display to active engagement, using apps and interactive exhibits. This attracts younger visitors but raises questions about depth versus entertainment. Curators must balance fun with substance.\n\nQuestion: What challenge do museums face with interactive exhibits?",
+    "options": [
+      "A. Balancing fun with educational substance",
+      "B. Running out of artifacts",
+      "C. Banning smartphones",
+      "D. Losing older visitors entirely"
+    ],
+    "answer": "A",
+    "analysis": "文中“raises questions about depth versus entertainment”及“balance fun with substance”，对应 A。B 文物耗尽未提，C 禁手机相反，D 完全失去老年观众过度。"
+  },
+  {
+    "id": "x6-r-023",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "工作",
+    "stem": "阅读以下短文并回答问题。\n\nFour-day work weeks, tested in several countries, show maintained or improved productivity with better well-being. Skeptics note results vary by industry and that some roles cannot compress hours. Wider adoption needs careful design.\n\nQuestion: What is a limitation of the four-day week?",
+    "options": [
+      "A. Some roles cannot compress hours",
+      "B. It always lowers output",
+      "C. Workers quit more",
+      "D. It requires no planning"
+    ],
+    "answer": "A",
+    "analysis": "原文“some roles cannot compress hours”说明局限，对应 A。B 总是降低产出与文中产出维持/提升相反，C 离职增多未提，D 无需规划错误。"
+  },
+  {
+    "id": "x6-r-024",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "科技",
+    "stem": "阅读以下短文并回答问题。\n\nFacial recognition aids security but sparks privacy fears, as databases can be misused or hacked. Regulations in some regions now require consent and limit retention. The debate pits safety against civil liberty.\n\nQuestion: What privacy concern does facial recognition raise?",
+    "options": [
+      "A. Databases can be misused or hacked",
+      "B. It is too expensive",
+      "C. It never works",
+      "D. It replaces passwords"
+    ],
+    "answer": "A",
+    "analysis": "文中“databases can be misused or hacked”是隐私担忧，对应 A。B 太贵未提，C 从不奏效错误，D 取代密码非隐私担忧。"
+  },
+  {
+    "id": "x6-r-025",
+    "level": "CET6",
+    "type": "阅读",
+    "topic": "教育",
+    "stem": "阅读以下短文并回答问题。\n\nCritical thinking—questioning assumptions and weighing evidence—is now seen as core to education, beyond rote knowledge. Schools increasingly use debates and case studies. Yet standardized tests still reward memory, creating tension between goals and measurement.\n\nQuestion: What tension exists in education today?",
+    "options": [
+      "A. Goals of critical thinking versus memory-based tests",
+      "B. Too few teachers",
+      "C. No use of technology",
+      "D. Banning of debates"
+    ],
+    "answer": "A",
+    "analysis": "文中“creating tension between goals and measurement”，目标（批判思维）与测验（记忆）冲突，对应 A。B 教师少未提，C 不用科技相反，D 禁辩论错误。"
+  },
+  {
+    "id": "x6-c-001",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "社会",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nModern cities depend on complex systems that most citizens never (1)___. When one system fails, others can collapse in a chain reaction. Resilience, therefore, means designing with failure in (2)___, not assuming perfect operation. Planners who (3)___ this lesson build cities that recover faster.",
+    "options": [
+      "A. notice / mind / learn",
+      "B. notice / mind / ignore",
+      "C. ignore / body / learn",
+      "D. create / mind / learn"
+    ],
+    "answer": "A",
+    "analysis": "第1空 citizens never notice（从不留意）符合“依赖复杂系统却无感知”；第2空 in mind 是固定搭配“考虑到”；第3空 learn this lesson（吸取教训）语义通顺。B 的 ignore 第3空矛盾，C 的 ignore/in body 错，D 的 create 第1空不符。"
+  },
+  {
+    "id": "x6-c-002",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "环境",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nClimate adaptation is no longer optional. Coastal towns must (1)___ rising seas by building barriers or relocating. The cost is high, yet in(2)___ is the price of doing nothing. Communities that plan early suffer (3)___ losses later.",
+    "options": [
+      "A. confront / action / fewer",
+      "B. confront / action / more",
+      "C. ignore / action / fewer",
+      "D. confront / silence / fewer"
+    ],
+    "answer": "A",
+    "analysis": "第1空 confront（应对）海平面上升；第2空 in action 意为“采取行动”，与“无所作为的代价”对应；第3空 early planning 带来 fewer losses（更少损失）。B 的 more 与早规划益处相反，C 的 ignore 矛盾，D 的 silence 不构成固定搭配。"
+  },
+  {
+    "id": "x6-c-003",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "科技",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nAlgorithms shape what we see, yet they are not (1)___. They reflect the choices of their designers and the data they were (2)___ on. Understanding this helps users stay (3)___ rather than passive consumers of information.",
+    "options": [
+      "A. neutral / trained / critical",
+      "B. neutral / trained / passive",
+      "C. biased / built / critical",
+      "D. neutral / ignored / critical"
+    ],
+    "answer": "A",
+    "analysis": "第1空 neutral（中立）与后文“反映设计者选择”形成对比，说明算法并非中立；第2空 trained on data 是机器学习固定搭配；第3空 stay critical（保持批判性）呼应而非被动。B 的 passive 与 rather than passive 矛盾，C 的 biased 与 not 冲突，D 的 ignored 语义错。"
+  },
+  {
+    "id": "x6-c-004",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "教育",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nGood teaching is not about (1)___ facts but inspiring curiosity. Students remember lessons that (2)___ them emotionally long after they forget details. A teacher's warmth can (3)___ a lifelong love of learning.",
+    "options": [
+      "A. dumping / move / spark",
+      "B. sharing / move / spark",
+      "C. dumping / bore / spark",
+      "D. dumping / move / kill"
+    ],
+    "answer": "A",
+    "analysis": "第1空 dump facts（灌输事实）与 inspire curiosity 对比；第2空 move them emotionally（情感上打动）符合记忆规律；第3空 spark（激发）热爱。B 的 sharing 语气过中性不如 dump 形成对比，C 的 bore 与记住矛盾，D 的 kill 与热爱相反。"
+  },
+  {
+    "id": "x6-c-005",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "经济",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nSmall businesses are the (1)___ of local economies, yet they struggle to access credit. When banks (2)___, community lenders often step in. Supporting them is not charity but a (3)___ for shared prosperity.",
+    "options": [
+      "A. backbone / retreat / investment",
+      "B. backbone / advance / investment",
+      "C. burden / retreat / waste",
+      "D. backbone / retreat / loss"
+    ],
+    "answer": "A",
+    "analysis": "第1空 backbone（支柱）比喻小企业的核心作用；第2空 retreat（退缩）指银行收紧信贷；第3空 investment（投资）对应 shared prosperity。B 的 advance 与挣扎语境相反，C 的 burden/waste 贬义不符，D 的 loss 与繁荣投资矛盾。"
+  },
+  {
+    "id": "x6-c-006",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "健康",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nStress is not always (1)___; mild pressure can sharpen focus. The problem arises when it becomes (2)___ and unrelenting, (3)___ both body and mind over time.",
+    "options": [
+      "A. harmful / chronic / draining",
+      "B. harmful / brief / draining",
+      "C. helpful / chronic / draining",
+      "D. harmful / chronic / restoring"
+    ],
+    "answer": "A",
+    "analysis": "第1空 harmful 与后文“适度压力有益”形成 not always harmful；第2空 chronic（慢性的、长期的）对应 unrelenting；第3空 draining（消耗）符合长期压力后果。B 的 brief 与 unrelenting 矛盾，C 的 helpful 与 not always 冲突，D 的 restoring 语义相反。"
+  },
+  {
+    "id": "x6-c-007",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "文化",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nFestivals (1)___ a community's values and history. They are not mere entertainment but moments when identity is (2)___ across generations. Losing them means losing a (3)___ to the past.",
+    "options": [
+      "A. reflect / passed / link",
+      "B. reflect / passed / break",
+      "C. hide / passed / link",
+      "D. reflect / forgotten / link"
+    ],
+    "answer": "A",
+    "analysis": "第1空 reflect（反映）价值观与历史；第2空 passed across generations（代代相传）固定搭配；第3空 link（联系）通往过去。B 的 break 与传承相反，C 的 hide 矛盾，D 的 forgotten 与传递冲突。"
+  },
+  {
+    "id": "x6-c-008",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "工作",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nTrust is earned slowly and lost quickly at work. A leader who (1)___ credit to the team builds loyalty, while one who (2)___ it breeds resentment. Culture is shaped less by slogans than by (3)___ behavior.",
+    "options": [
+      "A. shares / hoards / daily",
+      "B. shares / shares / daily",
+      "C. hoards / hoards / daily",
+      "D. shares / hoards / rare"
+    ],
+    "answer": "A",
+    "analysis": "第1空 shares credit（分享功劳）建立忠诚；第2空 hoards（独占）引发怨恨，与 shares 形成对比；第3空 daily behavior（日常行为）比口号更重要。B 的 shares 第二空矛盾，C 全 hoards 与第一空逻辑反，D 的 rare 与“日常塑造”不符。"
+  },
+  {
+    "id": "x6-c-009",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "环境",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nUrban trees do more than (1)___ streets; they cool cities and absorb noise. Yet many are planted without (2)___ for their mature size, leading to cracked sidewalks. Planning with foresight (3)___ such problems.",
+    "options": [
+      "A. decorate / regard / prevents",
+      "B. decorate / regard / causes",
+      "C. darken / regard / prevents",
+      "D. decorate / neglect / prevents"
+    ],
+    "answer": "A",
+    "analysis": "第1空 decorate（美化）街道；第2空 without regard for（不顾及）成熟尺寸；第3空 prevents（预防）问题。B 的 causes 与有远见规划矛盾，C 的 darken 语义错，D 的 neglect 与 without regard 重复且不当。"
+  },
+  {
+    "id": "x6-c-010",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "科技",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nData is often called the new oil, but unlike oil it is (1)___ through use. More data can improve a model, yet (2)___ data can mislead it. Quality, not (3)___, decides value.",
+    "options": [
+      "A. enriched / biased / quantity",
+      "B. enriched / clean / quantity",
+      "C. depleted / biased / quantity",
+      "D. enriched / biased / quality"
+    ],
+    "answer": "A",
+    "analysis": "第1空 enriched（被丰富）对应“越用越多”区别于石油消耗；第2空 biased（有偏的）数据会误导；第3空 quality not quantity（质量而非数量）点题。B 的 clean 与 mislead 矛盾，C 的 depleted 与数据特性相反，D 的 quality 与 not 冲突。"
+  },
+  {
+    "id": "x6-c-011",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "社会",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nEmpathy declines when people interact mainly through screens. A (1)___ smile or a hesitant voice carries meaning texts cannot. Rebuilding face-to-face habits is (2)___ but (3)___ for healthy communities.",
+    "options": [
+      "A. genuine / hard / essential",
+      "B. genuine / easy / essential",
+      "C. fake / hard / essential",
+      "D. genuine / hard / optional"
+    ],
+    "answer": "A",
+    "analysis": "第1空 genuine（真诚的）微笑承载文本没有的意义；第2空 hard（困难）重建习惯；第3空 essential（必要）对健康社区。B 的 easy 与现实矛盾，C 的 fake 与真诚相反，D 的 optional 与 essential 冲突。"
+  },
+  {
+    "id": "x6-c-012",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "经济",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nInflation erodes savings, (1)___ those on fixed incomes most. Central banks raise rates to (2)___ it, but that can slow hiring. Policymaking is a (3)___ of trade-offs.",
+    "options": [
+      "A. hitting / curb / series",
+      "B. hitting / fuel / series",
+      "C. sparing / curb / series",
+      "D. hitting / curb / lack"
+    ],
+    "answer": "A",
+    "analysis": "第1空 hitting（打击）固定收入者最甚；第2空 curb（遏制）通胀；第3空 a series of trade-offs（一系列权衡）。B 的 fuel 与遏制相反，C 的 sparing（豁免）与 most 矛盾，D 的 lack 与权衡现实不符。"
+  },
+  {
+    "id": "x6-c-013",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "教育",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nChildren learn language by (1)___, not by studying rules first. They (2)___ patterns from context long before they can name them. Formal instruction later (3)___ what intuition already built.",
+    "options": [
+      "A. immersion / absorb / refines",
+      "B. immersion / reject / refines",
+      "C. isolation / absorb / refines",
+      "D. immersion / absorb / destroys"
+    ],
+    "answer": "A",
+    "analysis": "第1空 immersion（沉浸）习得语言；第2空 absorb（吸收）语境中的模式；第3空 refines（精炼）直觉已建立的东西。B 的 reject 矛盾，C 的 isolation 与沉浸式相反，D 的 destroys 与 refine 冲突。"
+  },
+  {
+    "id": "x6-c-014",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "健康",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nSleep is when the brain (1)___ the day's memories. Skipping it (2)___ learning and mood. Prioritizing rest is not laziness but a (3)___ of performance.",
+    "options": [
+      "A. consolidates / impairs / foundation",
+      "B. consolidates / improves / foundation",
+      "C. erases / impairs / foundation",
+      "D. consolidates / impairs / luxury"
+    ],
+    "answer": "A",
+    "analysis": "第1空 consolidates（巩固）记忆是睡眠功能；第2空 impairs（损害）学习与情绪；第3空 foundation（基础）而非奢侈。B 的 improves 与 skipping 负面矛盾，C 的 erases 错误，D 的 luxury 与基础重要性相反。"
+  },
+  {
+    "id": "x6-c-015",
+    "level": "CET6",
+    "type": "完形",
+    "topic": "文化",
+    "stem": "完形填空：阅读短文，选择最合适的词。\n\nTranslation is more than swapping words; it (1)___ meaning across cultures. A skilled translator (2)___ nuance that a machine may miss, (3)___ the author's intent faithfully.",
+    "options": [
+      "A. carries / preserves / conveying",
+      "B. carries / distorts / conveying",
+      "C. loses / preserves / conveying",
+      "D. carries / preserves / hiding"
+    ],
+    "answer": "A",
+    "analysis": "第1空 carries（传递）意义跨越文化；第2空 preserves（保留）机器可能遗漏的细微差别；第3空 conveying（传达）作者意图。B 的 distorts 与 faithfully 矛盾，C 的 loses 与传递相反，D 的 hiding 冲突。"
+  },
+  {
+    "id": "x6-t-001",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "文化",
+    "stem": "请将下列句子翻译成英文：随着 globalization 的深入，保护非物质文化遗产已成为国际社会共同关注的议题。",
+    "answer": "With the deepening of globalization, protecting intangible cultural heritage has become a shared concern of the international community.",
+    "analysis": "核心结构为“With the deepening of...，主句 has become...”。“非物质文化遗产”固定译法 intangible cultural heritage；“共同关注的议题”译为 a shared concern。注意用现在完成时体现“已成为”的当前状态，避免逐字直译。"
+  },
+  {
+    "id": "x6-t-002",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "环境",
+    "stem": "请将下列句子翻译成英文：只有采取紧急且协调一致的行动，我们才能遏制气候变化带来的灾难性后果。",
+    "answer": "Only by taking urgent and coordinated action can we curb the catastrophic consequences brought by climate change.",
+    "analysis": "“Only by + 动名词”置于句首引起部分倒装，主句用 can we...。关键词：coordinated action（协调一致的行动），curb（遏制），catastrophic consequences（灾难性后果）。倒装是得分点，需把 can 提至主语 we 前。"
+  },
+  {
+    "id": "x6-t-003",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "教育",
+    "stem": "请将下列句子翻译成英文：研究表明，批判性思维能力的培养应贯穿于基础教育的各个阶段。",
+    "answer": "Research shows that the cultivation of critical thinking should run through every stage of basic education.",
+    "analysis": "主干“Research shows that...”后接宾语从句。“批判性思维能力的培养”译为 the cultivation of critical thinking；“贯穿于”用 run through 或 be integrated into 均可；“各个阶段”为 every stage。注意 that 从句用 should + 动词原形表建议性常态。"
+  },
+  {
+    "id": "x6-t-004",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "科技",
+    "stem": "请将下列句子翻译成英文：人工智能的迅速发展既创造了新的就业机会，也对传统行业构成了前所未有的挑战。",
+    "answer": "The rapid development of artificial intelligence has both created new job opportunities and posed unprecedented challenges to traditional industries.",
+    "analysis": "结构“...has both created...and posed...”并列谓语。“前所未有的”用 unprecedented；“对……构成挑战”为 pose challenges to。注意现在完成时 has 体现对当下的持续影响，both...and... 连接两个动宾结构保持平行。"
+  },
+  {
+    "id": "x6-t-005",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "经济",
+    "stem": "请将下列句子翻译成英文：尽管面临诸多困难，该公司仍致力于拓展海外市场以提升竞争力。",
+    "answer": "Despite many difficulties, the company remains committed to expanding overseas markets to enhance its competitiveness.",
+    "analysis": "“尽管”用 Despite + 名词短语（many difficulties）或 Although 从句。“致力于”译为 remain committed to（to 为介词，后接动名词 expanding）；“拓展海外市场”expanding overseas markets；“以提升”用不定式 to enhance 表目的。注意 committed to 后须接 -ing。"
+  },
+  {
+    "id": "x6-t-006",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "社会",
+    "stem": "请将下列句子翻译成英文：城市化进程中，如何平衡经济发展与公共服务供给，是各国政府必须面对的难题。",
+    "answer": "In the process of urbanization, how to balance economic development with the provision of public services is a challenge that governments of all countries must face.",
+    "analysis": "主语为 how to 不定式短语，“平衡……与……”用 balance A with B；“公共服务供给”译为 the provision of public services；“必须面对的难题”用 a challenge that...must face 定语从句。注意 urbanization 与 provision 等名词化表达更正式。"
+  },
+  {
+    "id": "x6-t-007",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "健康",
+    "stem": "请将下列句子翻译成英文：规律的体育锻炼不仅有助于预防慢性疾病，还能显著改善人们的心理健康。",
+    "answer": "Regular physical exercise not only helps prevent chronic diseases but also significantly improves people's mental health.",
+    "analysis": "结构“not only...but also...”连接并列谓语。“预防慢性疾病”prevent chronic diseases（help 后接动词原形）；“显著改善”significantly improve；“心理健康”mental health。注意 not only 与 but also 后语法成分须平行（均为动词短语）。"
+  },
+  {
+    "id": "x6-t-008",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "工作",
+    "stem": "请将下列句子翻译成英文：越来越多的年轻人倾向于选择能够兼顾工作与生活平衡的职业。",
+    "answer": "A growing number of young people tend to choose careers that allow them to balance work and life.",
+    "analysis": "“越来越多”译为 A growing number of；“倾向于”tend to；“兼顾……平衡”balance work and life；“能够……”用 that 引导定语从句修饰 careers。注意 tend to 后接动词原形 choose，定语从句谓语 allow 与 careers 复数一致。"
+  },
+  {
+    "id": "x6-t-009",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "环境",
+    "stem": "请将下列句子翻译成英文：为了实现可持续发展，我们必须转变过度依赖化石燃料的能源消费模式。",
+    "answer": "To achieve sustainable development, we must transform the energy consumption pattern that overly relies on fossil fuels.",
+    "analysis": "“为了实现”用 To achieve 不定式表目的；“转变”transform；“过度依赖”overly rely on 或 excessive reliance on；“化石燃料”fossil fuels。注意 sustainable development 为固定术语，定语从句 that relies on 修饰 pattern 保持单数与 pattern 一致。"
+  },
+  {
+    "id": "x6-t-010",
+    "level": "CET6",
+    "type": "翻译",
+    "topic": "文化",
+    "stem": "请将下列句子翻译成英文：这部纪录片生动地展现了传统手工艺人在现代社会中所面临的困境与坚持。",
+    "answer": "This documentary vividly depicts the dilemmas and perseverance faced by traditional craftsmen in modern society.",
+    "analysis": "主干“This documentary depicts...”。“生动地”vividly；“展现”用 depicts 或 portrays；“困境与坚持”译为 dilemmas and perseverance（抽象名词并列）；“面临”用 faced by 过去分词作后置定语。注意 craftsmen 为 craftsman 复数，perseverance 不可数。"
+  },
+  {
+    "id": "x6-l-001",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "工作",
+    "stem": "听力理解（对话）：男：The deadline for the project is next Monday. 女：But we're still waiting for the client's feedback. 男：Then we'd better prioritize the report section. 问题：What will they likely do next?",
+    "answer": "They will focus on completing the report section first while awaiting client feedback.",
+    "analysis": "对话核心：项目周一截止但仍在等客户反馈，男方建议 prioritize the report section（优先做报告部分）。听力要点是捕捉“prioritize”与“waiting for feedback”的因果关系，推断下一步是先把能做的报告部分搞定，而非空等客户。"
+  },
+  {
+    "id": "x6-l-002",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "环境",
+    "stem": "听力理解（独白）：The city council voted to ban single-use plastics from next year. Restaurants must switch to biodegradable packaging. Fines will apply to violators. 问题：What is required of restaurants?",
+    "answer": "Restaurants must switch to biodegradable packaging and face fines if they violate the ban.",
+    "analysis": "独白关键信息：council 投票明年禁一次性塑料，餐馆必须改用 biodegradable packaging（可降解包装），违规罚款。听力重点为捕捉 must switch to 与 fines 两个义务性信息，避免把“ban”误听为仅限消费者。"
+  },
+  {
+    "id": "x6-l-003",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "教育",
+    "stem": "听力理解（对话）：女：I failed the history exam again. 男：Maybe you should try group study instead of reading alone. 女：Good idea, I'll join the study group. 问题：What advice does the man give?",
+    "answer": "He suggests trying group study rather than studying alone.",
+    "analysis": "对话中男方建议“try group study instead of reading alone”，女方接受。听力要点是识别建议句型 should + try...instead of...，区分建议内容与女方原本行为（alone reading），答案须体现 group study 与 alone 的对比。"
+  },
+  {
+    "id": "x6-l-004",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "经济",
+    "stem": "听力理解（新闻）：The central bank raised its key interest rate by 0.5 percent to combat inflation. Economists say further hikes are possible if prices keep rising. 问题：Why did the central bank raise rates?",
+    "answer": "To combat inflation, with possible further hikes if prices keep rising.",
+    "analysis": "新闻要点：央行加息 0.5% 是为 combat inflation（对抗通胀）；经济学家称若物价继续涨可能 further hikes。听力关键是捕捉目的状语 to combat 与条件句 if prices keep rising，避免把“further hikes”当作已决定事项。"
+  },
+  {
+    "id": "x6-l-005",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "科技",
+    "stem": "听力理解（对话）：男：My phone's battery dies in two hours. 女：Have you tried disabling background apps? That extends life significantly. 男：I'll check the settings now. 问题：What solution is suggested?",
+    "answer": "Disabling background apps to extend battery life, which the man will try in settings.",
+    "analysis": "对话建议：女方提议 disabling background apps（关闭后台应用）以显著延长续航，男方答应去设置里查。听力要点是识别建议动作 disable 与效果 extends life，并抓住男方将付诸行动的结尾。"
+  },
+  {
+    "id": "x6-l-006",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "健康",
+    "stem": "听力理解（独白）：Doctors recommend at least 150 minutes of moderate exercise weekly. Walking counts, and consistency matters more than intensity. 问题：What do doctors recommend?",
+    "answer": "At least 150 minutes of moderate weekly exercise such as walking, with consistency valued over intensity.",
+    "analysis": "独白要点：医生推荐每周至少 150 分钟中等强度运动，步行算数，坚持比强度重要。听力关键是数字 150 minutes、moderate 与 consistency matters more than intensity 的对比，避免把 walking 误听为唯一方式。"
+  },
+  {
+    "id": "x6-l-007",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "社会",
+    "stem": "听力理解（对话）：女：The new park opened, but it's crowded every evening. 男：That's because it's the only green space nearby. 女：True, we need more of them. 问题：What does the woman conclude?",
+    "answer": "She concludes that the neighborhood needs more green spaces, not just one crowded park.",
+    "analysis": "对话逻辑：新公园每晚拥挤，因为附近唯一绿地；女方总结“we need more of them”。听力要点是捕捉因果（only green space）与结论句 need more，推断她主张增加而非减少绿地。"
+  },
+  {
+    "id": "x6-l-008",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "文化",
+    "stem": "听力理解（独白）：The museum will host a free night every Friday, featuring local artists and guided tours. Regular admission applies on other days. 问题：When is admission free?",
+    "answer": "Admission is free every Friday night, while other days require regular admission.",
+    "analysis": "独白要点：博物馆每周五晚免费夜，含本地艺术家与导览；其余日子正常收费。听力关键是锁定时间 every Friday 与 free 的对应，并留意 other days 收费的对比信息，避免扩大免费范围。"
+  },
+  {
+    "id": "x6-l-009",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "工作",
+    "stem": "听力理解（对话）：男：Should we hire another intern? 女：Our budget is tight, but the workload is heavy. 男：Let's reassign tasks first before hiring. 问题：What is the man's decision?",
+    "answer": "He decides to reassign tasks first and delay hiring another intern due to a tight budget.",
+    "analysis": "对话中女方指出预算紧但工作量大，男方决定先 reassign tasks 再考虑招聘。听力要点是识别决策句 Let's...first before hiring，结合 budget is tight 推断暂不招人，先内部调配。"
+  },
+  {
+    "id": "x6-l-010",
+    "level": "CET6",
+    "type": "听力",
+    "topic": "教育",
+    "stem": "听力理解（新闻）：A new app uses AI to give students instant feedback on essays, but teachers warn it shouldn't replace human grading. 问题：What is teachers' concern?",
+    "answer": "Teachers warn the AI app should not replace human grading of essays.",
+    "analysis": "新闻要点：新 AI 应用可即时反馈作文，但教师警告不应取代人工评分。听力关键是 but 后的转折——teachers warn it shouldn't replace human grading，抓住转折词与 replace 这一核心担忧。"
+  }
+]

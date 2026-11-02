@@ -1,0 +1,2882 @@
+[
+  {
+    "word": "abrupt",
+    "phonetic": "/əˈbrʌpt/",
+    "pos": "adj.",
+    "zh": "突然的；唐突的",
+    "example_en": "The meeting came to an abrupt end when the fire alarm rang.",
+    "example_zh": "火警响起时，会议突然结束了。",
+    "level": "CET6"
+  },
+  {
+    "word": "absurd",
+    "phonetic": "/əbˈsɜːd/",
+    "pos": "adj.",
+    "zh": "荒谬的；荒唐的",
+    "example_en": "It is absurd to expect him to finish the project in one day.",
+    "example_zh": "指望他一天完成这个项目是荒唐的。",
+    "level": "CET6"
+  },
+  {
+    "word": "accommodate",
+    "phonetic": "/əˈkɒmədeɪt/",
+    "pos": "v.",
+    "zh": "容纳；为…提供住宿",
+    "example_en": "The hotel can accommodate up to 500 guests.",
+    "example_zh": "这家酒店最多可容纳500位客人。",
+    "level": "CET6"
+  },
+  {
+    "word": "acknowledge",
+    "phonetic": "/əkˈnɒlɪdʒ/",
+    "pos": "v.",
+    "zh": "承认；致谢",
+    "example_en": "She acknowledged that the report contained several errors.",
+    "example_zh": "她承认报告里有几处错误。",
+    "level": "CET6"
+  },
+  {
+    "word": "acquaint",
+    "phonetic": "/əˈkweɪnt/",
+    "pos": "v.",
+    "zh": "使熟悉；使了解",
+    "example_en": "The guide acquainted the tourists with the local customs.",
+    "example_zh": "导游让游客们熟悉了当地的风俗。",
+    "level": "CET6"
+  },
+  {
+    "word": "addictive",
+    "phonetic": "/əˈdɪktɪv/",
+    "pos": "adj.",
+    "zh": "使人上瘾的",
+    "example_en": "Social media can be highly addictive for teenagers.",
+    "example_zh": "社交媒体对青少年来说可能极易上瘾。",
+    "level": "CET6"
+  },
+  {
+    "word": "adept",
+    "phonetic": "/əˈdept/",
+    "pos": "adj.",
+    "zh": "熟练的；擅长的",
+    "example_en": "She is adept at solving complicated technical problems.",
+    "example_zh": "她擅长解决复杂的技术问题。",
+    "level": "CET6"
+  },
+  {
+    "word": "administer",
+    "phonetic": "/ədˈmɪnɪstə(r)/",
+    "pos": "v.",
+    "zh": "管理；执行",
+    "example_en": "The fund is administered by a team of financial experts.",
+    "example_zh": "该基金由一个金融专家团队管理。",
+    "level": "CET6"
+  },
+  {
+    "word": "adolescent",
+    "phonetic": "/ˌædəˈlesnt/",
+    "pos": "n./adj.",
+    "zh": "青少年（的）；青春期（的）",
+    "example_en": "Many adolescents struggle to express their emotions.",
+    "example_zh": "许多青少年难以表达自己的情感。",
+    "level": "CET6"
+  },
+  {
+    "word": "adversary",
+    "phonetic": "/ˈædvəsəri/",
+    "pos": "n.",
+    "zh": "对手；敌手",
+    "example_en": "In court, he faced a formidable legal adversary.",
+    "example_zh": "在法庭上，他面对一位强大的法律对手。",
+    "level": "CET6"
+  },
+  {
+    "word": "aesthetic",
+    "phonetic": "/iːsˈθetɪk/",
+    "pos": "adj.",
+    "zh": "审美的；美学的",
+    "example_en": "The building was admired for its aesthetic appeal.",
+    "example_zh": "这座建筑因其美感而受到赞赏。",
+    "level": "CET6"
+  },
+  {
+    "word": "affiliate",
+    "phonetic": "/əˈfɪlieɪt/",
+    "pos": "v.",
+    "zh": "使隶属于；与…有关联",
+    "example_en": "The hospital is affiliated with a leading medical university.",
+    "example_zh": "这家医院隶属于一所顶尖医科大学。",
+    "level": "CET6"
+  },
+  {
+    "word": "aggravate",
+    "phonetic": "/ˈæɡrəveɪt/",
+    "pos": "v.",
+    "zh": "使恶化；加重",
+    "example_en": "Stress can aggravate many health problems.",
+    "example_zh": "压力会加重许多健康问题。",
+    "level": "CET6"
+  },
+  {
+    "word": "agitate",
+    "phonetic": "/ˈædʒɪteɪt/",
+    "pos": "v.",
+    "zh": "使不安；鼓动",
+    "example_en": "The workers agitated for better working conditions.",
+    "example_zh": "工人们鼓动争取更好的工作条件。",
+    "level": "CET6"
+  },
+  {
+    "word": "alleviate",
+    "phonetic": "/əˈliːvieɪt/",
+    "pos": "v.",
+    "zh": "减轻；缓解",
+    "example_en": "The medicine helped alleviate the patient's pain.",
+    "example_zh": "这种药帮助减轻了病人的疼痛。",
+    "level": "CET6"
+  },
+  {
+    "word": "alliance",
+    "phonetic": "/əˈlaɪəns/",
+    "pos": "n.",
+    "zh": "联盟；结盟",
+    "example_en": "The two countries formed a military alliance.",
+    "example_zh": "两国结成了军事联盟。",
+    "level": "CET6"
+  },
+  {
+    "word": "allocate",
+    "phonetic": "/ˈæləkeɪt/",
+    "pos": "v.",
+    "zh": "分配；拨给",
+    "example_en": "The government allocated more funds to rural education.",
+    "example_zh": "政府为农村教育拨出了更多资金。",
+    "level": "CET6"
+  },
+  {
+    "word": "alternate",
+    "phonetic": "/ˈɔːltəneɪt/",
+    "pos": "v./adj.",
+    "zh": "交替（的）；轮流（的）",
+    "example_en": "The film alternates between comedy and tragedy.",
+    "example_zh": "这部电影在喜剧与悲剧之间交替转换。",
+    "level": "CET6"
+  },
+  {
+    "word": "amend",
+    "phonetic": "/əˈmend/",
+    "pos": "v.",
+    "zh": "修改；修订",
+    "example_en": "The law was amended to protect consumers' rights.",
+    "example_zh": "该法律经过修订以保护消费者权益。",
+    "level": "CET6"
+  },
+  {
+    "word": "anonymous",
+    "phonetic": "/əˈnɒnɪməs/",
+    "pos": "adj.",
+    "zh": "匿名的",
+    "example_en": "The donation was made by an anonymous benefactor.",
+    "example_zh": "这笔捐款是一位匿名的捐助者提供的。",
+    "level": "CET6"
+  },
+  {
+    "word": "applaud",
+    "phonetic": "/əˈplɔːd/",
+    "pos": "v.",
+    "zh": "鼓掌；称赞",
+    "example_en": "The audience applauded the pianist for five minutes.",
+    "example_zh": "听众为钢琴家鼓掌长达五分钟。",
+    "level": "CET6"
+  },
+  {
+    "word": "appraise",
+    "phonetic": "/əˈpreɪz/",
+    "pos": "v.",
+    "zh": "评估；估价",
+    "example_en": "An expert was invited to appraise the antique vase.",
+    "example_zh": "一位专家受邀为这件古董花瓶估价。",
+    "level": "CET6"
+  },
+  {
+    "word": "apt",
+    "phonetic": "/æpt/",
+    "pos": "adj.",
+    "zh": "恰当的；易于…的",
+    "example_en": "Her remarks were extremely apt on that occasion.",
+    "example_zh": "在那个场合，她的话极为恰当。",
+    "level": "CET6"
+  },
+  {
+    "word": "arid",
+    "phonetic": "/ˈærɪd/",
+    "pos": "adj.",
+    "zh": "干旱的；贫瘠的",
+    "example_en": "Few crops can survive in this arid region.",
+    "example_zh": "几乎没有作物能在这种干旱地区存活。",
+    "level": "CET6"
+  },
+  {
+    "word": "ascend",
+    "phonetic": "/əˈsend/",
+    "pos": "v.",
+    "zh": "上升；攀登",
+    "example_en": "The plane ascended rapidly into the clouds.",
+    "example_zh": "飞机迅速升入云层。",
+    "level": "CET6"
+  },
+  {
+    "word": "ascribe",
+    "phonetic": "/əˈskraɪb/",
+    "pos": "v.",
+    "zh": "归因于；归于",
+    "example_en": "He ascribed his success to years of hard work.",
+    "example_zh": "他把自己的成功归因于多年的努力。",
+    "level": "CET6"
+  },
+  {
+    "word": "aspiration",
+    "phonetic": "/ˌæspəˈreɪʃn/",
+    "pos": "n.",
+    "zh": "渴望；抱负",
+    "example_en": "She has a strong aspiration to become a scientist.",
+    "example_zh": "她怀有成为科学家的强烈抱负。",
+    "level": "CET6"
+  },
+  {
+    "word": "assault",
+    "phonetic": "/əˈsɔːlt/",
+    "pos": "n./v.",
+    "zh": "攻击；袭击",
+    "example_en": "The city survived a prolonged military assault.",
+    "example_zh": "这座城市经受住了长时间的军事进攻。",
+    "level": "CET6"
+  },
+  {
+    "word": "assert",
+    "phonetic": "/əˈsɜːt/",
+    "pos": "v.",
+    "zh": "断言；维护",
+    "example_en": "He asserted that the data had been misinterpreted.",
+    "example_zh": "他断言这些数据被误解了。",
+    "level": "CET6"
+  },
+  {
+    "word": "asset",
+    "phonetic": "/ˈæset/",
+    "pos": "n.",
+    "zh": "资产；宝贵的人（或物）",
+    "example_en": "Her fluency in French is a great asset in this job.",
+    "example_zh": "她流利的法语在这份工作中是一大优势。",
+    "level": "CET6"
+  },
+  {
+    "word": "attain",
+    "phonetic": "/əˈteɪn/",
+    "pos": "v.",
+    "zh": "达到；获得",
+    "example_en": "He finally attained the position of general manager.",
+    "example_zh": "他最终获得了总经理的职位。",
+    "level": "CET6"
+  },
+  {
+    "word": "attorney",
+    "phonetic": "/əˈtɜːni/",
+    "pos": "n.",
+    "zh": "律师",
+    "example_en": "She hired an experienced attorney to handle the case.",
+    "example_zh": "她聘请了一位经验丰富的律师处理此案。",
+    "level": "CET6"
+  },
+  {
+    "word": "audit",
+    "phonetic": "/ˈɔːdɪt/",
+    "pos": "v./n.",
+    "zh": "审计；审查",
+    "example_en": "The accounts are audited by an independent firm every year.",
+    "example_zh": "这些账目每年由一家独立公司审计。",
+    "level": "CET6"
+  },
+  {
+    "word": "authentic",
+    "phonetic": "/ɔːˈθentɪk/",
+    "pos": "adj.",
+    "zh": "真实的；可靠的",
+    "example_en": "The museum verified that the painting was authentic.",
+    "example_zh": "博物馆证实这幅画是真迹。",
+    "level": "CET6"
+  },
+  {
+    "word": "avert",
+    "phonetic": "/əˈvɜːt/",
+    "pos": "v.",
+    "zh": "避免；转移",
+    "example_en": "Quick action averted a serious accident.",
+    "example_zh": "迅速的行动避免了一场严重的事故。",
+    "level": "CET6"
+  },
+  {
+    "word": "baffle",
+    "phonetic": "/ˈbæfl/",
+    "pos": "v.",
+    "zh": "使困惑；难住",
+    "example_en": "The strange symbols baffled the archaeologists for years.",
+    "example_zh": "这些奇怪的符号困扰了考古学家多年。",
+    "level": "CET6"
+  },
+  {
+    "word": "beforehand",
+    "phonetic": "/bɪˈfɔːhænd/",
+    "pos": "adv.",
+    "zh": "事先；预先",
+    "example_en": "You should make a hotel reservation beforehand.",
+    "example_zh": "你应该事先预订酒店。",
+    "level": "CET6"
+  },
+  {
+    "word": "barren",
+    "phonetic": "/ˈbærən/",
+    "pos": "adj.",
+    "zh": "贫瘠的；不育的",
+    "example_en": "Nothing grows on this barren stretch of land.",
+    "example_zh": "这片贫瘠的土地上寸草不生。",
+    "level": "CET6"
+  },
+  {
+    "word": "betray",
+    "phonetic": "/bɪˈtreɪ/",
+    "pos": "v.",
+    "zh": "背叛；泄露",
+    "example_en": "He would rather die than betray his country.",
+    "example_zh": "他宁死也不背叛自己的国家。",
+    "level": "CET6"
+  },
+  {
+    "word": "bewilder",
+    "phonetic": "/bɪˈwɪldə(r)/",
+    "pos": "v.",
+    "zh": "使迷惑；使糊涂",
+    "example_en": "The complicated instructions bewildered the new employees.",
+    "example_zh": "复杂的说明把新员工们弄糊涂了。",
+    "level": "CET6"
+  },
+  {
+    "word": "bias",
+    "phonetic": "/ˈbaɪəs/",
+    "pos": "n.",
+    "zh": "偏见；偏向",
+    "example_en": "The report shows a clear bias against small firms.",
+    "example_zh": "这份报告显示出对小公司的明显偏见。",
+    "level": "CET6"
+  },
+  {
+    "word": "boost",
+    "phonetic": "/buːst/",
+    "pos": "v./n.",
+    "zh": "提高；推动",
+    "example_en": "The new policy will boost economic growth in the region.",
+    "example_zh": "新政策将推动该地区的经济增长。",
+    "level": "CET6"
+  },
+  {
+    "word": "boycott",
+    "phonetic": "/ˈbɔɪkɒt/",
+    "pos": "v./n.",
+    "zh": "抵制",
+    "example_en": "Consumers boycotted the company's products over safety concerns.",
+    "example_zh": "出于安全顾虑，消费者抵制该公司的产品。",
+    "level": "CET6"
+  },
+  {
+    "word": "breach",
+    "phonetic": "/briːtʃ/",
+    "pos": "n./v.",
+    "zh": "违反；破裂",
+    "example_en": "The company was fined for breaching the contract.",
+    "example_zh": "该公司因违反合同而被罚款。",
+    "level": "CET6"
+  },
+  {
+    "word": "brisk",
+    "phonetic": "/brɪsk/",
+    "pos": "adj.",
+    "zh": "轻快的；兴旺的",
+    "example_en": "They set off at a brisk pace along the beach.",
+    "example_zh": "他们沿着海滩迈着轻快的步伐出发了。",
+    "level": "CET6"
+  },
+  {
+    "word": "brittle",
+    "phonetic": "/ˈbrɪtl/",
+    "pos": "adj.",
+    "zh": "易碎的；脆弱的",
+    "example_en": "Old bones become brittle and break easily.",
+    "example_zh": "老年人的骨骼变得脆弱，容易骨折。",
+    "level": "CET6"
+  },
+  {
+    "word": "capsule",
+    "phonetic": "/ˈkæpsjuːl/",
+    "pos": "n.",
+    "zh": "胶囊；太空舱",
+    "example_en": "The doctor told him to take two capsules after meals.",
+    "example_zh": "医生叫他饭后服用两粒胶囊。",
+    "level": "CET6"
+  },
+  {
+    "word": "catastrophe",
+    "phonetic": "/kəˈtæstrəfi/",
+    "pos": "n.",
+    "zh": "大灾难；灾祸",
+    "example_en": "The earthquake was a catastrophe for the entire region.",
+    "example_zh": "这场地震对整个地区来说是一场浩劫。",
+    "level": "CET6"
+  },
+  {
+    "word": "cater",
+    "phonetic": "/ˈkeɪtə(r)/",
+    "pos": "v.",
+    "zh": "迎合；提供饮食",
+    "example_en": "The restaurant caters for large parties and weddings.",
+    "example_zh": "这家餐厅承办大型聚会和婚宴。",
+    "level": "CET6"
+  },
+  {
+    "word": "cemetery",
+    "phonetic": "/ˈsemətri/",
+    "pos": "n.",
+    "zh": "墓地；公墓",
+    "example_en": "They visited their grandfather's grave in the cemetery.",
+    "example_zh": "他们去墓地看望了祖父的坟墓。",
+    "level": "CET6"
+  },
+  {
+    "word": "census",
+    "phonetic": "/ˈsensəs/",
+    "pos": "n.",
+    "zh": "人口普查",
+    "example_en": "The national census is carried out every ten years.",
+    "example_zh": "全国人口普查每十年进行一次。",
+    "level": "CET6"
+  },
+  {
+    "word": "certify",
+    "phonetic": "/ˈsɜːtɪfaɪ/",
+    "pos": "v.",
+    "zh": "证明；证实",
+    "example_en": "The products have been certified as safe for children.",
+    "example_zh": "这些产品已被认证为对儿童安全。",
+    "level": "CET6"
+  },
+  {
+    "word": "cherish",
+    "phonetic": "/ˈtʃerɪʃ/",
+    "pos": "v.",
+    "zh": "珍视；怀有（希望）",
+    "example_en": "She cherishes the memory of her college years.",
+    "example_zh": "她珍藏着对大学时光的回忆。",
+    "level": "CET6"
+  },
+  {
+    "word": "chronic",
+    "phonetic": "/ˈkrɒnɪk/",
+    "pos": "adj.",
+    "zh": "慢性的；长期的",
+    "example_en": "He suffers from chronic back pain.",
+    "example_zh": "他患有慢性背痛。",
+    "level": "CET6"
+  },
+  {
+    "word": "circulation",
+    "phonetic": "/ˌsɜːkjəˈleɪʃn/",
+    "pos": "n.",
+    "zh": "循环；流通；发行量",
+    "example_en": "Regular exercise improves blood circulation.",
+    "example_zh": "经常锻炼能改善血液循环。",
+    "level": "CET6"
+  },
+  {
+    "word": "civic",
+    "phonetic": "/ˈsɪvɪk/",
+    "pos": "adj.",
+    "zh": "城市的；公民的",
+    "example_en": "Voting is an important civic duty.",
+    "example_zh": "投票是重要的公民责任。",
+    "level": "CET6"
+  },
+  {
+    "word": "clarity",
+    "phonetic": "/ˈklærəti/",
+    "pos": "n.",
+    "zh": "清晰；明确",
+    "example_en": "The report was praised for its clarity and accuracy.",
+    "example_zh": "这份报告因其清晰和准确而受到称赞。",
+    "level": "CET6"
+  },
+  {
+    "word": "climax",
+    "phonetic": "/ˈklaɪmæks/",
+    "pos": "n.",
+    "zh": "高潮；顶点",
+    "example_en": "The novel reaches its climax in the final chapter.",
+    "example_zh": "小说在最后一章达到高潮。",
+    "level": "CET6"
+  },
+  {
+    "word": "cling",
+    "phonetic": "/klɪŋ/",
+    "pos": "v.",
+    "zh": "紧抓；坚持",
+    "example_en": "The child clung to her mother's hand in the crowd.",
+    "example_zh": "人群中，孩子紧紧抓住妈妈的手。",
+    "level": "CET6"
+  },
+  {
+    "word": "cluster",
+    "phonetic": "/ˈklʌstə(r)/",
+    "pos": "n./v.",
+    "zh": "群；簇；聚集",
+    "example_en": "A cluster of reporters gathered outside the courthouse.",
+    "example_zh": "一群记者聚集在法院外。",
+    "level": "CET6"
+  },
+  {
+    "word": "coalition",
+    "phonetic": "/ˌkəʊəˈlɪʃn/",
+    "pos": "n.",
+    "zh": "联盟；联合",
+    "example_en": "The two parties formed a coalition government.",
+    "example_zh": "两党组成了联合政府。",
+    "level": "CET6"
+  },
+  {
+    "word": "cognitive",
+    "phonetic": "/ˈkɒɡnətɪv/",
+    "pos": "adj.",
+    "zh": "认知的",
+    "example_en": "Playing chess can improve cognitive abilities.",
+    "example_zh": "下棋可以提高认知能力。",
+    "level": "CET6"
+  },
+  {
+    "word": "collide",
+    "phonetic": "/kəˈlaɪd/",
+    "pos": "v.",
+    "zh": "碰撞；冲突",
+    "example_en": "The bus collided with a truck at the crossing.",
+    "example_zh": "公共汽车在路口与一辆卡车相撞。",
+    "level": "CET6"
+  },
+  {
+    "word": "combat",
+    "phonetic": "/ˈkɒmbæt/",
+    "pos": "n./v.",
+    "zh": "战斗；搏斗",
+    "example_en": "New measures have been introduced to combat crime.",
+    "example_zh": "已出台新措施来打击犯罪。",
+    "level": "CET6"
+  },
+  {
+    "word": "commence",
+    "phonetic": "/kəˈmens/",
+    "pos": "v.",
+    "zh": "开始",
+    "example_en": "The ceremony will commence at noon sharp.",
+    "example_zh": "典礼将在正午准时开始。",
+    "level": "CET6"
+  },
+  {
+    "word": "commute",
+    "phonetic": "/kəˈmjuːt/",
+    "pos": "v.",
+    "zh": "通勤",
+    "example_en": "She commutes to work by subway every day.",
+    "example_zh": "她每天乘地铁上下班。",
+    "level": "CET6"
+  },
+  {
+    "word": "compatible",
+    "phonetic": "/kəmˈpætəbl/",
+    "pos": "adj.",
+    "zh": "兼容的；合得来的",
+    "example_en": "This software is compatible with most operating systems.",
+    "example_zh": "这款软件与大多数操作系统兼容。",
+    "level": "CET6"
+  },
+  {
+    "word": "compile",
+    "phonetic": "/kəmˈpaɪl/",
+    "pos": "v.",
+    "zh": "编写；汇编",
+    "example_en": "The team spent months compiling the dictionary.",
+    "example_zh": "团队花了几个月编纂这部词典。",
+    "level": "CET6"
+  },
+  {
+    "word": "complement",
+    "phonetic": "/ˈkɒmplɪment/",
+    "pos": "v./n.",
+    "zh": "补充；补足物",
+    "example_en": "The wine complements the meal perfectly.",
+    "example_zh": "这款酒与这顿饭搭配得恰到好处。",
+    "level": "CET6"
+  },
+  {
+    "word": "compliment",
+    "phonetic": "/ˈkɒmplɪmənt/",
+    "pos": "n./v.",
+    "zh": "赞美；恭维",
+    "example_en": "He received many compliments on his new novel.",
+    "example_zh": "他的新小说受到了许多赞誉。",
+    "level": "CET6"
+  },
+  {
+    "word": "comply",
+    "phonetic": "/kəmˈplaɪ/",
+    "pos": "v.",
+    "zh": "遵从；服从",
+    "example_en": "All staff must comply with the safety regulations.",
+    "example_zh": "所有员工必须遵守安全规定。",
+    "level": "CET6"
+  },
+  {
+    "word": "compress",
+    "phonetic": "/kəmˈpres/",
+    "pos": "v.",
+    "zh": "压缩；压紧",
+    "example_en": "The film was compressed into a two-hour version.",
+    "example_zh": "影片被压缩成了两小时的版本。",
+    "level": "CET6"
+  },
+  {
+    "word": "conceive",
+    "phonetic": "/kənˈsiːv/",
+    "pos": "v.",
+    "zh": "构想；想象",
+    "example_en": "It is difficult to conceive of a life without the internet.",
+    "example_zh": "很难想象没有互联网的生活。",
+    "level": "CET6"
+  },
+  {
+    "word": "condemn",
+    "phonetic": "/kənˈdem/",
+    "pos": "v.",
+    "zh": "谴责；判刑",
+    "example_en": "The council condemned the violence in strong terms.",
+    "example_zh": "委员会强烈谴责这一暴力行为。",
+    "level": "CET6"
+  },
+  {
+    "word": "condense",
+    "phonetic": "/kənˈdens/",
+    "pos": "v.",
+    "zh": "浓缩；凝结",
+    "example_en": "Condense your report into one page.",
+    "example_zh": "把你的报告压缩成一页。",
+    "level": "CET6"
+  },
+  {
+    "word": "confer",
+    "phonetic": "/kənˈfɜː(r)/",
+    "pos": "v.",
+    "zh": "商讨；授予",
+    "example_en": "The degree was conferred on him at the graduation ceremony.",
+    "example_zh": "学位在毕业典礼上被授予他。",
+    "level": "CET6"
+  },
+  {
+    "word": "confine",
+    "phonetic": "/kənˈfaɪn/",
+    "pos": "v.",
+    "zh": "限制；禁闭",
+    "example_en": "Please confine your remarks to the topic under discussion.",
+    "example_zh": "请把你的发言限于正在讨论的话题。",
+    "level": "CET6"
+  },
+  {
+    "word": "conform",
+    "phonetic": "/kənˈfɔːm/",
+    "pos": "v.",
+    "zh": "遵守；符合",
+    "example_en": "The design conforms to the latest safety standards.",
+    "example_zh": "该设计符合最新的安全标准。",
+    "level": "CET6"
+  },
+  {
+    "word": "confront",
+    "phonetic": "/kənˈfrʌnt/",
+    "pos": "v.",
+    "zh": "面对；对抗",
+    "example_en": "The new manager had to confront many difficulties.",
+    "example_zh": "新经理不得不面对许多困难。",
+    "level": "CET6"
+  },
+  {
+    "word": "consecutive",
+    "phonetic": "/kənˈsekjətɪv/",
+    "pos": "adj.",
+    "zh": "连续的",
+    "example_en": "It rained for five consecutive days last week.",
+    "example_zh": "上周连续下了五天雨。",
+    "level": "CET6"
+  },
+  {
+    "word": "dazzle",
+    "phonetic": "/ˈdæzl/",
+    "pos": "v.",
+    "zh": "使目眩；使眼花缭乱",
+    "example_en": "The lights of the city dazzled the visitors.",
+    "example_zh": "城市的灯光令游客们眼花缭乱。",
+    "level": "CET6"
+  },
+  {
+    "word": "deceptive",
+    "phonetic": "/dɪˈseptɪv/",
+    "pos": "adj.",
+    "zh": "欺骗性的",
+    "example_en": "The calm sea was deceptive; a storm was approaching.",
+    "example_zh": "平静的海面具有欺骗性，暴风雨即将来临。",
+    "level": "CET6"
+  },
+  {
+    "word": "defect",
+    "phonetic": "/ˈdiːfekt/",
+    "pos": "n.",
+    "zh": "缺点；缺陷",
+    "example_en": "The car was recalled due to a design defect.",
+    "example_zh": "这辆车因设计缺陷被召回。",
+    "level": "CET6"
+  },
+  {
+    "word": "deficiency",
+    "phonetic": "/dɪˈfɪʃnsi/",
+    "pos": "n.",
+    "zh": "缺乏；不足",
+    "example_en": "Vitamin D deficiency can weaken the immune system.",
+    "example_zh": "缺乏维生素D会削弱免疫系统。",
+    "level": "CET6"
+  },
+  {
+    "word": "defy",
+    "phonetic": "/dɪˈfaɪ/",
+    "pos": "v.",
+    "zh": "违抗；使成为不可能",
+    "example_en": "The protesters defied the government's ban on demonstrations.",
+    "example_zh": "抗议者违抗了政府的示威禁令。",
+    "level": "CET6"
+  },
+  {
+    "word": "deliberate",
+    "phonetic": "/dɪˈlɪbərət/",
+    "pos": "adj.",
+    "zh": "故意的；深思熟虑的",
+    "example_en": "It was a deliberate attempt to mislead the public.",
+    "example_zh": "这是故意误导公众的行为。",
+    "level": "CET6"
+  },
+  {
+    "word": "denote",
+    "phonetic": "/dɪˈnəʊt/",
+    "pos": "v.",
+    "zh": "表示；意味着",
+    "example_en": "A red traffic light denotes that you must stop.",
+    "example_zh": "红灯表示你必须停车。",
+    "level": "CET6"
+  },
+  {
+    "word": "denounce",
+    "phonetic": "/dɪˈnaʊns/",
+    "pos": "v.",
+    "zh": "谴责；告发",
+    "example_en": "The opposition denounced the new tax policy.",
+    "example_zh": "反对派谴责了新的税收政策。",
+    "level": "CET6"
+  },
+  {
+    "word": "deprive",
+    "phonetic": "/dɪˈpraɪv/",
+    "pos": "v.",
+    "zh": "剥夺；使丧失",
+    "example_en": "No one should be deprived of the right to education.",
+    "example_zh": "任何人都不应被剥夺受教育的权利。",
+    "level": "CET6"
+  },
+  {
+    "word": "descend",
+    "phonetic": "/dɪˈsend/",
+    "pos": "v.",
+    "zh": "下降；下来",
+    "example_en": "The plane began to descend toward the runway.",
+    "example_zh": "飞机开始向跑道下降。",
+    "level": "CET6"
+  },
+  {
+    "word": "designate",
+    "phonetic": "/ˈdezɪɡneɪt/",
+    "pos": "v.",
+    "zh": "指定；任命",
+    "example_en": "The area has been designated a nature reserve.",
+    "example_zh": "该地区被指定为自然保护区。",
+    "level": "CET6"
+  },
+  {
+    "word": "despise",
+    "phonetic": "/dɪˈspaɪz/",
+    "pos": "v.",
+    "zh": "鄙视；看不起",
+    "example_en": "He despises those who lie to their friends.",
+    "example_zh": "他鄙视那些对朋友撒谎的人。",
+    "level": "CET6"
+  },
+  {
+    "word": "destined",
+    "phonetic": "/ˈdestɪnd/",
+    "pos": "adj.",
+    "zh": "注定的；预定的",
+    "example_en": "She seemed destined for a career in music.",
+    "example_zh": "她似乎注定要走音乐这条路。",
+    "level": "CET6"
+  },
+  {
+    "word": "devote",
+    "phonetic": "/dɪˈvəʊt/",
+    "pos": "v.",
+    "zh": "奉献；致力于",
+    "example_en": "He devoted his whole life to medical research.",
+    "example_zh": "他把毕生精力献给了医学研究。",
+    "level": "CET6"
+  },
+  {
+    "word": "diagnose",
+    "phonetic": "/ˈdaɪəɡnəʊz/",
+    "pos": "v.",
+    "zh": "诊断",
+    "example_en": "The doctor diagnosed the illness as pneumonia.",
+    "example_zh": "医生诊断出这是肺炎。",
+    "level": "CET6"
+  },
+  {
+    "word": "diffuse",
+    "phonetic": "/dɪˈfjuːz/",
+    "pos": "v.",
+    "zh": "扩散；传播",
+    "example_en": "The internet has diffused information rapidly across the world.",
+    "example_zh": "互联网使信息在世界范围内迅速传播。",
+    "level": "CET6"
+  },
+  {
+    "word": "diligent",
+    "phonetic": "/ˈdɪlɪdʒənt/",
+    "pos": "adj.",
+    "zh": "勤奋的",
+    "example_en": "His diligent preparation ensured the success of the project.",
+    "example_zh": "他勤奋的准备确保了项目的成功。",
+    "level": "CET6"
+  },
+  {
+    "word": "dilute",
+    "phonetic": "/daɪˈluːt/",
+    "pos": "v.",
+    "zh": "稀释；削弱",
+    "example_en": "The new members diluted the power of the old guard.",
+    "example_zh": "新成员削弱了老一辈的权力。",
+    "level": "CET6"
+  },
+  {
+    "word": "discern",
+    "phonetic": "/dɪˈsɜːn/",
+    "pos": "v.",
+    "zh": "辨别；察觉",
+    "example_en": "In the fog we could barely discern the road ahead.",
+    "example_zh": "在雾中我们几乎辨认不出前面的路。",
+    "level": "CET6"
+  },
+  {
+    "word": "discharge",
+    "phonetic": "/dɪsˈtʃɑːdʒ/",
+    "pos": "v./n.",
+    "zh": "排出；释放；解雇",
+    "example_en": "The factory was fined for discharging waste into the river.",
+    "example_zh": "这家工厂因向河中排放废物而被罚款。",
+    "level": "CET6"
+  },
+  {
+    "word": "disclose",
+    "phonetic": "/dɪsˈkləʊz/",
+    "pos": "v.",
+    "zh": "揭露；透露",
+    "example_en": "The company refused to disclose its financial records.",
+    "example_zh": "该公司拒绝披露其财务记录。",
+    "level": "CET6"
+  },
+  {
+    "word": "discourse",
+    "phonetic": "/ˈdɪskɔːs/",
+    "pos": "n.",
+    "zh": "论述；话语",
+    "example_en": "The lecture stimulated serious academic discourse.",
+    "example_zh": "这次讲座引发了认真的学术讨论。",
+    "level": "CET6"
+  },
+  {
+    "word": "discreet",
+    "phonetic": "/dɪˈskriːt/",
+    "pos": "adj.",
+    "zh": "谨慎的；小心的",
+    "example_en": "Please be discreet about what you heard today.",
+    "example_zh": "请对你今天听到的事保持谨慎。",
+    "level": "CET6"
+  },
+  {
+    "word": "discrepancy",
+    "phonetic": "/dɪsˈkrepənsi/",
+    "pos": "n.",
+    "zh": "差异；不符",
+    "example_en": "There is a discrepancy between the two reports.",
+    "example_zh": "两份报告之间存在差异。",
+    "level": "CET6"
+  },
+  {
+    "word": "dismay",
+    "phonetic": "/dɪsˈmeɪ/",
+    "pos": "n./v.",
+    "zh": "沮丧；使惊愕",
+    "example_en": "To her dismay, the flight had been cancelled.",
+    "example_zh": "令她沮丧的是，航班已被取消。",
+    "level": "CET6"
+  },
+  {
+    "word": "dispatch",
+    "phonetic": "/dɪˈspætʃ/",
+    "pos": "v.",
+    "zh": "派遣；发送",
+    "example_en": "Rescue teams were immediately dispatched to the area.",
+    "example_zh": "救援队被立即派往该地区。",
+    "level": "CET6"
+  },
+  {
+    "word": "displace",
+    "phonetic": "/dɪsˈpleɪs/",
+    "pos": "v.",
+    "zh": "取代；使离开原位",
+    "example_en": "Thousands of people were displaced by the flood.",
+    "example_zh": "数千人因洪水而流离失所。",
+    "level": "CET6"
+  },
+  {
+    "word": "disposition",
+    "phonetic": "/ˌdɪspəˈzɪʃn/",
+    "pos": "n.",
+    "zh": "性情；倾向",
+    "example_en": "She has a cheerful disposition that wins many friends.",
+    "example_zh": "她性情开朗，结交了许多朋友。",
+    "level": "CET6"
+  },
+  {
+    "word": "disregard",
+    "phonetic": "/ˌdɪsrɪˈɡɑːd/",
+    "pos": "v./n.",
+    "zh": "漠视；不理会",
+    "example_en": "He disregarded the doctor's advice and continued smoking.",
+    "example_zh": "他不顾医生的劝告，继续吸烟。",
+    "level": "CET6"
+  },
+  {
+    "word": "disrupt",
+    "phonetic": "/dɪsˈrʌpt/",
+    "pos": "v.",
+    "zh": "扰乱；使中断",
+    "example_en": "The strike disrupted train services across the country.",
+    "example_zh": "罢工扰乱了全国的铁路服务。",
+    "level": "CET6"
+  },
+  {
+    "word": "distill",
+    "phonetic": "/dɪˈstɪl/",
+    "pos": "v.",
+    "zh": "蒸馏；提炼",
+    "example_en": "The professor distilled years of research into one short book.",
+    "example_zh": "教授把多年的研究提炼成一本简短的书。",
+    "level": "CET6"
+  },
+  {
+    "word": "divert",
+    "phonetic": "/daɪˈvɜːt/",
+    "pos": "v.",
+    "zh": "转移；使改道",
+    "example_en": "Traffic was diverted to avoid the city centre.",
+    "example_zh": "车辆改道以避开市中心。",
+    "level": "CET6"
+  },
+  {
+    "word": "doom",
+    "phonetic": "/duːm/",
+    "pos": "n./v.",
+    "zh": "厄运；注定",
+    "example_en": "The project seemed doomed to failure from the start.",
+    "example_zh": "这个项目从一开始就注定要失败。",
+    "level": "CET6"
+  },
+  {
+    "word": "drastic",
+    "phonetic": "/ˈdræstɪk/",
+    "pos": "adj.",
+    "zh": "激烈的；极端的",
+    "example_en": "Drastic measures are needed to control inflation.",
+    "example_zh": "需要采取极端措施来控制通货膨胀。",
+    "level": "CET6"
+  },
+  {
+    "word": "dubious",
+    "phonetic": "/ˈdjuːbiəs/",
+    "pos": "adj.",
+    "zh": "可疑的；不确定的",
+    "example_en": "The committee was suspicious of his dubious credentials.",
+    "example_zh": "委员会对他可疑的资历表示怀疑。",
+    "level": "CET6"
+  },
+  {
+    "word": "duplicate",
+    "phonetic": "/ˈdjuːplɪkeɪt/",
+    "pos": "v./n.",
+    "zh": "复制；复制品",
+    "example_en": "It is illegal to duplicate copyrighted software without permission.",
+    "example_zh": "未经许可复制受版权保护的软件是违法的。",
+    "level": "CET6"
+  },
+  {
+    "word": "dwell",
+    "phonetic": "/dwel/",
+    "pos": "v.",
+    "zh": "居住；详述",
+    "example_en": "Don't dwell too much on your past mistakes.",
+    "example_zh": "不要过分纠结于过去的错误。",
+    "level": "CET6"
+  },
+  {
+    "word": "eclipse",
+    "phonetic": "/ɪˈklɪps/",
+    "pos": "n./v.",
+    "zh": "日食；使失色",
+    "example_en": "Her performance eclipsed those of all her rivals.",
+    "example_zh": "她的表现使所有对手都黯然失色。",
+    "level": "CET6"
+  },
+  {
+    "word": "eligible",
+    "phonetic": "/ˈelɪdʒəbl/",
+    "pos": "adj.",
+    "zh": "有资格的；合格的",
+    "example_en": "Students over 18 are eligible for the scholarship.",
+    "example_zh": "18岁以上的学生有资格申请这项奖学金。",
+    "level": "CET6"
+  },
+  {
+    "word": "eloquent",
+    "phonetic": "/ˈeləkwənt/",
+    "pos": "adj.",
+    "zh": "雄辩的；有说服力的",
+    "example_en": "She made an eloquent speech in defence of human rights.",
+    "example_zh": "她为捍卫人权发表了一场雄辩的演说。",
+    "level": "CET6"
+  },
+  {
+    "word": "embed",
+    "phonetic": "/ɪmˈbed/",
+    "pos": "v.",
+    "zh": "使嵌入；深植",
+    "example_en": "These values are deeply embedded in the local culture.",
+    "example_zh": "这些价值观深深植根于当地文化之中。",
+    "level": "CET6"
+  },
+  {
+    "word": "embody",
+    "phonetic": "/ɪmˈbɒdi/",
+    "pos": "v.",
+    "zh": "体现；使具体化",
+    "example_en": "The new stadium embodies the spirit of the city.",
+    "example_zh": "新体育场体现了这座城市的精神。",
+    "level": "CET6"
+  },
+  {
+    "word": "eminent",
+    "phonetic": "/ˈemɪnənt/",
+    "pos": "adj.",
+    "zh": "杰出的；著名的",
+    "example_en": "An eminent historian delivered the opening lecture.",
+    "example_zh": "一位杰出的历史学家做了开坛讲座。",
+    "level": "CET6"
+  },
+  {
+    "word": "enclose",
+    "phonetic": "/ɪnˈkləʊz/",
+    "pos": "v.",
+    "zh": "围住；随信附上",
+    "example_en": "Please enclose a recent photograph with your application.",
+    "example_zh": "请在申请表中附上一张近照。",
+    "level": "CET6"
+  },
+  {
+    "word": "endeavor",
+    "phonetic": "/ɪnˈdevə(r)/",
+    "pos": "n./v.",
+    "zh": "努力；尝试",
+    "example_en": "She made every endeavor to finish the work on time.",
+    "example_zh": "她尽一切努力按时完成工作。",
+    "level": "CET6"
+  },
+  {
+    "word": "endow",
+    "phonetic": "/ɪnˈdaʊ/",
+    "pos": "v.",
+    "zh": "赋予；捐赠",
+    "example_en": "Nature has endowed her with remarkable musical talent.",
+    "example_zh": "大自然赋予了她非凡的音乐天赋。",
+    "level": "CET6"
+  },
+  {
+    "word": "enroll",
+    "phonetic": "/ɪnˈrəʊl/",
+    "pos": "v.",
+    "zh": "注册；登记",
+    "example_en": "More than 200 students enrolled in the online course.",
+    "example_zh": "200多名学生注册了这门在线课程。",
+    "level": "CET6"
+  },
+  {
+    "word": "entitle",
+    "phonetic": "/ɪnˈtaɪtl/",
+    "pos": "v.",
+    "zh": "使有权；给…题名",
+    "example_en": "The ticket entitles you to a free drink.",
+    "example_zh": "凭这张票你可以免费获得一杯饮料。",
+    "level": "CET6"
+  },
+  {
+    "word": "epoch",
+    "phonetic": "/ˈiːpɒk/",
+    "pos": "n.",
+    "zh": "时代；纪元",
+    "example_en": "The invention of the steam engine marked a new epoch.",
+    "example_zh": "蒸汽机的发明标志着新纪元的开始。",
+    "level": "CET6"
+  },
+  {
+    "word": "eradicate",
+    "phonetic": "/ɪˈrædɪkeɪt/",
+    "pos": "v.",
+    "zh": "根除；消灭",
+    "example_en": "The campaign aims to eradicate malaria in the region.",
+    "example_zh": "这场运动旨在根除该地区的疟疾。",
+    "level": "CET6"
+  },
+  {
+    "word": "erase",
+    "phonetic": "/ɪˈreɪz/",
+    "pos": "v.",
+    "zh": "擦掉；清除",
+    "example_en": "Time cannot erase the memory of that terrible day.",
+    "example_zh": "时间无法抹去对那可怕一天的记忆。",
+    "level": "CET6"
+  },
+  {
+    "word": "erupt",
+    "phonetic": "/ɪˈrʌpt/",
+    "pos": "v.",
+    "zh": "爆发；（火山）喷发",
+    "example_en": "The volcano erupted after decades of silence.",
+    "example_zh": "这座火山在沉寂数十年后喷发了。",
+    "level": "CET6"
+  },
+  {
+    "word": "essence",
+    "phonetic": "/ˈesns/",
+    "pos": "n.",
+    "zh": "本质；精髓",
+    "example_en": "In essence, the problem is a lack of trust.",
+    "example_zh": "从本质上讲，问题在于缺乏信任。",
+    "level": "CET6"
+  },
+  {
+    "word": "esteem",
+    "phonetic": "/ɪˈstiːm/",
+    "pos": "v./n.",
+    "zh": "尊重；敬重",
+    "example_en": "The old professor is held in high esteem by his students.",
+    "example_zh": "这位老教授深受学生的敬重。",
+    "level": "CET6"
+  },
+  {
+    "word": "eternal",
+    "phonetic": "/ɪˈtɜːnl/",
+    "pos": "adj.",
+    "zh": "永恒的",
+    "example_en": "The tourists admired the temple's eternal beauty.",
+    "example_zh": "游客们赞叹这座神庙永恒的美。",
+    "level": "CET6"
+  },
+  {
+    "word": "evacuate",
+    "phonetic": "/ɪˈvækjueɪt/",
+    "pos": "v.",
+    "zh": "疏散；撤离",
+    "example_en": "The villagers were evacuated before the flood arrived.",
+    "example_zh": "洪水来临前，村民们已被疏散。",
+    "level": "CET6"
+  },
+  {
+    "word": "evade",
+    "phonetic": "/ɪˈveɪd/",
+    "pos": "v.",
+    "zh": "逃避；规避",
+    "example_en": "He tried to evade answering the reporter's question.",
+    "example_zh": "他试图回避回答记者的问题。",
+    "level": "CET6"
+  },
+  {
+    "word": "evoke",
+    "phonetic": "/ɪˈvəʊk/",
+    "pos": "v.",
+    "zh": "唤起；引起",
+    "example_en": "The old song evoked memories of my childhood.",
+    "example_zh": "这首老歌唤起了我对童年的回忆。",
+    "level": "CET6"
+  },
+  {
+    "word": "excel",
+    "phonetic": "/ɪkˈsel/",
+    "pos": "v.",
+    "zh": "胜过；擅长",
+    "example_en": "She excels in mathematics and physics.",
+    "example_zh": "她在数学和物理方面出类拔萃。",
+    "level": "CET6"
+  },
+  {
+    "word": "excerpt",
+    "phonetic": "/ˈeksɜːpt/",
+    "pos": "n.",
+    "zh": "摘录；节选",
+    "example_en": "The magazine published an excerpt from her new novel.",
+    "example_zh": "该杂志刊登了她新小说的一个节选。",
+    "level": "CET6"
+  },
+  {
+    "word": "exemplify",
+    "phonetic": "/ɪɡˈzemplɪfaɪ/",
+    "pos": "v.",
+    "zh": "例证；是…的典型",
+    "example_en": "Her career exemplifies the values of hard work and honesty.",
+    "example_zh": "她的职业生涯是勤奋与诚实的典范。",
+    "level": "CET6"
+  },
+  {
+    "word": "expedition",
+    "phonetic": "/ˌekspəˈdɪʃn/",
+    "pos": "n.",
+    "zh": "远征；探险队",
+    "example_en": "They joined an expedition to the Antarctic.",
+    "example_zh": "他们参加了一支南极探险队。",
+    "level": "CET6"
+  },
+  {
+    "word": "expire",
+    "phonetic": "/ɪkˈspaɪə(r)/",
+    "pos": "v.",
+    "zh": "到期；终止",
+    "example_en": "My passport expires next month.",
+    "example_zh": "我的护照下个月到期。",
+    "level": "CET6"
+  },
+  {
+    "word": "exquisite",
+    "phonetic": "/ɪkˈskwɪzɪt/",
+    "pos": "adj.",
+    "zh": "精美的；精致的",
+    "example_en": "The palace is famous for its exquisite carvings.",
+    "example_zh": "这座宫殿以其精美的雕刻而闻名。",
+    "level": "CET6"
+  },
+  {
+    "word": "extinct",
+    "phonetic": "/ɪkˈstɪŋkt/",
+    "pos": "adj.",
+    "zh": "灭绝的；消逝的",
+    "example_en": "Dinosaurs became extinct millions of years ago.",
+    "example_zh": "恐龙在数百万年前灭绝了。",
+    "level": "CET6"
+  },
+  {
+    "word": "extinguish",
+    "phonetic": "/ɪkˈstɪŋɡwɪʃ/",
+    "pos": "v.",
+    "zh": "熄灭；消灭",
+    "example_en": "The firemen extinguished the blaze within an hour.",
+    "example_zh": "消防员在一小时内扑灭了大火。",
+    "level": "CET6"
+  },
+  {
+    "word": "facet",
+    "phonetic": "/ˈfæsɪt/",
+    "pos": "n.",
+    "zh": "方面；侧面",
+    "example_en": "The report examined every facet of urban life.",
+    "example_zh": "这份报告考察了城市生活的各个方面。",
+    "level": "CET6"
+  },
+  {
+    "word": "fascinate",
+    "phonetic": "/ˈfæsɪneɪt/",
+    "pos": "v.",
+    "zh": "使着迷",
+    "example_en": "The mysteries of the deep sea fascinate scientists.",
+    "example_zh": "深海的奥秘令科学家们着迷。",
+    "level": "CET6"
+  },
+  {
+    "word": "feeble",
+    "phonetic": "/ˈfiːbl/",
+    "pos": "adj.",
+    "zh": "虚弱的；无力的",
+    "example_en": "He was too feeble to climb the stairs without help.",
+    "example_zh": "他身体太虚弱，没人帮忙就上不了楼梯。",
+    "level": "CET6"
+  },
+  {
+    "word": "finite",
+    "phonetic": "/ˈfaɪnaɪt/",
+    "pos": "adj.",
+    "zh": "有限的",
+    "example_en": "The world's oil resources are finite.",
+    "example_zh": "世界上的石油资源是有限的。",
+    "level": "CET6"
+  },
+  {
+    "word": "flaw",
+    "phonetic": "/flɔː/",
+    "pos": "n.",
+    "zh": "瑕疵；缺陷",
+    "example_en": "There is a fundamental flaw in his argument.",
+    "example_zh": "他的论点有一个根本性的缺陷。",
+    "level": "CET6"
+  },
+  {
+    "word": "foremost",
+    "phonetic": "/ˈfɔːməʊst/",
+    "pos": "adj.",
+    "zh": "最重要的；最先的",
+    "example_en": "He is one of the foremost experts in this field.",
+    "example_zh": "他是该领域最重要的专家之一。",
+    "level": "CET6"
+  },
+  {
+    "word": "foresee",
+    "phonetic": "/fɔːˈsiː/",
+    "pos": "v.",
+    "zh": "预见；预知",
+    "example_en": "No one could foresee the consequences of the decision.",
+    "example_zh": "没有人能预见这个决定的后果。",
+    "level": "CET6"
+  },
+  {
+    "word": "foster",
+    "phonetic": "/ˈfɒstə(r)/",
+    "pos": "v.",
+    "zh": "培养；促进",
+    "example_en": "The school aims to foster creativity in its students.",
+    "example_zh": "学校旨在培养学生的创造力。",
+    "level": "CET6"
+  },
+  {
+    "word": "frantic",
+    "phonetic": "/ˈfræntɪk/",
+    "pos": "adj.",
+    "zh": "疯狂的；紧张慌乱的",
+    "example_en": "There was a frantic search for the missing child.",
+    "example_zh": "人们疯狂地寻找失踪的孩子。",
+    "level": "CET6"
+  },
+  {
+    "word": "fraud",
+    "phonetic": "/frɔːd/",
+    "pos": "n.",
+    "zh": "欺诈；骗子",
+    "example_en": "He was arrested for tax fraud.",
+    "example_zh": "他因税务欺诈被捕。",
+    "level": "CET6"
+  },
+  {
+    "word": "fringe",
+    "phonetic": "/frɪndʒ/",
+    "pos": "n./adj.",
+    "zh": "边缘（的）",
+    "example_en": "The town lies on the western fringe of the desert.",
+    "example_zh": "这座小镇位于沙漠的西缘。",
+    "level": "CET6"
+  },
+  {
+    "word": "furnish",
+    "phonetic": "/ˈfɜːnɪʃ/",
+    "pos": "v.",
+    "zh": "提供；布置家具",
+    "example_en": "The new office will be furnished with modern equipment.",
+    "example_zh": "新办公室将配备现代化设备。",
+    "level": "CET6"
+  },
+  {
+    "word": "fuse",
+    "phonetic": "/fjuːz/",
+    "pos": "v./n.",
+    "zh": "熔合；保险丝",
+    "example_en": "The two companies fused to form a larger group.",
+    "example_zh": "两家公司合并成一个更大的集团。",
+    "level": "CET6"
+  },
+  {
+    "word": "futile",
+    "phonetic": "/ˈfjuːtaɪl/",
+    "pos": "adj.",
+    "zh": "徒劳的",
+    "example_en": "Their efforts to save the ship proved futile.",
+    "example_zh": "他们拯救这艘船的努力最终是徒劳的。",
+    "level": "CET6"
+  },
+  {
+    "word": "jeopardize",
+    "phonetic": "/ˈdʒepədaɪz/",
+    "pos": "v.",
+    "zh": "危及；损害",
+    "example_en": "Smoking jeopardizes your health in many ways.",
+    "example_zh": "吸烟在很多方面危害你的健康。",
+    "level": "CET6"
+  },
+  {
+    "word": "justify",
+    "phonetic": "/ˈdʒʌstɪfaɪ/",
+    "pos": "v.",
+    "zh": "证明…正当；为…辩护",
+    "example_en": "He tried to justify his absence from the meeting.",
+    "example_zh": "他试图为自己的缺会辩解。",
+    "level": "CET6"
+  },
+  {
+    "word": "juvenile",
+    "phonetic": "/ˈdʒuːvənaɪl/",
+    "pos": "adj./n.",
+    "zh": "青少年（的）；幼稚（的）",
+    "example_en": "Juvenile crime is a growing concern in big cities.",
+    "example_zh": "青少年犯罪是大城市中日益令人担忧的问题。",
+    "level": "CET6"
+  },
+  {
+    "word": "kidnap",
+    "phonetic": "/ˈkɪdnæp/",
+    "pos": "v.",
+    "zh": "绑架",
+    "example_en": "The millionaire's son was kidnapped last week.",
+    "example_zh": "这位百万富翁的儿子上周被绑架了。",
+    "level": "CET6"
+  },
+  {
+    "word": "latent",
+    "phonetic": "/ˈleɪtnt/",
+    "pos": "adj.",
+    "zh": "潜在的；隐藏的",
+    "example_en": "The virus can remain latent in the body for years.",
+    "example_zh": "这种病毒可在体内潜伏多年。",
+    "level": "CET6"
+  },
+  {
+    "word": "latitude",
+    "phonetic": "/ˈlætɪtjuːd/",
+    "pos": "n.",
+    "zh": "纬度",
+    "example_en": "The island lies at a latitude of 30 degrees north.",
+    "example_zh": "该岛位于北纬30度。",
+    "level": "CET6"
+  },
+  {
+    "word": "linear",
+    "phonetic": "/ˈlɪniə(r)/",
+    "pos": "adj.",
+    "zh": "线性的；直线的",
+    "example_en": "The scientists built a linear model of population growth.",
+    "example_zh": "科学家们建立了一个线性的人口增长模型。",
+    "level": "CET6"
+  },
+  {
+    "word": "linger",
+    "phonetic": "/ˈlɪŋɡə(r)/",
+    "pos": "v.",
+    "zh": "逗留；继续存留",
+    "example_en": "The smell of paint lingered in the room for days.",
+    "example_zh": "油漆味在房间里存留了好几天。",
+    "level": "CET6"
+  },
+  {
+    "word": "literal",
+    "phonetic": "/ˈlɪtərəl/",
+    "pos": "adj.",
+    "zh": "字面的；逐字的",
+    "example_en": "The literal meaning of the word differs from its figurative use.",
+    "example_zh": "这个词的字面意思与它的比喻用法不同。",
+    "level": "CET6"
+  },
+  {
+    "word": "longitude",
+    "phonetic": "/ˈlɒŋɡɪtjuːd/",
+    "pos": "n.",
+    "zh": "经度",
+    "example_en": "Sailors once relied on longitude to navigate the ocean.",
+    "example_zh": "水手们曾经依靠经度在海洋上导航。",
+    "level": "CET6"
+  },
+  {
+    "word": "luminous",
+    "phonetic": "/ˈluːmɪnəs/",
+    "pos": "adj.",
+    "zh": "发光的；明亮的",
+    "example_en": "The forest was lit by luminous fireflies at night.",
+    "example_zh": "夜晚，森林被发光的萤火虫照亮。",
+    "level": "CET6"
+  },
+  {
+    "word": "lure",
+    "phonetic": "/lʊə(r)/",
+    "pos": "v./n.",
+    "zh": "引诱；诱惑",
+    "example_en": "High salaries lure many graduates to the financial industry.",
+    "example_zh": "高薪吸引许多毕业生投身金融业。",
+    "level": "CET6"
+  },
+  {
+    "word": "magnify",
+    "phonetic": "/ˈmæɡnɪfaɪ/",
+    "pos": "v.",
+    "zh": "放大；加剧",
+    "example_en": "The microscope can magnify the sample 1000 times.",
+    "example_zh": "这台显微镜能将样本放大1000倍。",
+    "level": "CET6"
+  },
+  {
+    "word": "magnitude",
+    "phonetic": "/ˈmæɡnɪtjuːd/",
+    "pos": "n.",
+    "zh": "巨大；量级",
+    "example_en": "They failed to grasp the magnitude of the crisis.",
+    "example_zh": "他们没有意识到这场危机的严重程度。",
+    "level": "CET6"
+  },
+  {
+    "word": "manifest",
+    "phonetic": "/ˈmænɪfest/",
+    "pos": "v./adj.",
+    "zh": "显示；明显的",
+    "example_en": "The disease manifests itself in severe headaches.",
+    "example_zh": "这种疾病的明显症状是剧烈头痛。",
+    "level": "CET6"
+  },
+  {
+    "word": "manipulate",
+    "phonetic": "/məˈnɪpjuleɪt/",
+    "pos": "v.",
+    "zh": "操纵；控制",
+    "example_en": "Advertisers sometimes manipulate consumers' emotions.",
+    "example_zh": "广告商有时会操纵消费者的情感。",
+    "level": "CET6"
+  },
+  {
+    "word": "marginal",
+    "phonetic": "/ˈmɑːdʒɪnl/",
+    "pos": "adj.",
+    "zh": "边缘的；微小的",
+    "example_en": "The reform had only a marginal effect on unemployment.",
+    "example_zh": "这项改革对失业率只有微乎其微的影响。",
+    "level": "CET6"
+  },
+  {
+    "word": "menace",
+    "phonetic": "/ˈmenəs/",
+    "pos": "n./v.",
+    "zh": "威胁；恐吓",
+    "example_en": "Drunk drivers are a menace to everyone on the road.",
+    "example_zh": "醉驾司机对所有路上的人都是一种威胁。",
+    "level": "CET6"
+  },
+  {
+    "word": "merge",
+    "phonetic": "/mɜːdʒ/",
+    "pos": "v.",
+    "zh": "合并；融合",
+    "example_en": "The two banks merged to compete internationally.",
+    "example_zh": "这两家银行合并以便参与国际竞争。",
+    "level": "CET6"
+  },
+  {
+    "word": "metaphor",
+    "phonetic": "/ˈmetəfə(r)/",
+    "pos": "n.",
+    "zh": "隐喻；比喻",
+    "example_en": "The poet uses the sea as a metaphor for freedom.",
+    "example_zh": "诗人用大海作为自由的隐喻。",
+    "level": "CET6"
+  },
+  {
+    "word": "meticulous",
+    "phonetic": "/məˈtɪkjələs/",
+    "pos": "adj.",
+    "zh": "一丝不苟的",
+    "example_en": "He kept meticulous records of every transaction.",
+    "example_zh": "他对每笔交易都做了细致入微的记录。",
+    "level": "CET6"
+  },
+  {
+    "word": "minimize",
+    "phonetic": "/ˈmɪnɪmaɪz/",
+    "pos": "v.",
+    "zh": "使最小化；轻视",
+    "example_en": "We must take steps to minimize the risks.",
+    "example_zh": "我们必须采取措施将风险降到最低。",
+    "level": "CET6"
+  },
+  {
+    "word": "mischief",
+    "phonetic": "/ˈmɪstʃɪf/",
+    "pos": "n.",
+    "zh": "恶作剧；危害",
+    "example_en": "The boys were up to their usual mischief after class.",
+    "example_zh": "男孩们课后又搞起了他们惯常的恶作剧。",
+    "level": "CET6"
+  },
+  {
+    "word": "mock",
+    "phonetic": "/mɒk/",
+    "pos": "v.",
+    "zh": "嘲笑；模仿取笑",
+    "example_en": "The other children mocked his strong accent.",
+    "example_zh": "其他孩子嘲笑他的浓重口音。",
+    "level": "CET6"
+  },
+  {
+    "word": "naive",
+    "phonetic": "/naɪˈiːv/",
+    "pos": "adj.",
+    "zh": "天真的；幼稚的",
+    "example_en": "It would be naive to believe everything you read online.",
+    "example_zh": "相信网上读到的一切就太天真了。",
+    "level": "CET6"
+  },
+  {
+    "word": "narrative",
+    "phonetic": "/ˈnærətɪv/",
+    "pos": "n./adj.",
+    "zh": "叙述（的）；故事",
+    "example_en": "The film tells its narrative through the eyes of a child.",
+    "example_zh": "影片通过一个孩子的视角展开叙述。",
+    "level": "CET6"
+  },
+  {
+    "word": "negligible",
+    "phonetic": "/ˈneɡlɪdʒəbl/",
+    "pos": "adj.",
+    "zh": "可忽略的；微不足道的",
+    "example_en": "The difference between the two products is negligible.",
+    "example_zh": "这两种产品之间的差异微不足道。",
+    "level": "CET6"
+  },
+  {
+    "word": "notable",
+    "phonetic": "/ˈnəʊtəbl/",
+    "pos": "adj.",
+    "zh": "显著的；著名的",
+    "example_en": "The conference attracted many notable scientists.",
+    "example_zh": "这次会议吸引了许多著名科学家。",
+    "level": "CET6"
+  },
+  {
+    "word": "notorious",
+    "phonetic": "/nəʊˈtɔːriəs/",
+    "pos": "adj.",
+    "zh": "臭名昭著的",
+    "example_en": "The area is notorious for heavy traffic jams.",
+    "example_zh": "这个地区因严重的交通拥堵而声名狼藉。",
+    "level": "CET6"
+  },
+  {
+    "word": "nourish",
+    "phonetic": "/ˈnʌrɪʃ/",
+    "pos": "v.",
+    "zh": "滋养；培育",
+    "example_en": "Good food nourishes both body and mind.",
+    "example_zh": "好的食物滋养身心。",
+    "level": "CET6"
+  },
+  {
+    "word": "novelty",
+    "phonetic": "/ˈnɒvlti/",
+    "pos": "n.",
+    "zh": "新奇；新颖的事物",
+    "example_en": "The novelty of city life soon wore off.",
+    "example_zh": "城市生活的新鲜感很快便消失了。",
+    "level": "CET6"
+  },
+  {
+    "word": "obscure",
+    "phonetic": "/əbˈskjʊə(r)/",
+    "pos": "adj./v.",
+    "zh": "模糊的；使模糊",
+    "example_en": "The origins of this custom remain obscure.",
+    "example_zh": "这一习俗的起源仍不清楚。",
+    "level": "CET6"
+  },
+  {
+    "word": "obsess",
+    "phonetic": "/əbˈses/",
+    "pos": "v.",
+    "zh": "使着迷；念念不忘",
+    "example_en": "He is obsessed with the idea of becoming famous.",
+    "example_zh": "他一心想着出名。",
+    "level": "CET6"
+  },
+  {
+    "word": "ominous",
+    "phonetic": "/ˈɒmɪnəs/",
+    "pos": "adj.",
+    "zh": "不祥的；预兆的",
+    "example_en": "Dark clouds gathered, an ominous sign of the coming storm.",
+    "example_zh": "乌云密布，这是暴风雨来临的不祥之兆。",
+    "level": "CET6"
+  },
+  {
+    "word": "overlap",
+    "phonetic": "/ˌəʊvəˈlæp/",
+    "pos": "v./n.",
+    "zh": "重叠",
+    "example_en": "The two lectures overlap by ten minutes.",
+    "example_zh": "两场讲座的时间有十分钟重叠。",
+    "level": "CET6"
+  },
+  {
+    "word": "overthrow",
+    "phonetic": "/ˌəʊvəˈθrəʊ/",
+    "pos": "v./n.",
+    "zh": "推翻；颠覆",
+    "example_en": "The rebels attempted to overthrow the government.",
+    "example_zh": "叛军企图推翻政府。",
+    "level": "CET6"
+  },
+  {
+    "word": "overwhelm",
+    "phonetic": "/ˌəʊvəˈwelm/",
+    "pos": "v.",
+    "zh": "压垮；使不知所措",
+    "example_en": "The staff were overwhelmed by the volume of work.",
+    "example_zh": "工作量太大，员工们不堪重负。",
+    "level": "CET6"
+  },
+  {
+    "word": "paradox",
+    "phonetic": "/ˈpærədɒks/",
+    "pos": "n.",
+    "zh": "悖论；矛盾",
+    "example_en": "It is a paradox that busy people often find more time to exercise.",
+    "example_zh": "忙人反而常有更多时间锻炼，这真是个悖论。",
+    "level": "CET6"
+  },
+  {
+    "word": "paralyze",
+    "phonetic": "/ˈpærəlaɪz/",
+    "pos": "v.",
+    "zh": "使瘫痪；使麻痹",
+    "example_en": "The snowstorm paralyzed traffic in the whole city.",
+    "example_zh": "暴风雪使全城交通陷入瘫痪。",
+    "level": "CET6"
+  },
+  {
+    "word": "patent",
+    "phonetic": "/ˈpætnt/",
+    "pos": "n.",
+    "zh": "专利",
+    "example_en": "The company holds a patent on the new battery technology.",
+    "example_zh": "该公司拥有这项新电池技术的专利。",
+    "level": "CET6"
+  },
+  {
+    "word": "pathetic",
+    "phonetic": "/pəˈθetɪk/",
+    "pos": "adj.",
+    "zh": "可怜的；可悲的",
+    "example_en": "The stray dog looked pathetic in the freezing rain.",
+    "example_zh": "流浪狗在冰冷的雨中显得很可怜。",
+    "level": "CET6"
+  },
+  {
+    "word": "patriotic",
+    "phonetic": "/ˌpætriˈɒtɪk/",
+    "pos": "adj.",
+    "zh": "爱国的",
+    "example_en": "He gave a patriotic speech on National Day.",
+    "example_zh": "他在国庆节发表了一篇爱国演说。",
+    "level": "CET6"
+  },
+  {
+    "word": "pension",
+    "phonetic": "/ˈpenʃn/",
+    "pos": "n.",
+    "zh": "养老金",
+    "example_en": "After retiring, she lives on a company pension.",
+    "example_zh": "退休后，她靠公司的养老金生活。",
+    "level": "CET6"
+  },
+  {
+    "word": "perceive",
+    "phonetic": "/pəˈsiːv/",
+    "pos": "v.",
+    "zh": "感知；认为",
+    "example_en": "The change in his attitude was perceived by everyone.",
+    "example_zh": "大家都察觉到了他态度的变化。",
+    "level": "CET6"
+  },
+  {
+    "word": "peril",
+    "phonetic": "/ˈperəl/",
+    "pos": "n.",
+    "zh": "危险；险境",
+    "example_en": "The expedition faced great peril in the mountains.",
+    "example_zh": "探险队在山里面临极大的危险。",
+    "level": "CET6"
+  },
+  {
+    "word": "perpetual",
+    "phonetic": "/pəˈpetʃuəl/",
+    "pos": "adj.",
+    "zh": "永久的；持续的",
+    "example_en": "He lives in perpetual fear of losing his job.",
+    "example_zh": "他一直生活在失业的恐惧之中。",
+    "level": "CET6"
+  },
+  {
+    "word": "perplex",
+    "phonetic": "/pəˈpleks/",
+    "pos": "v.",
+    "zh": "使困惑",
+    "example_en": "Her sudden resignation perplexed her colleagues.",
+    "example_zh": "她的突然辞职让同事们感到困惑。",
+    "level": "CET6"
+  },
+  {
+    "word": "persevere",
+    "phonetic": "/ˌpɜːsɪˈvɪə(r)/",
+    "pos": "v.",
+    "zh": "坚持；不屈不挠",
+    "example_en": "Despite repeated failures, she persevered with her research.",
+    "example_zh": "尽管屡屡失败，她仍坚持自己的研究。",
+    "level": "CET6"
+  },
+  {
+    "word": "persist",
+    "phonetic": "/pəˈsɪst/",
+    "pos": "v.",
+    "zh": "坚持；持续",
+    "example_en": "If the pain persists, you should see a doctor.",
+    "example_zh": "如果疼痛持续，你应该去看医生。",
+    "level": "CET6"
+  },
+  {
+    "word": "pertain",
+    "phonetic": "/pəˈteɪn/",
+    "pos": "v.",
+    "zh": "与…相关",
+    "example_en": "The new rules pertain only to first-year students.",
+    "example_zh": "新规定仅适用于一年级学生。",
+    "level": "CET6"
+  },
+  {
+    "word": "petition",
+    "phonetic": "/pəˈtɪʃn/",
+    "pos": "n./v.",
+    "zh": "请愿（书）",
+    "example_en": "Residents signed a petition against the new highway.",
+    "example_zh": "居民们在反对新建高速公路的请愿书上签名。",
+    "level": "CET6"
+  },
+  {
+    "word": "plead",
+    "phonetic": "/pliːd/",
+    "pos": "v.",
+    "zh": "恳求；辩护",
+    "example_en": "She pleaded with the judge for a lighter sentence.",
+    "example_zh": "她恳求法官从轻判处。",
+    "level": "CET6"
+  },
+  {
+    "word": "plight",
+    "phonetic": "/plaɪt/",
+    "pos": "n.",
+    "zh": "困境；苦境",
+    "example_en": "The report highlighted the plight of homeless children.",
+    "example_zh": "报告着重指出了无家可归儿童的困境。",
+    "level": "CET6"
+  },
+  {
+    "word": "ponder",
+    "phonetic": "/ˈpɒndə(r)/",
+    "pos": "v.",
+    "zh": "思考；沉思",
+    "example_en": "He sat by the lake, pondering the meaning of life.",
+    "example_zh": "他坐在湖边，思考人生的意义。",
+    "level": "CET6"
+  },
+  {
+    "word": "portray",
+    "phonetic": "/pɔːˈtreɪ/",
+    "pos": "v.",
+    "zh": "描绘；扮演",
+    "example_en": "The film portrays the life of ordinary workers in the 1930s.",
+    "example_zh": "影片描绘了20世纪30年代普通工人的生活。",
+    "level": "CET6"
+  },
+  {
+    "word": "precede",
+    "phonetic": "/prɪˈsiːd/",
+    "pos": "v.",
+    "zh": "先于；在…之前",
+    "example_en": "A short speech will precede the award ceremony.",
+    "example_zh": "颁奖仪式之前将有一个简短的演讲。",
+    "level": "CET6"
+  },
+  {
+    "word": "predecessor",
+    "phonetic": "/ˈpriːdəsesə(r)/",
+    "pos": "n.",
+    "zh": "前任；前身",
+    "example_en": "The new manager is more popular than his predecessor.",
+    "example_zh": "新经理比他的前任更受欢迎。",
+    "level": "CET6"
+  },
+  {
+    "word": "predominant",
+    "phonetic": "/prɪˈdɒmɪnənt/",
+    "pos": "adj.",
+    "zh": "主要的；占优势的",
+    "example_en": "Blue is the predominant colour in his paintings.",
+    "example_zh": "蓝色是他绘画中的主色调。",
+    "level": "CET6"
+  },
+  {
+    "word": "preliminary",
+    "phonetic": "/prɪˈlɪmɪnəri/",
+    "pos": "adj.",
+    "zh": "预备的；初步的",
+    "example_en": "The preliminary results of the experiment are encouraging.",
+    "example_zh": "实验的初步结果令人鼓舞。",
+    "level": "CET6"
+  },
+  {
+    "word": "premise",
+    "phonetic": "/ˈpremɪs/",
+    "pos": "n.",
+    "zh": "前提；假设",
+    "example_en": "The argument rests on a false premise.",
+    "example_zh": "这一论点建立在错误的前提之上。",
+    "level": "CET6"
+  },
+  {
+    "word": "prescribe",
+    "phonetic": "/prɪˈskraɪb/",
+    "pos": "v.",
+    "zh": "开处方；规定",
+    "example_en": "The doctor prescribed some antibiotics for the infection.",
+    "example_zh": "医生为感染开了一些抗生素。",
+    "level": "CET6"
+  },
+  {
+    "word": "prestige",
+    "phonetic": "/preˈstiːʒ/",
+    "pos": "n.",
+    "zh": "声望；威望",
+    "example_en": "The university enjoys high prestige around the world.",
+    "example_zh": "这所大学在世界上享有很高的声望。",
+    "level": "CET6"
+  },
+  {
+    "word": "presume",
+    "phonetic": "/prɪˈzjuːm/",
+    "pos": "v.",
+    "zh": "假定；推测",
+    "example_en": "I presume you have heard the news already.",
+    "example_zh": "我想你已经听到这个消息了。",
+    "level": "CET6"
+  },
+  {
+    "word": "prevail",
+    "phonetic": "/prɪˈveɪl/",
+    "pos": "v.",
+    "zh": "盛行；获胜",
+    "example_en": "Justice will prevail in the end.",
+    "example_zh": "正义终将获胜。",
+    "level": "CET6"
+  },
+  {
+    "word": "prey",
+    "phonetic": "/preɪ/",
+    "pos": "n./v.",
+    "zh": "猎物；捕食",
+    "example_en": "Owls hunt their prey at night.",
+    "example_zh": "猫头鹰在夜间捕食猎物。",
+    "level": "CET6"
+  },
+  {
+    "word": "probe",
+    "phonetic": "/prəʊb/",
+    "pos": "v./n.",
+    "zh": "探查；调查",
+    "example_en": "Scientists probe the mysteries of the deep ocean.",
+    "example_zh": "科学家们探索深海的奥秘。",
+    "level": "CET6"
+  },
+  {
+    "word": "proclaim",
+    "phonetic": "/prəˈkleɪm/",
+    "pos": "v.",
+    "zh": "宣布；声明",
+    "example_en": "The country proclaimed its independence in 1960.",
+    "example_zh": "该国于1960年宣布独立。",
+    "level": "CET6"
+  },
+  {
+    "word": "proficient",
+    "phonetic": "/prəˈfɪʃnt/",
+    "pos": "adj.",
+    "zh": "熟练的；精通的",
+    "example_en": "She is proficient in three foreign languages.",
+    "example_zh": "她精通三门外语。",
+    "level": "CET6"
+  },
+  {
+    "word": "prolong",
+    "phonetic": "/prəˈlɒŋ/",
+    "pos": "v.",
+    "zh": "延长；拖延",
+    "example_en": "The treatment can prolong the patient's life by years.",
+    "example_zh": "这种治疗可以延长病人多年的生命。",
+    "level": "CET6"
+  },
+  {
+    "word": "prone",
+    "phonetic": "/prəʊn/",
+    "pos": "adj.",
+    "zh": "易于…的",
+    "example_en": "Children are prone to catching colds in winter.",
+    "example_zh": "儿童在冬天容易感冒。",
+    "level": "CET6"
+  },
+  {
+    "word": "propel",
+    "phonetic": "/prəˈpel/",
+    "pos": "v.",
+    "zh": "推进；驱动",
+    "example_en": "The rocket was propelled into orbit by powerful engines.",
+    "example_zh": "火箭由强大的发动机推进进入轨道。",
+    "level": "CET6"
+  },
+  {
+    "word": "prosper",
+    "phonetic": "/ˈprɒspə(r)/",
+    "pos": "v.",
+    "zh": "繁荣；成功",
+    "example_en": "The town prospered after the railway was built.",
+    "example_zh": "铁路建成后，这座小镇繁荣起来。",
+    "level": "CET6"
+  },
+  {
+    "word": "provoke",
+    "phonetic": "/prəˈvəʊk/",
+    "pos": "v.",
+    "zh": "激起；挑衅",
+    "example_en": "The decision provoked strong opposition from farmers.",
+    "example_zh": "这一决定激起了农民的强烈反对。",
+    "level": "CET6"
+  },
+  {
+    "word": "prudent",
+    "phonetic": "/ˈpruːdnt/",
+    "pos": "adj.",
+    "zh": "谨慎的；精明的",
+    "example_en": "It would be prudent to save some money for emergencies.",
+    "example_zh": "留点钱以备急用是明智的。",
+    "level": "CET6"
+  },
+  {
+    "word": "quota",
+    "phonetic": "/ˈkwəʊtə/",
+    "pos": "n.",
+    "zh": "配额；定额",
+    "example_en": "The country imposed a quota on car imports.",
+    "example_zh": "该国对汽车进口实行了配额限制。",
+    "level": "CET6"
+  },
+  {
+    "word": "radiate",
+    "phonetic": "/ˈreɪdieɪt/",
+    "pos": "v.",
+    "zh": "辐射；散发",
+    "example_en": "The stove radiates warmth throughout the room.",
+    "example_zh": "炉子向整个房间散发着暖意。",
+    "level": "CET6"
+  },
+  {
+    "word": "rash",
+    "phonetic": "/ræʃ/",
+    "pos": "adj.",
+    "zh": "轻率的；鲁莽的",
+    "example_en": "It would be rash to invest all your savings in one stock.",
+    "example_zh": "把全部积蓄投入一只股票是轻率的。",
+    "level": "CET6"
+  },
+  {
+    "word": "reconcile",
+    "phonetic": "/ˈrekənsaɪl/",
+    "pos": "v.",
+    "zh": "调和；使和解",
+    "example_en": "It is hard to reconcile the two conflicting accounts.",
+    "example_zh": "很难调和这两种相互矛盾的说法。",
+    "level": "CET6"
+  },
+  {
+    "word": "refrain",
+    "phonetic": "/rɪˈfreɪn/",
+    "pos": "v.",
+    "zh": "克制；避免",
+    "example_en": "Please refrain from smoking in the lecture hall.",
+    "example_zh": "请不要在演讲厅内吸烟。",
+    "level": "CET6"
+  },
+  {
+    "word": "render",
+    "phonetic": "/ˈrendə(r)/",
+    "pos": "v.",
+    "zh": "使成为；给予",
+    "example_en": "The storm rendered the road impassable.",
+    "example_zh": "暴风雨使道路无法通行。",
+    "level": "CET6"
+  },
+  {
+    "word": "scrutinize",
+    "phonetic": "/ˈskruːtənaɪz/",
+    "pos": "v.",
+    "zh": "仔细审查",
+    "example_en": "Auditors scrutinized every page of the accounts.",
+    "example_zh": "审计人员仔细审查了账目的每一页。",
+    "level": "CET6"
+  },
+  {
+    "word": "sanction",
+    "phonetic": "/ˈsæŋkʃn/",
+    "pos": "n./v.",
+    "zh": "制裁；批准",
+    "example_en": "The UN imposed economic sanctions on the country.",
+    "example_zh": "联合国对这个国家实施了经济制裁。",
+    "level": "CET6"
+  },
+  {
+    "word": "sentiment",
+    "phonetic": "/ˈsentɪmənt/",
+    "pos": "n.",
+    "zh": "情绪；观点",
+    "example_en": "Public sentiment is strongly against the new tax.",
+    "example_zh": "公众舆论强烈反对新税。",
+    "level": "CET6"
+  },
+  {
+    "word": "shatter",
+    "phonetic": "/ˈʃætə(r)/",
+    "pos": "v.",
+    "zh": "打碎；粉碎",
+    "example_en": "The news of the accident shattered her world.",
+    "example_zh": "事故的消息使她的世界轰然崩塌。",
+    "level": "CET6"
+  },
+  {
+    "word": "shrewd",
+    "phonetic": "/ʃruːd/",
+    "pos": "adj.",
+    "zh": "精明的",
+    "example_en": "He made a shrewd investment in real estate.",
+    "example_zh": "他在房地产上做了一笔精明的投资。",
+    "level": "CET6"
+  },
+  {
+    "word": "simulate",
+    "phonetic": "/ˈsɪmjuleɪt/",
+    "pos": "v.",
+    "zh": "模拟；假装",
+    "example_en": "The software simulates real driving conditions.",
+    "example_zh": "该软件能模拟真实的驾驶条件。",
+    "level": "CET6"
+  },
+  {
+    "word": "simultaneous",
+    "phonetic": "/ˌsɪmlˈteɪniəs/",
+    "pos": "adj.",
+    "zh": "同时发生的",
+    "example_en": "The bomb caused two simultaneous explosions in the city.",
+    "example_zh": "炸弹在该市同时引发了两起爆炸。",
+    "level": "CET6"
+  },
+  {
+    "word": "skeptical",
+    "phonetic": "/ˈskeptɪkl/",
+    "pos": "adj.",
+    "zh": "怀疑的",
+    "example_en": "Many scientists remain skeptical about the theory.",
+    "example_zh": "许多科学家仍对该理论持怀疑态度。",
+    "level": "CET6"
+  },
+  {
+    "word": "solemn",
+    "phonetic": "/ˈsɒləm/",
+    "pos": "adj.",
+    "zh": "庄严的；严肃的",
+    "example_en": "The president attended the solemn memorial ceremony.",
+    "example_zh": "总统出席了庄严的纪念仪式。",
+    "level": "CET6"
+  },
+  {
+    "word": "solitary",
+    "phonetic": "/ˈsɒlətri/",
+    "pos": "adj.",
+    "zh": "孤独的；单独的",
+    "example_en": "He enjoys long solitary walks in the countryside.",
+    "example_zh": "他喜欢在乡间独自长途散步。",
+    "level": "CET6"
+  },
+  {
+    "word": "spectrum",
+    "phonetic": "/ˈspektrəm/",
+    "pos": "n.",
+    "zh": "光谱；范围",
+    "example_en": "The course covers a wide spectrum of topics.",
+    "example_zh": "这门课程涵盖广泛的主题。",
+    "level": "CET6"
+  },
+  {
+    "word": "speculate",
+    "phonetic": "/ˈspekjuleɪt/",
+    "pos": "v.",
+    "zh": "推测；投机",
+    "example_en": "Scientists speculate that the climate will grow warmer.",
+    "example_zh": "科学家们推测气候将变得更暖。",
+    "level": "CET6"
+  },
+  {
+    "word": "spiral",
+    "phonetic": "/ˈspaɪrəl/",
+    "pos": "n./v.",
+    "zh": "螺旋（的）；盘旋",
+    "example_en": "The plane spiraled down toward the airfield.",
+    "example_zh": "飞机盘旋着向机场降落。",
+    "level": "CET6"
+  },
+  {
+    "word": "spontaneous",
+    "phonetic": "/spɒnˈteɪniəs/",
+    "pos": "adj.",
+    "zh": "自发的；自然的",
+    "example_en": "The crowd broke into spontaneous applause.",
+    "example_zh": "人群中自发地响起了掌声。",
+    "level": "CET6"
+  },
+  {
+    "word": "stagger",
+    "phonetic": "/ˈstæɡə(r)/",
+    "pos": "v.",
+    "zh": "蹒跚；使震惊",
+    "example_en": "He staggered to his feet after the fall.",
+    "example_zh": "他摔倒后摇摇晃晃地站了起来。",
+    "level": "CET6"
+  },
+  {
+    "word": "stationary",
+    "phonetic": "/ˈsteɪʃənri/",
+    "pos": "adj.",
+    "zh": "静止的",
+    "example_en": "The traffic was stationary for over an hour.",
+    "example_zh": "交通停滞了一个多小时。",
+    "level": "CET6"
+  },
+  {
+    "word": "stimulus",
+    "phonetic": "/ˈstɪmjələs/",
+    "pos": "n.",
+    "zh": "刺激；激励",
+    "example_en": "The tax cut acted as a stimulus to the economy.",
+    "example_zh": "减税对经济起到了刺激作用。",
+    "level": "CET6"
+  },
+  {
+    "word": "stray",
+    "phonetic": "/streɪ/",
+    "pos": "v./adj.",
+    "zh": "走失；偏离；流浪的",
+    "example_en": "Several stray dogs wandered into the school yard.",
+    "example_zh": "几只流浪狗溜进了校园。",
+    "level": "CET6"
+  },
+  {
+    "word": "strive",
+    "phonetic": "/straɪv/",
+    "pos": "v.",
+    "zh": "努力；奋斗",
+    "example_en": "We strive to provide the best service to customers.",
+    "example_zh": "我们努力为顾客提供最好的服务。",
+    "level": "CET6"
+  },
+  {
+    "word": "stumble",
+    "phonetic": "/ˈstʌmbl/",
+    "pos": "v.",
+    "zh": "绊倒；偶然发现",
+    "example_en": "He stumbled on a solution while reading an old paper.",
+    "example_zh": "他阅读旧论文时偶然发现了一个解决办法。",
+    "level": "CET6"
+  },
+  {
+    "word": "sturdy",
+    "phonetic": "/ˈstɜːdi/",
+    "pos": "adj.",
+    "zh": "结实的；坚定的",
+    "example_en": "The sturdy bridge has survived several major floods.",
+    "example_zh": "这座坚固的桥经受住了几次大洪水。",
+    "level": "CET6"
+  },
+  {
+    "word": "subjective",
+    "phonetic": "/səbˈdʒektɪv/",
+    "pos": "adj.",
+    "zh": "主观的",
+    "example_en": "Beauty is a highly subjective judgment.",
+    "example_zh": "美是一种非常主观的判断。",
+    "level": "CET6"
+  },
+  {
+    "word": "subordinate",
+    "phonetic": "/səˈbɔːdɪnət/",
+    "pos": "adj./n.",
+    "zh": "下级的；下属",
+    "example_en": "The general gave orders to his subordinates.",
+    "example_zh": "将军向下属们下达命令。",
+    "level": "CET6"
+  },
+  {
+    "word": "subsidy",
+    "phonetic": "/ˈsʌbsədi/",
+    "pos": "n.",
+    "zh": "补贴；津贴",
+    "example_en": "Farmers receive a government subsidy for growing rice.",
+    "example_zh": "农民种植水稻可获得政府补贴。",
+    "level": "CET6"
+  },
+  {
+    "word": "suffice",
+    "phonetic": "/səˈfaɪs/",
+    "pos": "v.",
+    "zh": "足够",
+    "example_en": "A brief summary will suffice for today's meeting.",
+    "example_zh": "今天会上一个简短的概要就够了。",
+    "level": "CET6"
+  },
+  {
+    "word": "summon",
+    "phonetic": "/ˈsʌmən/",
+    "pos": "v.",
+    "zh": "召唤；召集",
+    "example_en": "The board summoned an emergency meeting.",
+    "example_zh": "董事会召开了紧急会议。",
+    "level": "CET6"
+  },
+  {
+    "word": "superficial",
+    "phonetic": "/ˌsuːpəˈfɪʃl/",
+    "pos": "adj.",
+    "zh": "表面的；肤浅的",
+    "example_en": "The report gives only a superficial analysis of the problem.",
+    "example_zh": "这份报告对该问题只做了肤浅的分析。",
+    "level": "CET6"
+  },
+  {
+    "word": "supervise",
+    "phonetic": "/ˈsuːpəvaɪz/",
+    "pos": "v.",
+    "zh": "监督；指导",
+    "example_en": "She supervises a team of twenty engineers.",
+    "example_zh": "她管理着一个20人的工程师团队。",
+    "level": "CET6"
+  },
+  {
+    "word": "supplement",
+    "phonetic": "/ˈsʌplɪmənt/",
+    "pos": "n./v.",
+    "zh": "补充（物）",
+    "example_en": "He takes vitamin pills to supplement his diet.",
+    "example_zh": "他服用维生素片来补充饮食。",
+    "level": "CET6"
+  },
+  {
+    "word": "suppress",
+    "phonetic": "/səˈpres/",
+    "pos": "v.",
+    "zh": "镇压；抑制",
+    "example_en": "She could not suppress her laughter during the ceremony.",
+    "example_zh": "典礼上她忍不住笑了起来。",
+    "level": "CET6"
+  },
+  {
+    "word": "surge",
+    "phonetic": "/sɜːdʒ/",
+    "pos": "n./v.",
+    "zh": "激增；汹涌",
+    "example_en": "There was a surge in demand for masks during the epidemic.",
+    "example_zh": "疫情期间口罩需求激增。",
+    "level": "CET6"
+  },
+  {
+    "word": "surpass",
+    "phonetic": "/səˈpɑːs/",
+    "pos": "v.",
+    "zh": "超过；胜过",
+    "example_en": "The results surpassed all our expectations.",
+    "example_zh": "结果超出了我们所有的预期。",
+    "level": "CET6"
+  },
+  {
+    "word": "surplus",
+    "phonetic": "/ˈsɜːpləs/",
+    "pos": "n./adj.",
+    "zh": "过剩（的）；剩余（的）",
+    "example_en": "The country exports its surplus grain every year.",
+    "example_zh": "该国每年出口剩余粮食。",
+    "level": "CET6"
+  },
+  {
+    "word": "susceptible",
+    "phonetic": "/səˈseptəbl/",
+    "pos": "adj.",
+    "zh": "易受影响的",
+    "example_en": "Young people are susceptible to the influence of advertising.",
+    "example_zh": "年轻人容易受到广告的影响。",
+    "level": "CET6"
+  },
+  {
+    "word": "sustain",
+    "phonetic": "/səˈsteɪn/",
+    "pos": "v.",
+    "zh": "维持；承受",
+    "example_en": "The soil cannot sustain such intensive farming.",
+    "example_zh": "这片土地无法维持如此集约的耕作。",
+    "level": "CET6"
+  },
+  {
+    "word": "symmetry",
+    "phonetic": "/ˈsɪmətri/",
+    "pos": "n.",
+    "zh": "对称；匀称",
+    "example_en": "The building is admired for its perfect symmetry.",
+    "example_zh": "这座建筑因其完美的对称而受人赞赏。",
+    "level": "CET6"
+  },
+  {
+    "word": "tariff",
+    "phonetic": "/ˈtærɪf/",
+    "pos": "n.",
+    "zh": "关税",
+    "example_en": "The government raised tariffs on imported steel.",
+    "example_zh": "政府提高了进口钢铁的关税。",
+    "level": "CET6"
+  },
+  {
+    "word": "tedious",
+    "phonetic": "/ˈtiːdiəs/",
+    "pos": "adj.",
+    "zh": "乏味的；冗长的",
+    "example_en": "Filling in forms is a tedious but necessary task.",
+    "example_zh": "填表格乏味却必不可少。",
+    "level": "CET6"
+  },
+  {
+    "word": "tentative",
+    "phonetic": "/ˈtentətɪv/",
+    "pos": "adj.",
+    "zh": "试探性的；暂定的",
+    "example_en": "We have made a tentative plan for the summer trip.",
+    "example_zh": "我们为夏日旅行拟定了一个初步计划。",
+    "level": "CET6"
+  },
+  {
+    "word": "terminate",
+    "phonetic": "/ˈtɜːmɪneɪt/",
+    "pos": "v.",
+    "zh": "终止；结束",
+    "example_en": "The company terminated his contract without explanation.",
+    "example_zh": "公司毫无解释地终止了他的合同。",
+    "level": "CET6"
+  },
+  {
+    "word": "threshold",
+    "phonetic": "/ˈθreʃhəʊld/",
+    "pos": "n.",
+    "zh": "门槛；起点",
+    "example_en": "She paused on the threshold before entering the room.",
+    "example_zh": "她在门口停留片刻才走进房间。",
+    "level": "CET6"
+  },
+  {
+    "word": "timid",
+    "phonetic": "/ˈtɪmɪd/",
+    "pos": "adj.",
+    "zh": "胆怯的",
+    "example_en": "The timid child hid behind her mother.",
+    "example_zh": "那个胆怯的孩子躲在了妈妈身后。",
+    "level": "CET6"
+  },
+  {
+    "word": "tolerant",
+    "phonetic": "/ˈtɒlərənt/",
+    "pos": "adj.",
+    "zh": "宽容的",
+    "example_en": "A good teacher is tolerant of students' mistakes.",
+    "example_zh": "好老师能宽容学生的错误。",
+    "level": "CET6"
+  },
+  {
+    "word": "torment",
+    "phonetic": "/ˈtɔːment/",
+    "pos": "n./v.",
+    "zh": "折磨；痛苦",
+    "example_en": "He was tormented by feelings of guilt for years.",
+    "example_zh": "多年来他一直被负罪感折磨着。",
+    "level": "CET6"
+  },
+  {
+    "word": "toxic",
+    "phonetic": "/ˈtɒksɪk/",
+    "pos": "adj.",
+    "zh": "有毒的",
+    "example_en": "The factory released toxic chemicals into the river.",
+    "example_zh": "这家工厂向河中排放了有毒化学物质。",
+    "level": "CET6"
+  },
+  {
+    "word": "tranquil",
+    "phonetic": "/ˈtræŋkwɪl/",
+    "pos": "adj.",
+    "zh": "安宁的；平静的",
+    "example_en": "They spent a tranquil weekend by the lake.",
+    "example_zh": "他们在湖边度过了一个宁静的周末。",
+    "level": "CET6"
+  },
+  {
+    "word": "transaction",
+    "phonetic": "/trænˈzækʃn/",
+    "pos": "n.",
+    "zh": "交易；事务",
+    "example_en": "All transactions are recorded by the computer system.",
+    "example_zh": "所有交易都由计算机系统记录。",
+    "level": "CET6"
+  },
+  {
+    "word": "transient",
+    "phonetic": "/ˈtrænziənt/",
+    "pos": "adj.",
+    "zh": "短暂的；转瞬即逝的",
+    "example_en": "The fashion world is driven by transient trends.",
+    "example_zh": "时尚界受转瞬即逝的潮流驱动。",
+    "level": "CET6"
+  },
+  {
+    "word": "transparent",
+    "phonetic": "/trænsˈpærənt/",
+    "pos": "adj.",
+    "zh": "透明的；公开的",
+    "example_en": "The government promised a transparent bidding process.",
+    "example_zh": "政府承诺实行公开透明的招标程序。",
+    "level": "CET6"
+  },
+  {
+    "word": "trigger",
+    "phonetic": "/ˈtrɪɡə(r)/",
+    "pos": "v./n.",
+    "zh": "引发；扳机",
+    "example_en": "The news triggered a wave of selling on the stock market.",
+    "example_zh": "这一消息引发了股市的抛售浪潮。",
+    "level": "CET6"
+  },
+  {
+    "word": "trivial",
+    "phonetic": "/ˈtrɪviəl/",
+    "pos": "adj.",
+    "zh": "琐碎的；不重要的",
+    "example_en": "Don't waste time on trivial matters.",
+    "example_zh": "不要在琐事上浪费时间。",
+    "level": "CET6"
+  },
+  {
+    "word": "tumble",
+    "phonetic": "/ˈtʌmbl/",
+    "pos": "v.",
+    "zh": "摔倒；暴跌",
+    "example_en": "Share prices tumbled after the announcement.",
+    "example_zh": "公告发布后股价暴跌。",
+    "level": "CET6"
+  },
+  {
+    "word": "turbulent",
+    "phonetic": "/ˈtɜːbjələnt/",
+    "pos": "adj.",
+    "zh": "动荡的；湍急的",
+    "example_en": "The country went through a turbulent period in the 1990s.",
+    "example_zh": "该国在20世纪90年代经历了动荡时期。",
+    "level": "CET6"
+  },
+  {
+    "word": "undermine",
+    "phonetic": "/ˌʌndəˈmaɪn/",
+    "pos": "v.",
+    "zh": "逐渐削弱；暗中破坏",
+    "example_en": "Constant criticism can undermine a child's confidence.",
+    "example_zh": "不断的批评会削弱孩子的自信心。",
+    "level": "CET6"
+  },
+  {
+    "word": "undergo",
+    "phonetic": "/ˌʌndəˈɡəʊ/",
+    "pos": "v.",
+    "zh": "经历；承受",
+    "example_en": "The old theatre will undergo major renovation.",
+    "example_zh": "这座老剧院将进行大规模翻修。",
+    "level": "CET6"
+  },
+  {
+    "word": "underlie",
+    "phonetic": "/ˌʌndəˈlaɪ/",
+    "pos": "v.",
+    "zh": "构成…的基础",
+    "example_en": "Several factors underlie the current economic crisis.",
+    "example_zh": "若干因素构成了当前经济危机的基础。",
+    "level": "CET6"
+  },
+  {
+    "word": "utilize",
+    "phonetic": "/ˈjuːtəlaɪz/",
+    "pos": "v.",
+    "zh": "利用；使用",
+    "example_en": "The system utilizes the latest computer technology.",
+    "example_zh": "该系统采用了最新的计算机技术。",
+    "level": "CET6"
+  },
+  {
+    "word": "utter",
+    "phonetic": "/ˈʌtə(r)/",
+    "pos": "v./adj.",
+    "zh": "说出；完全的",
+    "example_en": "She stared at the ruined house in utter despair.",
+    "example_zh": "她彻底绝望地盯着毁坏的房子。",
+    "level": "CET6"
+  },
+  {
+    "word": "vague",
+    "phonetic": "/veɪɡ/",
+    "pos": "adj.",
+    "zh": "模糊的；含糊的",
+    "example_en": "His explanation of the accident was rather vague.",
+    "example_zh": "他对事故的解释相当含糊。",
+    "level": "CET6"
+  },
+  {
+    "word": "valid",
+    "phonetic": "/ˈvælɪd/",
+    "pos": "adj.",
+    "zh": "有效的；有根据的",
+    "example_en": "Your passport is valid for another three years.",
+    "example_zh": "你的护照还有三年有效期。",
+    "level": "CET6"
+  },
+  {
+    "word": "vanish",
+    "phonetic": "/ˈvænɪʃ/",
+    "pos": "v.",
+    "zh": "消失；绝迹",
+    "example_en": "The magician made the rabbit vanish into thin air.",
+    "example_zh": "魔术师让兔子凭空消失了。",
+    "level": "CET6"
+  },
+  {
+    "word": "velocity",
+    "phonetic": "/vəˈlɒsəti/",
+    "pos": "n.",
+    "zh": "速度；速率",
+    "example_en": "The rocket reached a velocity of 8 kilometres per second.",
+    "example_zh": "火箭达到了每秒8公里的速度。",
+    "level": "CET6"
+  },
+  {
+    "word": "venture",
+    "phonetic": "/ˈventʃə(r)/",
+    "pos": "n./v.",
+    "zh": "风险企业；冒险",
+    "example_en": "His business venture in the south proved very successful.",
+    "example_zh": "他在南方的创业被证明非常成功。",
+    "level": "CET6"
+  },
+  {
+    "word": "verbal",
+    "phonetic": "/ˈvɜːbl/",
+    "pos": "adj.",
+    "zh": "口头的；言语的",
+    "example_en": "They reached a verbal agreement on the price.",
+    "example_zh": "他们就价格达成了口头协议。",
+    "level": "CET6"
+  },
+  {
+    "word": "verge",
+    "phonetic": "/vɜːdʒ/",
+    "pos": "n.",
+    "zh": "边缘",
+    "example_en": "The species is on the verge of extinction.",
+    "example_zh": "该物种正濒临灭绝。",
+    "level": "CET6"
+  },
+  {
+    "word": "versatile",
+    "phonetic": "/ˈvɜːsətaɪl/",
+    "pos": "adj.",
+    "zh": "多才多艺的；多用途的",
+    "example_en": "Eggs are a versatile ingredient in cooking.",
+    "example_zh": "鸡蛋是烹饪中用途广泛的食材。",
+    "level": "CET6"
+  },
+  {
+    "word": "viable",
+    "phonetic": "/ˈvaɪəbl/",
+    "pos": "adj.",
+    "zh": "可行的",
+    "example_en": "Solar power is now a viable alternative to coal.",
+    "example_zh": "太阳能如今是煤炭的可行替代品。",
+    "level": "CET6"
+  },
+  {
+    "word": "vicious",
+    "phonetic": "/ˈvɪʃəs/",
+    "pos": "adj.",
+    "zh": "恶毒的；凶残的",
+    "example_en": "He wrote an article attacking the vicious rumour.",
+    "example_zh": "他撰文抨击那则恶毒的谣言。",
+    "level": "CET6"
+  },
+  {
+    "word": "violate",
+    "phonetic": "/ˈvaɪəleɪt/",
+    "pos": "v.",
+    "zh": "违反；侵犯",
+    "example_en": "The company was fined for violating environmental laws.",
+    "example_zh": "该公司因违反环保法而被罚款。",
+    "level": "CET6"
+  },
+  {
+    "word": "virtual",
+    "phonetic": "/ˈvɜːtʃuəl/",
+    "pos": "adj.",
+    "zh": "虚拟的；事实上的",
+    "example_en": "The website offers virtual tours of famous museums.",
+    "example_zh": "该网站提供著名博物馆的虚拟参观。",
+    "level": "CET6"
+  },
+  {
+    "word": "visualize",
+    "phonetic": "/ˈvɪʒuəlaɪz/",
+    "pos": "v.",
+    "zh": "想象；使形象化",
+    "example_en": "Try to visualize yourself succeeding in the interview.",
+    "example_zh": "试着想象自己在面试中取得成功。",
+    "level": "CET6"
+  },
+  {
+    "word": "vulnerable",
+    "phonetic": "/ˈvʌlnərəbl/",
+    "pos": "adj.",
+    "zh": "脆弱的；易受伤的",
+    "example_en": "Coastal cities are particularly vulnerable to flooding.",
+    "example_zh": "沿海城市尤其容易受到洪水的侵袭。",
+    "level": "CET6"
+  },
+  {
+    "word": "wary",
+    "phonetic": "/ˈweəri/",
+    "pos": "adj.",
+    "zh": "谨慎的；警惕的",
+    "example_en": "Investors are wary of putting money into risky projects.",
+    "example_zh": "投资者对把钱投入高风险项目持谨慎态度。",
+    "level": "CET6"
+  },
+  {
+    "word": "weary",
+    "phonetic": "/ˈwɪəri/",
+    "pos": "adj.",
+    "zh": "疲惫的；厌倦的",
+    "example_en": "The weary travellers finally reached the hotel at midnight.",
+    "example_zh": "疲惫的旅行者终于在午夜抵达旅馆。",
+    "level": "CET6"
+  },
+  {
+    "word": "wholesome",
+    "phonetic": "/ˈhəʊlsəm/",
+    "pos": "adj.",
+    "zh": "有益健康的",
+    "example_en": "The hotel serves simple, wholesome meals.",
+    "example_zh": "这家旅馆供应简单而有益健康的饭菜。",
+    "level": "CET6"
+  },
+  {
+    "word": "wield",
+    "phonetic": "/wiːld/",
+    "pos": "v.",
+    "zh": "行使；挥舞",
+    "example_en": "The department wields enormous power in the government.",
+    "example_zh": "该部门在政府中行使着巨大的权力。",
+    "level": "CET6"
+  },
+  {
+    "word": "wither",
+    "phonetic": "/ˈwɪðə(r)/",
+    "pos": "v.",
+    "zh": "枯萎；凋谢",
+    "example_en": "The flowers withered in the intense heat.",
+    "example_zh": "花朵在酷热中枯萎了。",
+    "level": "CET6"
+  },
+  {
+    "word": "wreck",
+    "phonetic": "/rek/",
+    "pos": "v./n.",
+    "zh": "破坏；失事",
+    "example_en": "The storm wrecked dozens of fishing boats.",
+    "example_zh": "暴风雨毁坏了几十艘渔船。",
+    "level": "CET6"
+  },
+  {
+    "word": "yield",
+    "phonetic": "/jiːld/",
+    "pos": "v./n.",
+    "zh": "出产；让步；产量",
+    "example_en": "The experiment yielded unexpected results.",
+    "example_zh": "实验得出了出乎意料的结果。",
+    "level": "CET6"
+  },
+  {
+    "word": "zeal",
+    "phonetic": "/ziːl/",
+    "pos": "n.",
+    "zh": "热情；热忱",
+    "example_en": "She served the community with great zeal.",
+    "example_zh": "她满怀热情地为社区服务。",
+    "level": "CET6"
+  }
+]
